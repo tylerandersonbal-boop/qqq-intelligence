@@ -542,6 +542,20 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWlNKVkRyWWxPUEhTTW1lekhnU2h4anExcDZYQzlWV2VSalNTc3RwRXp0Y3VkbGFyNWRnbm5BaXNoTXc3elhvNnNoNnlNVkxZUHhfbVdjZTJKcHkyb1JVUmhDOWRmQU8xT1dHMk9RelppakJjblpyUjBjcUUyYTNXMDNEZUpsanI4NFh3LUlUTDRYUGhfdjlVVURkMEVBQjg0ZWFZellwT2Rvel9NT0hMVk5GNTg4OExUTDBSUGNSeFBmNEVhWVNpVlVCMEEzQy12NEE?oc=5",
       "published": "Fri, 13 Nov 2026 22:36:00 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "f18b88f91032cb45",
+      "title": "Wall Street\u2019s Wild Ride Delivers Big Paydays and Bigger Bruises - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVVhvdk85Ym1feVJmenNRYk1rbFZ3SHpGNWcybXc1RnZFSHFIZWpzMm1rTXNtbGY3UFpyWEZFc3lIeUFDT3ZHZEtIaDRQdmRHanVMVUlnWlNuSmRxM0JTWXRUTGU2UnZKX1R2Z0dXdk8yMDduQlQwNDBDNURYQ3ZlTG9MVzBaNkJuSWxsUkFDNHh2Wm14aUw2bFBGZ0xxZ1diUm5RZ0tHOTlLUURHQXBNSllEaVQ?oc=5",
+      "published": "Fri, 13 Nov 2026 21:25:24 GMT",
+      "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "eb8e1d79a475a4a9",
+      "title": "Nvidia: Leadership Uncertainty Is Real But I'm Buying The Fear (NASDAQ:NVDA) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQVp2QUoxalZRNEFvOUxTQUh4NjFveUZwQkFGOG8yWFhhWVBiUHBPemVTSzVpdEtLSUw4U21iVE53OW9WbGRPRTdjclQzWDBfbXlVUjlPUHhKR2doZVdDLWhlSHZzcjRWZnFCVHJPNXo2bmhKakdUUHV6OGF0RWZLalFHUVVnWVR0b2RWT3RxRDRxYkdVb1h1SlFuXzZsQlF2dThFUnVweEwwM3F0aURxUTY1ek52UkZwVUhzRmttSnhHeDZ6SVBjV0VWaw?oc=5",
+      "published": "Sun, 15 Nov 2026 14:00:00 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
   "candles": [
@@ -2502,7 +2516,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-15T17:43:34.601546+00:00",
+    "updated_utc": "2026-11-15T18:18:47.609742+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
