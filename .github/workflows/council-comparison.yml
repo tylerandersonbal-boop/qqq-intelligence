@@ -1,0 +1,24 @@
+name: Council comparison
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: PYTHONPATH=. python scripts/compare_council.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: council-vs-original
+          path: council-comparison.json
+          retention-days: 30
