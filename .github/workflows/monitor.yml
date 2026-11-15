@@ -34,6 +34,9 @@ jobs:
       - name: Run market research engine
         run: python engine.py
 
+      - name: Generate forward accountability scorecard
+        run: python scripts/accountability.py
+
       - name: Save research results
         run: |
           git config user.name "github-actions[bot]"
