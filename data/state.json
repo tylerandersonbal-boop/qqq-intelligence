@@ -654,6 +654,34 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB3S0lzcGFmclVmV0FERmF6Y3lvUzFscjBGV2tmOGE2OFZiR1dITEFJeEs1Ry14aGR4bk9aelhjRG5fbTJER3BBTG0waU0xQmU3WUo5QUV0MnIzdEREY2hRclFGdEhFaVlDSVNDd1FBMXBBX0wwNHc?oc=5",
       "published": "Sat, 14 Nov 2026 23:55:00 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "156368700083ea02",
+      "title": "Form 4 Invesco QQQ Trust For: 14 November By Investing.com - Investing.com UK",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNkpoLW5hWlRNRWRSdjB3ek9leVgxZ25nd2FPRG9Tb3VVcW1GeHg1SlQtRFdHMndrTVlrS2hfN0IzTlZ1dnV1Y0FSZmU1YUxNc1VndTIzTmg2cW9UQlpLTFVQTk9LbUZBSG5zNlNhaG1YYlBzZGRiOHZKc2wwSnBZUHF1NkRGQ1pOSUZJZkppenhMZGc5UXRoUGFXUXZKcWNfQU0w?oc=5",
+      "published": "Sat, 14 Nov 2026 18:32:00 GMT",
+      "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "d5a7fbd9cdc72baa",
+      "title": "Value Stocks To Keep An Eye On - November 15th - MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYUpPYi1Yd3FOUFNPOHlic2t5LWJVV21ZRG9TdkxVSy1Jd3kzVm5PaXBOUkE4cXZGMnZfd2VnOE12d3praDl0OXlpOE5peXJxemd3cU15VnNlTzV3MTVJTE9lMWNOcXVxRzNtZEpra2YxQ2wtTzdlTG5CSzlmRnhqaF9fRGZFa0hwRzM4NWk2Q09mUm5wVEhMc09JdHEtQkNySU5iRXNn?oc=5",
+      "published": "Sun, 15 Nov 2026 20:17:17 GMT",
+      "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "f37f25b5fc3476b7",
+      "title": "New Inflation Data Offers Terrible News for President Donald Trump's Economy and the AI-Driven Bull Market - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaTI3LUt2NGFnSVBuTkx4aFNIcHRiN09hczRaQlR0SEU0TnVKbXQyUThZRHowQzBQSy1kYURNc2IzSk5DbEdZdnRFUFlNUHk1cjB6NDYwQkw1b3FEa054dmN2U1JITHVkUC1VWWlQOWc3di0zNnRtRUVKOTVyR21fMkd0Wm9OVjRLZFJadlN4SUNpYkIxV2tMTEw2bklHQi1EZU8xME93R0xoZ2N3S01hOFBFajhYVzZDWk1nVFlZTWtlTXhaRHp4SQ?oc=5",
+      "published": "Sat, 14 Nov 2026 09:06:00 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "63e41e9a08566f58",
+      "title": "The week ahead in numbers: wholesale inflation, Fed minutes, Anthropic IPO - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYnZ4UzQ0TmFkU29QUFJmV3NmcXVoN1BoaW15ME5GV0dqOUROT2M0VTdxdm1XZUtoNlI1ajdfNFJXeURIY3BHUlVXeFFwS1lfbHY5WjlOT05oNFM4MVV4b0szM3ZMTHREOThUS0xKMDRXWWdwWm56RzJHSHZmaGVaT0pwRVZKQkVWcTA4X25lTzJ5bWhkQnRwbW9zODFpck01alF3aHJwSjlfZXpBYmNEejRtcGNwMTZGd1F3b0R5Z2hscEEtNVRz?oc=5",
+      "published": "Sun, 15 Nov 2026 04:34:00 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
     }
   ],
   "candles": [
@@ -2614,7 +2642,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-15T21:41:04.052986+00:00",
+    "updated_utc": "2026-11-15T22:19:05.315854+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
