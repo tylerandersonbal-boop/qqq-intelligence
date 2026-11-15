@@ -507,6 +507,27 @@
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMXF0T1FEUmNNczk3a2ZGNWs0WVhBUDNzTTJyTTNqUGZ6NjJkb3NaREg3RmJocklNUVBhbXlwWFNRMWJfRDVxMDk3TjUyRkJMNUlSZ0JqVUpQc1Z6Sy1DdVQ1Mk5NeGtld2JDQUJJSFNrWnVBeUJnbDdKMmVSdXI2aEI3UFBTOFRDS0pSd1VRODZqMTFKR2ZubDhQa3phM0c5YzJIQTFuS3ZrazlFdTBXbHcwclBMalpYcEFKaFBrNkxBaElTWDAyWnVqRmFXMEFB?oc=5",
       "published": "Sat, 14 Nov 2026 01:18:00 GMT",
       "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "c250e2b2fa4bece0",
+      "title": "Mark Cuban Says Learn AI or Become \"a Dinosaur Within 3 Years.\" Here's What That Means for Your Portfolio. - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUlpmb2R1Ty1mcVlmMnd6Y0g3NHpQRW1jLS1IRmJCMGRlOFVJVW5CY1NEeEx1bWd0LW5SZGt0dlhqdmVnUDVOdTQwLWdQNnpsMW5EY092LUV5X2NDc3VUcllUWFlJbHZZbTdhUU4zQ0VoYUZnWHNYMTVabWJxVFA2MnFaRXJRUE1MZEd2WmF3a0ZWRWhyY2pNXw?oc=5",
+      "published": "Sun, 15 Nov 2026 16:30:00 GMT",
+      "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "1415f04ff0aa759c",
+      "title": "Harvard Cut Nvidia by a Third and Bought AMD - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRTh3ZkYxRFRFZ3I3dXQ1eHdNX2hXbFJoSDdkcnhldkR1V1hBVjdaLXlXZ09NSS1EUnRweFJpeE5mU3pYSUxMLVNWUDlfT3FzODV5VFBiQ0FvcDN1ZFpPR1FCQUpMTEViOUV2dXpUcUJzUEsybTNIcjNsc2UzLUNBYlBUbV9UeFBnWGU1eEExWC1xcHAwSkNvYUFlX0o1bENmT3NnVVNPZ0xObHJlcGFvd3E5SjhxaTNzRjNWYXpyaGs?oc=5",
+      "published": "Sat, 14 Nov 2026 14:38:00 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "e3e46e03794f6cbf",
+      "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance Australia",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Nb3Qya2dEajFPaUk5dEVveFlBb0lMSjVhTXBHYldhYUI1TlAwUXYxZjFoZHhmRURWd3BRTjRZVDk1REF1NXNOUzRXWFhkT2d4b1E?oc=5",
+      "published": "Sat, 14 Nov 2026 13:19:54 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
   "candles": [
@@ -2467,7 +2488,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-15T16:25:48.302686+00:00",
+    "updated_utc": "2026-11-15T17:08:55.602135+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
