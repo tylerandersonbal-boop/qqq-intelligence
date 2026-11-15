@@ -1,0 +1,46 @@
+name: Weekly QQQ model review
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 20 * * 6'
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Generate weekly evidence report
+        run: |
+          python scripts/development_review.py
+          python - <<'PY'
+          import json, pathlib, datetime
+          path = pathlib.Path('docs/accountability.json')
+          with open('weekly-review.md','w') as out:
+              out.write('# Weekly QQQ evidence review\n\n')
+              out.write('Generated: '+datetime.datetime.now(datetime.timezone.utc).isoformat()+'\n\n')
+              if path.exists():
+                  report = json.loads(path.read_text())
+                  out.write('## Forward accountability data\n\n')
+                  out.write('```json\n'+json.dumps(report, indent=2)[:20000]+'\n```\n\n')
+              else:
+                  out.write('WARNING: docs/accountability.json missing.\n')
+              out.write('Review prediction calibration, coverage, sample size and data leakage before promoting models.\n')
+          PY
+      - name: Upload weekly review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-qqq-review
+          path: |
+            weekly-review.md
+            development-review.md
+          retention-days: 30
