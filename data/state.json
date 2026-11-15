@@ -253,7 +253,7 @@
       "id": "c58f2ee0c8e2ac68",
       "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81OEFKQTktenlhclpBTlVtWEJqNVpKOVNWNlRaNlRDRnR0dHRielpfZXdtR0pXcUcyNDN1WTlzOWVrWXZTNVhTbEVIOUxEaklxVWc?oc=5",
-      "published": "Sat, 14 Nov 2026 02:37:26 GMT",
+      "published": "Sat, 14 Nov 2026 13:13:41 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     },
     {
@@ -493,6 +493,13 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSkxkRFk5X3lYbzhiMFU0ektaa28tV1lqWlBzSEQzX094dUt0dzE1S3ROZElRa2E5OElQNHFXeU5OeF9TOFFwUUJaLWUtOHF4eGduUVllczVKekxxMG1UVHpGOE54OTJ0cE9ZU2s3Y3p5UzdnNEdBSV84SDN5V19lUWpDcUNOVmhmbWQ1Tlo0NDRlMmd4WHVaN0hNNTFDdkIzdVk0?oc=5",
       "published": "Sun, 15 Nov 2026 14:00:00 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "f928684794096ade",
+      "title": "Accelevation Holdings Corp. - Class A ordinary shares (NQ: ACCV - FinancialContent",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5lSXduZTl5b0xrRks0MXJxOWdWTFY2SEtDc0NxbVBjbEhLMVotS3BYS1EwV0R5VXQxRk9iTDEtX1RLclY4OHFZa3dEcW15bnVBcXhlRnl6Mk1GdExEUllRUjJudWk3ZlpMNjd3amRKMkRjN0JuYlNlNmlGRFJWZw?oc=5",
+      "published": "Fri, 13 Nov 2026 21:00:01 GMT",
+      "topic": "QQQ Nasdaq 100"
     }
   ],
   "candles": [
@@ -2453,7 +2460,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-15T14:26:10.141635+00:00",
+    "updated_utc": "2026-11-15T15:10:27.902485+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
