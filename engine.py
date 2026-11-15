@@ -79,8 +79,8 @@ def main():
   lookup={t.isoformat():float(c) for t,c in zip(df.ts,df.close)}
   for rec in forecasts:
    if rec.get('outcome') is not None:continue
-   target=rec['target_utc']
-   if target in lookup:
+   target=rec.get('target_utc')
+   if target is not None and target in lookup:
     ret=lookup[target]/rec['entry_price']-1; direction=rec['prediction']['direction']
     rec['outcome']={'actual_return':round(ret,6),'direction_correct':(ret>0 and direction=='UP') or (ret<0 and direction=='DOWN') if direction!='UNCERTAIN' else None,'evaluated_utc':NOW.isoformat()}
     rec['why']=investigate(rec,articles)
