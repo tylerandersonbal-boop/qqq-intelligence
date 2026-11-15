@@ -1,0 +1,13 @@
+{
+  "status": "insufficient_verified_forward_data",
+  "eligible_forecasts": 0,
+  "excluded": {
+    "no_verifiable_recording_time": 1
+  },
+  "directional_predictions": 0,
+  "directional_accuracy": null,
+  "always_up_accuracy_same_subset": null,
+  "brier_score": null,
+  "coverage": null,
+  "warning": "Overlapping horizons are correlated. This is descriptive paper research, not an independent backtest or evidence of trading profitability."
+}
