@@ -88,8 +88,8 @@ def main():
   if p:
    ts=df.ts.iloc[i].isoformat(); key=ts+'-h3'
    # Future timestamp assumes uninterrupted 5m candles; instead target is assigned from subsequent data on later runs.
-   if key not in existing:
-    forecasts.append({'id':key,'origin_utc':ts,'horizon_candles':horizon,'entry_price':float(df.close.iloc[i]),'prediction':p,'outcome':None,'why':[], 'news_snapshot_ids':[x['id'] for x in fresh[:15]]})
+   if key not in existing and (NOW-df.ts.iloc[i].to_pydatetime()).total_seconds() >= 0 and (NOW-df.ts.iloc[i].to_pydatetime()).total_seconds() <= 300:
+    forecasts.append({'id':key,'origin_utc':ts,'recorded_utc':NOW.isoformat(),'horizon_candles':horizon,'entry_price':float(df.close.iloc[i]),'prediction':p,'outcome':None,'why':[], 'news_snapshot_ids':[x['id'] for x in fresh[:15]]})
   # For targets, locate third strictly later market candle when present.
   all_times=list(df.ts.dt.strftime('%Y-%m-%dT%H:%M:%S+00:00'))
   for rec in forecasts:
