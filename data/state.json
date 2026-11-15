@@ -528,6 +528,20 @@
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Nb3Qya2dEajFPaUk5dEVveFlBb0lMSjVhTXBHYldhYUI1TlAwUXYxZjFoZHhmRURWd3BRTjRZVDk1REF1NXNOUzRXWFhkT2d4b1E?oc=5",
       "published": "Sat, 14 Nov 2026 13:19:54 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "26408b931674eb12",
+      "title": "Nov. 25 Will Be a Critical Day for the Stock Market - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQmZBRDFGMC1LS1dtTVZOU0ZsRUhpWHliUURJZmlqZkFPWENrdUJJbXpBeUM1Q0RISFZtMGRsQ0hjXy1IZEc3cndaVHNGdnc3dUhzSGxtbGFwN0lqUVFXa0Z5U3hCdkgwa2Jrd3h4VFFZbEppQk1yQjRwQ25pNXFYNnlrc0FSdFM2SFJKdjlXSDExaFRa?oc=5",
+      "published": "Sun, 15 Nov 2026 03:20:00 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "49752c60921652e8",
+      "title": "Stock Market Falls But Nasdaq Holds Key Level; Anthropic IPO, Nvidia Earnings Loom - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWlNKVkRyWWxPUEhTTW1lekhnU2h4anExcDZYQzlWV2VSalNTc3RwRXp0Y3VkbGFyNWRnbm5BaXNoTXc3elhvNnNoNnlNVkxZUHhfbVdjZTJKcHkyb1JVUmhDOWRmQU8xT1dHMk9RelppakJjblpyUjBjcUUyYTNXMDNEZUpsanI4NFh3LUlUTDRYUGhfdjlVVURkMEVBQjg0ZWFZellwT2Rvel9NT0hMVk5GNTg4OExUTDBSUGNSeFBmNEVhWVNpVlVCMEEzQy12NEE?oc=5",
+      "published": "Fri, 13 Nov 2026 22:36:00 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
   "candles": [
@@ -2488,7 +2502,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-15T17:08:55.602135+00:00",
+    "updated_utc": "2026-11-15T17:43:34.601546+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
