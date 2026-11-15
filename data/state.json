@@ -253,7 +253,7 @@
       "id": "c58f2ee0c8e2ac68",
       "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81OEFKQTktenlhclpBTlVtWEJqNVpKOVNWNlRaNlRDRnR0dHRielpfZXdtR0pXcUcyNDN1WTlzOWVrWXZTNVhTbEVIOUxEaklxVWc?oc=5",
-      "published": "Sat, 14 Nov 2026 13:13:41 GMT",
+      "published": "Sat, 14 Nov 2026 17:57:31 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     },
     {
@@ -584,6 +584,20 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPR3RvWWxLd0oyWkN2aVBFYThtVFY0M0p5UjdlS0NGNElrWW5zbWtQNWF1UnpYNUIxVV9XcnZYcndaQVdSczlZeWJZMDBJUjFYUWJLTjRXdVdKNVlXQTFKanI1Z2ZEUXRPTDd4SmtKcEZCNzBTOERaZEdFN2EzdTV3alFYZE80eWo0R3R1MXNtRUE5RDVDNnQ3Q0NXeHdLY1dFdXVkMDZPaW1LOHF3a3MzZmpsbU9fTFBWTVUxNXIydnE5b0FnQTJsM2EteE4wZw?oc=5",
       "published": "Sat, 14 Nov 2026 03:02:18 GMT",
       "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "1d82b9c103a6c643",
+      "title": "Chip Stocks Lose 3.4% as Nvidia\u2019s Leadership Change Rattles Wall Street, Dragging S&P 500 and Nasdaq - NiftyTrader",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rSE0yd005WndMRnFYc3ZNX09ER0w1T3Bpdm5yM29wTDlYZlp2V2dsQ2VXc3p4UTVlLU0zemd5RUVSSmxBNGg3N0JHQk9lZ0pwemQ1QTBNTzRNV25pcGk3TVM3ZExGeWwzY2cyZmZkbVdHTDRhbkE?oc=5",
+      "published": "Sat, 14 Nov 2026 05:15:23 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "5e23b1d1a4713f0d",
+      "title": "AMD Just Beat Nvidia by the Widest Margin Since 1999 - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYTRpVEp3cWhFSFBuUkRzMXJZWGtWUVhPb2pLdENDUUhBQVFOcHV6a3h1QmJxV1RnTTFOZ3dBdUh5dUQ4MVJqQjVtclpFdUduNnRjdzM3UE5sejJjWWx2VkJjYWV6ZTJnQ29GWGRsOTBmU3dZcVJEcnZlcUN5ZWstcnRuVl8xTzhpekhsWnJEOHNRTVl5TTlpdEFjaEQ?oc=5",
+      "published": "Sat, 14 Nov 2026 15:07:00 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
   "candles": [
@@ -2544,7 +2558,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-15T19:09:57.456127+00:00",
+    "updated_utc": "2026-11-15T19:50:17.364252+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
