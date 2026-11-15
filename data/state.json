@@ -367,6 +367,34 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQVhIYXNZbFpjNVdYNUQ1VUdubkR5WmNvRlIxZGg0X1V2dWpiS1JBMXRxU1ZlRzVkaVNfZXZMV1Uza2o1SlFlRGdWMkt0dU9ia3VxNmNXb2RzM0NocHhReHlQVTJPbFBHYXpEc0NLcGRJQ2JjSjFEei1XRHdkc1ZfZ2dsQkxIZ2VFMG1WTnZvZGZ6Xzh3SnNOUmdOdjJSRUtqRWlYNEdOU1UtNUlqLXc?oc=5",
       "published": "Fri, 13 Nov 2026 17:42:14 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "ec452faee6f8ee81",
+      "title": "Invesco QQQ Trust, Series 1 (QQQ) Stock Price, Quote, News & History - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE42N09YZVR2ZTk3TG55M3hFTWxPUTdjTGxCczE3WngtTVd2NzVObm5TTkMtcHBFS0lwRnU0TnpsNEp0RU9xdFZ6ZEFR?oc=5",
+      "published": "Fri, 13 Nov 2026 20:50:00 GMT",
+      "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "aa3a99f5b3be15d3",
+      "title": "Nasdaq Extends Drop by 0.91% as Tech Stocks Lead Declines, AMD Falls Nearly 9%, Nvidia Drops 2% - TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSEVzNGd2dGNWSU5aeGl0UDF4dERtZk5lRzRTTmZOaVd1ZW1PUERSSWNoUFFqMEdNY1cxMjMtOGVnUUIwM2JtZ1Myc3VyQmQzR0lDSldRS3d3aDZ6QndoZzh1QWZXMkxqazJyNC1yQUhSUWNBcXdrb3Y0ZVNqOC1FWXYzVVA2NEMxTUNDbVRzXzNrQkVGY0hCcFFDaU0yVkc4ZTNtQVRuaTM4Yldsa3Q0MC1FZFRqSzgwSkphR3pLX2o?oc=5",
+      "published": "Fri, 13 Nov 2026 21:28:57 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "3a9bbe622c117913",
+      "title": "Nasdaq futures subdued as Nvidia upheaval roils AI trade - KELO-AM",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdXB0X0dNNFh5SzI5MzlIUWhjVUxSZ2pMSEJxS3ZoaWVwVnhIVXVXbzZwRTJYbzQxbllrS2JPdl9kSUNJcUgySjloRksxU1J2RzM2M2RsZnF3ZW41MHhzOEdwMl85Q2RwVVFCaEx4YTdRbUc0VjNITURsbTJSbzVCUUhVSDBUN3R6am1NWW5iUnJKdw?oc=5",
+      "published": "Fri, 13 Nov 2026 11:55:31 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "46e7dc749eb58dfd",
+      "title": "JPMorgan's Popular ETF Offers a Path to Earn Over $4,000 in Monthly Retirement Income - WLUK",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSjFmb01kS1pxcUdiM0wwdGNzbk9sUVpsWExiQ0szMnhrSDNJTVNpeUVXT0N6cXF0ckF6TTdtUlVLekVoN0dhR1lhb0VYaGVFMGtHdkJPUWY3OGxVM1lWYS03ZWxtTDBnZURLU3hBOVlmR05zQ0dMaFlWZFM4UzRhTmhWYjB4Zw?oc=5",
+      "published": "Sat, 14 Nov 2026 13:06:23 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
   "candles": [
@@ -2327,7 +2355,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-15T10:00:52.556998+00:00",
+    "updated_utc": "2026-11-15T10:43:10.214924+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
