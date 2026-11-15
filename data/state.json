@@ -409,6 +409,27 @@
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbDZLdDUtZzZlTE9XVmowQnF0LVI5NmpXX0dIM1cxZlViQzJ3NUI4czFZdmlheU1mb3JaNm4yV3NoTkVwS2FwSTRiS2ttWkJYb1RaNkZhazRycWJkQnhKNmV3c1duSEVscXM3OWg2MXNhMndHUXFXWnNSazNDTWFJc0NST2JtTG1rSlZaemFwTUotS2t0OTkyUUx3amE3S3Q3cXNPcmk5WGZTUGJVclNVN3pGRmptUG4zNGZZ?oc=5",
       "published": "Fri, 13 Nov 2026 12:12:00 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "2fb6a05822b72154",
+      "title": "China tech stocks emerge as one of BofA's best risk-on plays - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWk9GREVRU3pYUXdtaUg2RFNwZjdwV1U4QnpfVzlSVi1QVzFtVU5RZWNkRndXZkdjZmxVbVZxTDVDQkNGMkNYVklna0c5R29pV0NRLXhWSFgzLVZvQXoxRGtZeG1Dd1I3NHRVb3E1bHMxbklQRnptN19aU3Rwd2o3cC1UUUZOU05sbVJ6RUNfNzlHODIxVFZ4R1pkY21uYzdFVnozWE9GUEgtY2tKWmFhNlJEdEVTR3ZJRmp3ell0c0M?oc=5",
+      "published": "Fri, 13 Nov 2026 17:17:07 GMT",
+      "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "d6f9966ebf8c35c6",
+      "title": "Want to Invest in Top Growth Stocks Like Amazon, Apple, and Microsoft but Avoid Nvidia? Consider This Low-Cost Vanguard ETF That\u2019s Up 24.8% This Year. - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcmhrc016aHFEMGZNbDhPS2RHSGZma215dUtkQnN4Z3E5Nk1CSmM4OVlNLVRaWEdyNkJ0VWwxSTAtMG1LUXh3ejh3bUhaZU5HM2lfNEhoRzExbGZJWUVGSnRvU1kzQlMwTWNCa0ZaTDhQRlhhX2VPdkJkakd0d1dMaFZ2ejhmYlBYWDI3UXNxbVNPTjJQbVUxTVhn?oc=5",
+      "published": "Sun, 15 Nov 2026 11:50:02 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "636e8c144faf288a",
+      "title": "The AI trade faces big tests next week, starting with Nvidia earnings and capped by Anthropic IPO - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM2JQaHVQaXhNWWk5c3h1V1NLVGliTkJyTTlGYWQ1YzZoWkhjU21HYXM3LVNYRFowamVkc1FKdmJPbDRWeW15cnJ5dlBCM09raGdpUFpzWkU3RUpOOW81SzlHalNUQVRoSkdsdG10cC1INjNfdmZaX2szUmpEQXR4UVRIaHFXaWtJWnFNMWhqOA?oc=5",
+      "published": "Fri, 13 Nov 2026 21:04:19 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
   "candles": [
@@ -2369,7 +2390,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-15T12:02:32.043303+00:00",
+    "updated_utc": "2026-11-15T12:51:00.986606+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
