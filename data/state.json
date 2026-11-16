@@ -808,6 +808,20 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRTRUYUFPN1FzZHlGOUtPb0EtYkowV3gxcTY5aFZjYjBDTkNUM3Q5bGpjcWx4OFlTRXprQ1BYbGxMazV4R2RtZERkczE5cTB6UE9KUGlObGZuWDZqd1gwTGNDazRkVVRoeU80aktsSjlIVnZSLXVzUnZPekF2VnFmUkhBNU5CYjQyODl1ZnZ3WDQ5V1JDZV93Q0Q1Si1kWVUtV3VyRjdtVmRlMHhHd2UxT3A5eUdrTW1YUWlEWUN3?oc=5",
       "published": "Sat, 14 Nov 2026 02:28:36 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "d90651ccd2a4a764",
+      "title": "QQQ Nov 2026 698.000 call (QQQ261123C00698000) Seasonal returns chart - Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04dFNCRE5mMDRmUFh2Y1dvRlNEVENNOFdLYXVhOUNsV01iLVFHV045blJaSnNBSWJ3T2FsN2Q0NDFhZ2pJTWRDbnFTelJrcFZVTktvLXlpbE9kMEdkUjZ4QzEweVhncmJqc0luRm8xVVd2OGxv?oc=5",
+      "published": "Mon, 16 Nov 2026 02:14:15 GMT",
+      "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "556d078440375dfb",
+      "title": "US Stock Market Week Ahead: Can Nvidia Earnings and Fed Minutes Spark a Nasdaq Rally? - Stocks Down Under",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rZDNOM285d3hOT0VJV0N4R2cxTWhFcFlzb2VLbVY0U2xiU21xX01hUnN1VDRrZ1lIOUkwRlFkcHdndnpUQ0hXZWZydlVMMmo5N2w5eWZZWjNmeVJ6dHJFZHROSk5jNFBKTFpzeWZqS2UyQkdRR1kwNmRHcFI1Nk0?oc=5",
+      "published": "Sun, 15 Nov 2026 19:15:44 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
     }
   ],
   "candles": [
@@ -2768,7 +2782,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-16T02:53:15.379008+00:00",
+    "updated_utc": "2026-11-16T03:53:25.822771+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
