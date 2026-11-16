@@ -2,7 +2,8 @@
   "status": "insufficient_verified_forward_data",
   "eligible_forecasts": 0,
   "excluded": {
-    "no_verifiable_recording_time": 1
+    "no_verifiable_recording_time": 1,
+    "unresolved": 1
   },
   "directional_predictions": 0,
   "directional_accuracy": null,
