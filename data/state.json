@@ -682,13 +682,6 @@
   ],
   "articles": [
     {
-      "id": "a9fe5794ad559a9a",
-      "title": "The Nvidia Earnings Report Could Wreck The Market (NASDAQ:NVDA) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNS2M1WUNyUmZodU9hNGMtZFd3ZVhrNWxFUkdKMFJWZDRONmo0ZU1LYnQ3UmplNFQ5c0xKQ1h3aU5MVXlxVHc0TXFDZTFhNS1PSWdrMkRxYjJDWnlYamstTHM1bnJOOV9mdlRZVVpJYXZOOWVwN09QaUoxQzBJTGpXVnZ2enByN1RLaGx2dnpHOA?oc=5",
-      "published": "Fri, 13 Nov 2026 13:00:45 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
       "id": "fead3cdb78697db1",
       "title": "Nasdaq futures subdued as Nvidia upheaval roils AI trade - The Mighty 790 KFGO",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMTEwa0ZrZkNQMmpUSmkxXzlkMFBSNmJCNG84TmFfcW54RDFPSEtldG16RDA0eU5kX2FpSUJlV2xKNXRBd2VLaDZHX1Y2eFJjdDVFRXFrQXhaejBERGViQ0U1SnNWMDRGYW9ZTi05Q1pCSTBXeTRsNm8tWUFVRDBDdlRMdWRLTEhjNWpuTk16NE4zZw?oc=5",
@@ -1729,6 +1722,13 @@
       "title": "Nvidia: You Could See An 11.6x Forward P/E Post Q3, A 50% Discount To Nasdaq (NVDA) - Seeking Alpha",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdzJsTzFFbWtxalkwMTNPUEx2V0JTaEdoY2taLV83U1h0Qm8yaEJJT3FTNC1lb0F0MDdjUzlqYWthRzQ0anBiZS1mNGgtOTlDR1phZ3h6dEtSYllzTzIybW1uMFo2M0hpOTVaQ3FWdm52bnF0NFp4eW1PRjhSWFdWV3daeU93VmpHbGNvcnlucDJ3V0UwakpfVTNhb0RsZVNUN1h0YU5fZlYwSV9VYVM3aXljc2U5U1FXNm01R05n?oc=5",
       "published": "Mon, 16 Nov 2026 16:17:01 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "6f9364fe4a984a06",
+      "title": "Microsoft Passes Nvidia as AI Chipmaker's Slide Deepens - The Defiant",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaHlLTGRwYTY5MHhpVGNJeElEa2x3MU5pbk56ZHZWVVlDa1o5U2hQdkdjLThZeXRnRDlxU05rcWlJanYzckx6MVFIRF9sXy1GVWVaMzBTUWRHTjA2NFprZDVQcFY3NF9BaVhaSTVWSno3NVlhcUdZT3kxMlVMb19xN0Z1Tnc2cGRXekItTTV6TmdISWs?oc=5",
+      "published": "Mon, 16 Nov 2026 10:45:58 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
@@ -3690,7 +3690,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-16T22:07:55.075935+00:00",
+    "updated_utc": "2026-11-16T22:52:07.791382+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
