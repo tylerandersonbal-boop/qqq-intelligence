@@ -4,6 +4,7 @@ from pathlib import Path
 import requests, pandas as pd, numpy as np, feedparser
 from urllib.parse import quote
 from zoneinfo import ZoneInfo
+from scripts.strategy_context import snapshot as strategy_snapshot
 
 NY = ZoneInfo('America/New_York')
 BAR = dt.timedelta(minutes=5)
@@ -100,7 +101,7 @@ def main():
    ts=df.ts.iloc[i].isoformat(); key=ts+'-h3'
    # Future timestamp assumes uninterrupted 5m candles; instead target is assigned from subsequent data on later runs.
    if key not in existing and BAR.total_seconds() <= (NOW-df.ts.iloc[i].to_pydatetime()).total_seconds() <= 600 and df.ts.iloc[i].tz_convert(NY).strftime('%H:%M') < '15:45':
-    forecasts.append({'id':key,'origin_utc':ts,'recorded_utc':NOW.isoformat(),'horizon_candles':horizon,'entry_price':float(df.close.iloc[i]),'prediction':p,'outcome':None,'why':[], 'news_snapshot_ids':[x['id'] for x in fresh[:15]]})
+    forecasts.append({'id':key,'origin_utc':ts,'recorded_utc':NOW.isoformat(),'horizon_candles':horizon,'entry_price':float(df.close.iloc[i]),'prediction':p,'strategy_context':strategy_snapshot(df,i),'outcome':None,'why':[], 'news_snapshot_ids':[x['id'] for x in fresh[:15]]})
   # For targets, locate third strictly later market candle when present.
   all_times=list(df.ts.dt.strftime('%Y-%m-%dT%H:%M:%S+00:00'))
   for rec in forecasts:
