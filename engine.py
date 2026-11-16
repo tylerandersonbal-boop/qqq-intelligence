@@ -3,6 +3,15 @@ import os, json, math, hashlib, datetime as dt
 from pathlib import Path
 import requests, pandas as pd, numpy as np, feedparser
 from urllib.parse import quote
+from zoneinfo import ZoneInfo
+
+NY = ZoneInfo('America/New_York')
+BAR = dt.timedelta(minutes=5)
+def same_session(a, b):
+ return a.astimezone(NY).date() == b.astimezone(NY).date()
+def completed_bars(df, now):
+ # Yahoo timestamps are candle START times. Never predict using a forming bar.
+ return df[df.ts + BAR <= pd.Timestamp(now)].copy().reset_index(drop=True)
 
 ROOT=Path(__file__).parent; DATA=ROOT/'data'; DOCS=ROOT/'docs'; DATA.mkdir(exist_ok=True); DOCS.mkdir(exist_ok=True)
 NOW=dt.datetime.now(dt.timezone.utc)
@@ -70,7 +79,9 @@ def main():
  old=read('state.json',{'forecasts':[],'articles':[],'candles':[]})
  df=None
  try:
-  df=market(); status['market']='ok'; status['last_candle_utc']=df.ts.iloc[-1].isoformat(); status['last_price_usd']=round(float(df.close.iloc[-1]),4)
+  df=completed_bars(market(), NOW)
+  if df.empty: raise ValueError('No completed 5-minute candles available')
+  status['market']='ok'; status['last_candle_utc']=df.ts.iloc[-1].isoformat(); status['last_price_usd']=round(float(df.close.iloc[-1]),4)
  except Exception as e:status['warnings'].append('Market fetch failed: '+str(e)[:180])
  fresh=news(); status['news']='ok' if fresh else 'unavailable'; articles=list({a['id']:a for a in old['articles']+fresh}.values())[-150:]
  forecasts=old['forecasts']; existing={x['id'] for x in forecasts}
@@ -80,7 +91,7 @@ def main():
   for rec in forecasts:
    if rec.get('outcome') is not None:continue
    target=rec.get('target_utc')
-   if target is not None and target in lookup:
+   if target is not None and target in lookup and same_session(dt.datetime.fromisoformat(rec['origin_utc']), dt.datetime.fromisoformat(target)):
     ret=lookup[target]/rec['entry_price']-1; direction=rec['prediction']['direction']
     rec['outcome']={'actual_return':round(ret,6),'direction_correct':(ret>0 and direction=='UP') or (ret<0 and direction=='DOWN') if direction!='UNCERTAIN' else None,'evaluated_utc':NOW.isoformat()}
     rec['why']=investigate(rec,articles)
@@ -88,7 +99,7 @@ def main():
   if p:
    ts=df.ts.iloc[i].isoformat(); key=ts+'-h3'
    # Future timestamp assumes uninterrupted 5m candles; instead target is assigned from subsequent data on later runs.
-   if key not in existing and (NOW-df.ts.iloc[i].to_pydatetime()).total_seconds() >= 0 and (NOW-df.ts.iloc[i].to_pydatetime()).total_seconds() <= 300:
+   if key not in existing and BAR.total_seconds() <= (NOW-df.ts.iloc[i].to_pydatetime()).total_seconds() <= 600 and df.ts.iloc[i].tz_convert(NY).strftime('%H:%M') < '15:45':
     forecasts.append({'id':key,'origin_utc':ts,'recorded_utc':NOW.isoformat(),'horizon_candles':horizon,'entry_price':float(df.close.iloc[i]),'prediction':p,'outcome':None,'why':[], 'news_snapshot_ids':[x['id'] for x in fresh[:15]]})
   # For targets, locate third strictly later market candle when present.
   all_times=list(df.ts.dt.strftime('%Y-%m-%dT%H:%M:%S+00:00'))
@@ -97,7 +108,12 @@ def main():
    try:
     future=[t for t in all_times if t>rec['origin_utc']]
     if len(future)>=rec['horizon_candles']:
-     target=future[rec['horizon_candles']-1]; rec['target_utc']=target
+     target=future[rec['horizon_candles']-1]
+     if not same_session(dt.datetime.fromisoformat(rec['origin_utc']), dt.datetime.fromisoformat(target)):
+      rec['outcome']={'status':'unscored: horizon crosses market session','evaluated_utc':NOW.isoformat()}
+      rec['why']=investigate(rec,articles)
+      continue
+     rec['target_utc']=target
      ret=lookup[target]/rec['entry_price']-1; direction=rec['prediction']['direction']
      rec['outcome']={'actual_return':round(ret,6),'direction_correct':(ret>0 and direction=='UP') or (ret<0 and direction=='DOWN') if direction!='UNCERTAIN' else None,'evaluated_utc':NOW.isoformat()}
      rec['why']=investigate(rec,articles)
