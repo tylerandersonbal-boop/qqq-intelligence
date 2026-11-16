@@ -515,8 +515,54 @@
         "vwap_note": "Unavailable: close/volume-only feed is insufficient for genuine VWAP.",
         "interpretation": "Research-only observations. These signals do not affect baseline forecasts."
       },
-      "outcome": null,
-      "why": [],
+      "outcome": {
+        "actual_return": -0.001202,
+        "direction_correct": true,
+        "evaluated_utc": "2026-11-16T20:26:10.379272+00:00"
+      },
+      "why": [
+        {
+          "why": "Why did the model predict DOWN?",
+          "answer": "Historical nearest-neighbor outcomes and observed momentum/volatility/volume features.",
+          "evidence": {
+            "momentum_15m": -0.001934,
+            "momentum_60m": 0.001507,
+            "volatility": 0.001056,
+            "volume_ratio": 0.046
+          },
+          "status": "mechanism documented"
+        },
+        {
+          "why": "Why did the market actually move this way?",
+          "answer": "Not causally identifiable from OHLCV data alone. Review timestamped order flow, broad markets and news.",
+          "evidence": {
+            "actual_return": -0.001202
+          },
+          "status": "unresolved"
+        },
+        {
+          "why": "Why might market participants have changed their orders?",
+          "answer": "Candidate factors include news surprises, liquidity, hedging, and broader market movement; none is proven here.",
+          "evidence": {
+            "news_headlines_available": 150
+          },
+          "status": "hypotheses"
+        },
+        {
+          "why": "Why did the forecast succeed or fail?",
+          "answer": "Compare observed outcome with frozen forecast; one observation cannot establish a robust explanation.",
+          "evidence": {
+            "direction_correct": true
+          },
+          "status": "requires repeated testing"
+        },
+        {
+          "why": "Why should we trust any inferred lesson?",
+          "answer": "Only if the relationship improves forward out-of-sample accuracy, calibration and cost-adjusted returns.",
+          "evidence": {},
+          "status": "not yet validated"
+        }
+      ],
       "news_snapshot_ids": [
         "96bca9ca0bacc9bf",
         "fd67fa8aaabcd555",
@@ -533,17 +579,61 @@
         "10770a034e7a0c0e",
         "6cf45ec56cce17b6",
         "5e0340e5a1424c02"
+      ],
+      "target_utc": "2026-11-16T19:45:00+00:00"
+    },
+    {
+      "id": "2026-11-16T20:20:00+00:00-h3",
+      "origin_utc": "2026-11-16T20:20:00+00:00",
+      "recorded_utc": "2026-11-16T20:26:10.379272+00:00",
+      "horizon_candles": 3,
+      "entry_price": 661.0900268554688,
+      "prediction": {
+        "up_probability_raw_shrunk": 0.5,
+        "expected_return": 0.000495,
+        "matches": 30,
+        "direction": "UNCERTAIN",
+        "features": {
+          "momentum_15m": -0.003399,
+          "momentum_60m": -0.003527,
+          "volatility": 0.001444,
+          "volume_ratio": 0.142
+        }
+      },
+      "strategy_context": {
+        "status": "observed_not_predictive",
+        "rsi_14_close": 35.05,
+        "sma_10_close": 662.3895,
+        "sma_20_close": 663.0648,
+        "short_sma_above_long": false,
+        "support_20_prior_closes": 661.44,
+        "resistance_20_prior_closes": 664.61,
+        "close_breakout_above_prior_resistance": false,
+        "close_breakdown_below_prior_support": true,
+        "relative_volume_20": 0.127,
+        "vwap": null,
+        "vwap_note": "Unavailable: close/volume-only feed is insufficient for genuine VWAP.",
+        "interpretation": "Research-only observations. These signals do not affect baseline forecasts."
+      },
+      "outcome": null,
+      "why": [],
+      "news_snapshot_ids": [
+        "96bca9ca0bacc9bf",
+        "fd67fa8aaabcd555",
+        "09d9fd49b64d51a7",
+        "87451b28d0a34932",
+        "36ccef7524f6cdf6",
+        "719e2eefe35ddd66",
+        "3bf7ea65388a9b29",
+        "8da2d23a3f03e7ed",
+        "5be337f3be2eb190",
+        "c97e2b628cfc7d60",
+        "9b81e21c7895630f",
+        "e3a61c3536fe03ae"
       ]
     }
   ],
   "articles": [
-    {
-      "id": "9d04c998f550009f",
-      "title": "Jensen Huang's Nvidia Resignation Sends a Warning to Investors Counting on AI for Retirement - WOAI",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNzdfZXlHdjExM2hsMzNwcWhtR2c5WGpDXzE0bERtVU52VGxDMFJmOGllT2lNdDhMSVBISW5rbGYwRVUxQUJ0WWJPVTVwY3hneE10ajAtWGxKX1QxT0ExX3RLRHd1SE5BUHJfdTlDdzVXUktMUmhTTzcwWUxaZGZ1Z0xaS0Q3RVU?oc=5",
-      "published": "Sat, 14 Nov 2026 13:05:29 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
     {
       "id": "0f2aadabc0ed8a8a",
       "title": "Invesco QQQ (NASDAQ:QQQ) Shares Down 1.2% - Here's Why - MarketBeat",
@@ -1081,7 +1171,7 @@
       "title": "Michael Burry's Puts on the Nasdaq-100 Run to April 2027. I'm Not Following Him. - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSU9nU29SMlJ5TVpVLTVhYndhSHhiSlFwWkJXYWZ5c0RzR3N0WmNaY1R0VWZTQm9nejQ3R3NhSlJJWkRRSG9jZzA0TGVPa0VWSXphYkU4dC1vNWRIR0NfUWt4UXFhMFA0d2JiU1VOZjAzaXdTTG11VHZlb2VubUQ1OU95S01QQlRmVHR2cVdibFFOMk9UUFRaLXFwVm1BWmI0RXQtVHNmTkZkU2pqOHN0bnhCUnk4YWhURVlHdkxn?oc=5",
       "published": "Mon, 16 Nov 2026 04:27:00 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+      "topic": "QQQ Nasdaq 100"
     },
     {
       "id": "ebb4894b59d14556",
@@ -1438,14 +1528,14 @@
       "title": "Stock Market Today: Nasdaq-100 Sinks 1% as Nvidia Faces Its First Earnings Without Jensen Huang - 24/7 Wall St.",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQX1pMLWRxb0QydVI2UlFfTlpnVVdzeW1mYXFuNlhjZHc1WEswdjlJLW5DMDlZTWRxZjRIcDZYdGZpb19rdTZIYnBrdlg2ZGZaeHNrdFhqSFdCRzBxVEFTRkNXdTdIcUVtb01SYVNMaEtTRFYzWjRpSVhxV3V1T2Y4eElPOUFSaEZRaFJldG9Ddm1PS0Z1bzFJMkk3RXlRN3BRNVozX2NQY2FtMnNSc0JSS1dKbXZseENST2pjVlBMZ1BfeFRIR0lFZGNUQ3hTbmc0dENz?oc=5",
       "published": "Mon, 16 Nov 2026 14:58:00 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
+      "topic": "QQQ Nasdaq 100"
     },
     {
       "id": "c97e2b628cfc7d60",
       "title": "Nasdaq Soars Last Week Without NVIDIA: ETFs in Focus - TradingView",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT0tEVnJMbk51Z19vTWdJbkpOaXY5ekZkMlJHaHp6cUJZWmRNWHhVdE5PNEJTUGRkU3Y1eGh1RTdLMHdXOXlpUUtWM2lvMFpxUXgxZnIxR1FfQlZCV2tGTHJCY3Rab2FMaWNTd0NQVC0ta3VRd2FpaGVER3hXZE9CTkI3bl9od0FQSmlZY1pyc0RiUGNSMWVkZlJXVTdwWFQxWUlTbmp0a3c2ZDA?oc=5",
       "published": "Mon, 16 Nov 2026 13:00:00 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+      "topic": "QQQ Nasdaq 100"
     },
     {
       "id": "833709b7a82791f9",
@@ -1586,6 +1676,13 @@
       "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOLUJ2QU5iNDhXUVcybFVkaDdfalRaWE1Tek4tcGUyWmNfbEpDaGhqa01tMFJwTmJnLXhHWFJZNFpMVGRYaGF5dER5TmV4QW9Rd24weEpUejU1QmJmUTRaank1NWFjWFlnMkdIdmMyVVFVM29NcG83YlFQZVdwRkhQeTJnMGFzZEVqcjk0ci1MVE9jUGh6STBSckttNGhCbW1BaGMyZVZneEVUQnNpZTJhWUdxWXhfSFFMdFQ3MkRsYmNxSUs2OTNCeC1vejhmOE9NV3FXOTNic2t3dWJTMXlUZDdGcVBkN25LNjFua1F2R2UtbDc2MTk5aE9OSDFDY2NkVk5VVUVzLWhnc1NWdWg0aFVBTS1sZDdCY3NCY01CSVFWNXVocmpCcUNhbndUWlJ1ZzRnWDMzVnpLUdIBvwJBVV95cUxOXzFjTlU5eS1KOUNPcjVjZXVNMkMyWGJ6eXNWMWtrYkdwVmZiZEtrWjBVVUxaVnVSZ25XX1Q0SUphMm9Vc3dOX0VybXRfNDZodVVHZjB6WTdtNXdDZE9nQ2p1U0JXcmg2RjBPcl8wZ0FwU1l4cUNzZzBhZi1fYWtIc29UckNxVEVZQUFuSC1xV0dtM2VNUDFfN0k0blVIQnpfUmVUVWNSWHFpc1R0ay1nWlg4V3ZTcldOa3hrbEFrMW9hZUpibWdMRnJEcE9wT1RGaUhPaW9KbjN2cndEaG9WR0NFbzJMdWFmZmY5WDB3ZUNBZ2diU2p3Vm9TOFdhMzRYaG95Y2Rrdl9Vd3k2bk9Wa3RDNlAzVWhKTFNMWGZraUZyRFNVb1FlcEJvekZrZlpkV0ZEQ09DT3RXUHdjZ1k4?oc=5",
       "published": "Mon, 16 Nov 2026 19:01:38 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "8da2d23a3f03e7ed",
+      "title": "Why is Invesco QQQ Trust ETF sliding today? - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU0gyVlQ2UElrM2RCVUlnbm1pYWZiSzRMSnhXSU9HLWVEZnhxYjBoM0I3M1dqNlZTSVpUMmdkWjhDbVcwN01yYVlwUG1kcEg3V0xLR2F3QzRVcnFqUHVIbTlfbUliczJacmlXZmFaRWFhWFdlVVAtM251cEx3dWhBNUhuc2kwb0EzMjFoOWxIdHJ1V0VEeUQxbzlVVG1BU2hySUhDRmM5QQ?oc=5",
+      "published": "Mon, 16 Nov 2026 19:51:48 GMT",
+      "topic": "QQQ Nasdaq 100"
     }
   ],
   "candles": [
@@ -3453,22 +3550,72 @@
       "time": "2026-11-16T19:30:00+00:00",
       "close": 662.4765,
       "volume": 294645
+    },
+    {
+      "time": "2026-11-16T19:35:00+00:00",
+      "close": 662.06,
+      "volume": 376467
+    },
+    {
+      "time": "2026-11-16T19:40:00+00:00",
+      "close": 661.5299,
+      "volume": 248718
+    },
+    {
+      "time": "2026-11-16T19:45:00+00:00",
+      "close": 661.68,
+      "volume": 331566
+    },
+    {
+      "time": "2026-11-16T19:50:00+00:00",
+      "close": 663.99,
+      "volume": 28486891
+    },
+    {
+      "time": "2026-11-16T19:55:00+00:00",
+      "close": 663.99,
+      "volume": 406773
+    },
+    {
+      "time": "2026-11-16T20:00:00+00:00",
+      "close": 663.21,
+      "volume": 318714
+    },
+    {
+      "time": "2026-11-16T20:05:00+00:00",
+      "close": 663.345,
+      "volume": 225995
+    },
+    {
+      "time": "2026-11-16T20:10:00+00:00",
+      "close": 661.44,
+      "volume": 29708322
+    },
+    {
+      "time": "2026-11-16T20:15:00+00:00",
+      "close": 661.56,
+      "volume": 540928
+    },
+    {
+      "time": "2026-11-16T20:20:00+00:00",
+      "close": 661.09,
+      "volume": 726749
     }
   ],
   "status": {
-    "updated_utc": "2026-11-16T19:35:19.494797+00:00",
+    "updated_utc": "2026-11-16T20:26:10.379272+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
       "Research prototype. Not live execution, not financial advice.",
       "Public free feeds can be delayed, incomplete or unavailable."
     ],
-    "last_candle_utc": "2026-11-16T19:30:00+00:00",
-    "last_price_usd": 662.4765
+    "last_candle_utc": "2026-11-16T20:20:00+00:00",
+    "last_price_usd": 661.09
   },
   "metrics": {
-    "evaluated_directional": 2,
-    "direction_accuracy": 0.5,
+    "evaluated_directional": 3,
+    "direction_accuracy": 0.667,
     "note": "Exploratory, overlapping forecasts; NOT a valid independent out-of-sample backtest."
   }
 }
