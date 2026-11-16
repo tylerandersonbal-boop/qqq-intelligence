@@ -3,7 +3,7 @@
   "eligible_forecasts": 0,
   "excluded": {
     "no_verifiable_recording_time": 1,
-    "not_proven_forward": 2,
+    "not_proven_forward": 3,
     "unresolved": 1
   },
   "directional_predictions": 0,

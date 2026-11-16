@@ -315,8 +315,54 @@
         "vwap_note": "Unavailable: close/volume-only feed is insufficient for genuine VWAP.",
         "interpretation": "Research-only observations. These signals do not affect baseline forecasts."
       },
-      "outcome": null,
-      "why": [],
+      "outcome": {
+        "actual_return": 0.000737,
+        "direction_correct": false,
+        "evaluated_utc": "2026-11-16T18:34:08.187041+00:00"
+      },
+      "why": [
+        {
+          "why": "Why did the model predict DOWN?",
+          "answer": "Historical nearest-neighbor outcomes and observed momentum/volatility/volume features.",
+          "evidence": {
+            "momentum_15m": -0.000376,
+            "momentum_60m": -0.004983,
+            "volatility": 0.00091,
+            "volume_ratio": 0.027
+          },
+          "status": "mechanism documented"
+        },
+        {
+          "why": "Why did the market actually move this way?",
+          "answer": "Not causally identifiable from OHLCV data alone. Review timestamped order flow, broad markets and news.",
+          "evidence": {
+            "actual_return": 0.000737
+          },
+          "status": "unresolved"
+        },
+        {
+          "why": "Why might market participants have changed their orders?",
+          "answer": "Candidate factors include news surprises, liquidity, hedging, and broader market movement; none is proven here.",
+          "evidence": {
+            "news_headlines_available": 150
+          },
+          "status": "hypotheses"
+        },
+        {
+          "why": "Why did the forecast succeed or fail?",
+          "answer": "Compare observed outcome with frozen forecast; one observation cannot establish a robust explanation.",
+          "evidence": {
+            "direction_correct": false
+          },
+          "status": "requires repeated testing"
+        },
+        {
+          "why": "Why should we trust any inferred lesson?",
+          "answer": "Only if the relationship improves forward out-of-sample accuracy, calibration and cost-adjusted returns.",
+          "evidence": {},
+          "status": "not yet validated"
+        }
+      ],
       "news_snapshot_ids": [
         "96bca9ca0bacc9bf",
         "fd67fa8aaabcd555",
@@ -333,31 +379,64 @@
         "4dd3071fa6aa85a7",
         "6cf45ec56cce17b6",
         "5e0340e5a1424c02"
+      ],
+      "target_utc": "2026-11-16T17:50:00+00:00"
+    },
+    {
+      "id": "2026-11-16T18:25:00+00:00-h3",
+      "origin_utc": "2026-11-16T18:25:00+00:00",
+      "recorded_utc": "2026-11-16T18:34:08.187041+00:00",
+      "horizon_candles": 3,
+      "entry_price": 662.7100219726562,
+      "prediction": {
+        "up_probability_raw_shrunk": 0.3824,
+        "expected_return": -0.000203,
+        "matches": 30,
+        "direction": "DOWN",
+        "features": {
+          "momentum_15m": -0.002213,
+          "momentum_60m": -0.003548,
+          "volatility": 0.000672,
+          "volume_ratio": 0.074
+        }
+      },
+      "strategy_context": {
+        "status": "observed_not_predictive",
+        "rsi_14_close": 18.1,
+        "sma_10_close": 664.3866,
+        "sma_20_close": 665.2822,
+        "short_sma_above_long": false,
+        "support_20_prior_closes": 663.85,
+        "resistance_20_prior_closes": 668.18,
+        "close_breakout_above_prior_resistance": false,
+        "close_breakdown_below_prior_support": true,
+        "relative_volume_20": 0.057,
+        "vwap": null,
+        "vwap_note": "Unavailable: close/volume-only feed is insufficient for genuine VWAP.",
+        "interpretation": "Research-only observations. These signals do not affect baseline forecasts."
+      },
+      "outcome": null,
+      "why": [],
+      "news_snapshot_ids": [
+        "96bca9ca0bacc9bf",
+        "fd67fa8aaabcd555",
+        "09d9fd49b64d51a7",
+        "87451b28d0a34932",
+        "719e2eefe35ddd66",
+        "dab67ff9a7a4f8b6",
+        "3bf7ea65388a9b29",
+        "bc33953add81b09f",
+        "5be337f3be2eb190",
+        "c97e2b628cfc7d60",
+        "3d90ab53d6c52c34",
+        "ba87c444eb423a1c",
+        "4dd3071fa6aa85a7",
+        "6cf45ec56cce17b6",
+        "5e0340e5a1424c02"
       ]
     }
   ],
   "articles": [
-    {
-      "id": "676d74d42fc6c7fd",
-      "title": "Stock Market Today: Indexes Trim Losses, Manage To Score Weekly Gains Despite Strong Volatility - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZUh4NjJPT0pObkx0WXBCcTVMRXgtX1RId0RYYXNhY0xadmpGeVBKT3lKOXVnQVRuX0gyRFZHeW5jcEc5Y09IdGFfY1RyenNMWG9LakhGR0ZrV3lpeVU5V2FzMXJhTWxtdXl4RzZCYnhWa0pMNk51bDQ2VFRCMXdNOWR3QUFvUUlWTElBbi1SN1g3aTR2Y2VuLU1kWXpCUGlwaE9OWVNEbDRnbVExUnV5QzE2WDc3QS13ZVE?oc=5",
-      "published": "Fri, 13 Nov 2026 21:24:00 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
-      "id": "e511d41587daadd7",
-      "title": "Harvard Cut Nvidia by a Third and Bought AMD - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcmV1aE9qckN5S01UeTc3VHB6TmJLMGRKRUNGdU1UdG5QTVZLZng1bW1RSDNEd19jX0lyLW1wNnFNVHJRLXA1LUlzWDJOeE95dlhUdV9WMTRzYzltaTEzMGxZT2IzNWw0bzc0RzktM3hnMGJULXRIWmZubUJMOURXb0psTnJPMXNtS0R5MG1UbHhmQQ?oc=5",
-      "published": "Sat, 14 Nov 2026 14:38:00 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
-      "id": "946e8595dbef672c",
-      "title": "Nvidia: A House Of Cards (Rating Downgrade) (NASDAQ:NVDA) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVkIwa3NOQkR0YlJNdlB6NUU5YzNkaklQOFJvcVcxVnY1M1dVdUVNT2hsUFV4cmo4bTNxbmtiZXl2VWtEUnVtWGdRZFB3bU1oWEVYckpac3J5SjBLZkFwWlRnX0ZfemJUQ2Z4cDFuOTEySU1RNkFidS1mR0hnNDBXOXlncWJ0dWlq?oc=5",
-      "published": "Fri, 13 Nov 2026 16:46:19 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
     {
       "id": "5f5cd14d5bcc6e8a",
       "title": "Nasdaq futures subdued as Nvidia upheaval roils AI trade - WKZO",
@@ -1385,6 +1464,27 @@
       "title": "The Nasdaq Just Entered a Correction. Are Your ETFs All Making the Same Bet? - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaG5LUm9mc1gtYklodHhaMFdVSWVMQzBDbGVkV01yRjFKcExoOHhBSWJzZEZNOWpfY1oyTHhmNmlOOVpqQk9HYWg0ZW1yaUlOaVNrVGk4bWI5Mm1vdGN0QWdSUDhKei1lOE5Kb3BrUmlBdUNBZzlUYW5HVFRoZ0lrNFU5MUdtQnB1UHpuZnlFMlFKTnZkb0dZa1ktLTFsak9KY0E?oc=5",
       "published": "Mon, 16 Nov 2026 16:50:02 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "ba87c444eb423a1c",
+      "title": "Eight tech sell ideas and when to sell them \u2013 Oppenheimer - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQXdlTlVtd0hPXzgtSWFrdUtFZkFYN0l3dTI1NzZBZmg4SGFCUEhEaEN4SUp3VG1hZWFndXYzODVIVUFJbnZWSk1nZE5QbmlBQVlTY2NmNEFBN1FQZDFkeVF5SUV5RzZIU29IM3NVcElVbVJsMEwxaGVJU054Tlk2cE5IVTFCVWRIdmozQVpocDREUnRLOUxUNXBESFdwVXVFLTBtdUNTeUlwM3NhYWFzQ3RvN1JUOHVWRUE?oc=5",
+      "published": "Mon, 16 Nov 2026 17:16:26 GMT",
+      "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "8c3a3966ca12fef4",
+      "title": "Is an Equal-Weight S&P 500 Fund Safer Right Now Than the One You Own? - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPQzIxTVAyM09qblhxTzZJRHdFU0tINHNMVEVNby1zMUdxM1NfSHE2czJvekN2cHQxcnJvM1dfejE4QktaeDh2cVh5WFFZYzNpSkFXQkJkQ3h0S3pJZExWRFBvR05hcXNBMndrMlMwQ2tiYWd5b0YwRHNpV2NveDNMZDVjcHNDMEMwU01RTVZId0t1bjlPZGFUWkpmQU4ybFJOd29WT3duUGNTa00wcVRteE4yeV9NQndqNDNuRWU2RXBDNVdZd3lNeWV0V1NoRVlaRnl4VlVmTUhfcDFlWEl0Q2c0R2x5Mk0?oc=5",
+      "published": "Mon, 16 Nov 2026 16:11:38 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "616a55788e060ba7",
+      "title": "Prediction: Nvidia Stock Will Beat the Market Over the Next 10 Years - The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRkdZYUxRN056M0hVeUU4c1p6OGpVRzA2UnFrZ0tIVlNpSXE1MllBZ1lzV2lRWV9OVWJfVmhpVmVCUzgyYkh2TmtSWHFZSU96elVmSlFZbkNleWxwNk96M1dMSXdXS1NHS1NYTThOc25SX2tmZHFWQ29WRkF5VTNONlVHeUhmbWhqU2lDU1VQWHB5Q2pqYm5vZkxLU25xa3JheDZjRG9GSmVkU0dGRHVB?oc=5",
+      "published": "Mon, 16 Nov 2026 17:31:00 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
@@ -3138,22 +3238,72 @@
       "time": "2026-11-16T17:35:00+00:00",
       "close": 664.97,
       "volume": 253282
+    },
+    {
+      "time": "2026-11-16T17:40:00+00:00",
+      "close": 665.285,
+      "volume": 295883
+    },
+    {
+      "time": "2026-11-16T17:45:00+00:00",
+      "close": 665.66,
+      "volume": 191040
+    },
+    {
+      "time": "2026-11-16T17:50:00+00:00",
+      "close": 665.46,
+      "volume": 196370
+    },
+    {
+      "time": "2026-11-16T17:55:00+00:00",
+      "close": 664.7762,
+      "volume": 40602012
+    },
+    {
+      "time": "2026-11-16T18:00:00+00:00",
+      "close": 663.965,
+      "volume": 496364
+    },
+    {
+      "time": "2026-11-16T18:05:00+00:00",
+      "close": 664.13,
+      "volume": 309727
+    },
+    {
+      "time": "2026-11-16T18:10:00+00:00",
+      "close": 664.18,
+      "volume": 239893
+    },
+    {
+      "time": "2026-11-16T18:15:00+00:00",
+      "close": 663.85,
+      "volume": 297812
+    },
+    {
+      "time": "2026-11-16T18:20:00+00:00",
+      "close": 663.85,
+      "volume": 223320
+    },
+    {
+      "time": "2026-11-16T18:25:00+00:00",
+      "close": 662.71,
+      "volume": 388052
     }
   ],
   "status": {
-    "updated_utc": "2026-11-16T17:43:10.777645+00:00",
+    "updated_utc": "2026-11-16T18:34:08.187041+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
       "Research prototype. Not live execution, not financial advice.",
       "Public free feeds can be delayed, incomplete or unavailable."
     ],
-    "last_candle_utc": "2026-11-16T17:35:00+00:00",
-    "last_price_usd": 664.97
+    "last_candle_utc": "2026-11-16T18:25:00+00:00",
+    "last_price_usd": 662.71
   },
   "metrics": {
-    "evaluated_directional": 0,
-    "direction_accuracy": null,
+    "evaluated_directional": 1,
+    "direction_accuracy": 0.0,
     "note": "Exploratory, overlapping forecasts; NOT a valid independent out-of-sample backtest."
   }
 }
