@@ -678,30 +678,63 @@
         "e3a61c3536fe03ae"
       ],
       "target_utc": "2026-11-16T20:35:00+00:00"
+    },
+    {
+      "id": "2026-11-17T14:35:00+00:00-h3",
+      "origin_utc": "2026-11-17T14:35:00+00:00",
+      "recorded_utc": "2026-11-17T14:40:48.961821+00:00",
+      "horizon_candles": 3,
+      "entry_price": null,
+      "scoring_version": "forward_v2",
+      "prediction": {
+        "up_probability_raw_shrunk": 0.4706,
+        "expected_return": 0.000209,
+        "matches": 30,
+        "direction": "UNCERTAIN",
+        "features": {
+          "momentum_15m": -0.001306,
+          "momentum_60m": -0.003015,
+          "volatility": 0.001121,
+          "volume_ratio": 1.244
+        }
+      },
+      "strategy_context": {
+        "status": "observed_not_predictive",
+        "rsi_14_close": 34.17,
+        "sma_10_close": 661.4515,
+        "sma_20_close": 661.9898,
+        "short_sma_above_long": false,
+        "support_20_prior_closes": 660.86,
+        "resistance_20_prior_closes": 663.99,
+        "close_breakout_above_prior_resistance": false,
+        "close_breakdown_below_prior_support": false,
+        "relative_volume_20": 1.737,
+        "vwap": null,
+        "vwap_note": "Unavailable: close/volume-only feed is insufficient for genuine VWAP.",
+        "interpretation": "Research-only observations. These signals do not affect baseline forecasts."
+      },
+      "outcome": null,
+      "why": [],
+      "news_snapshot_ids": [
+        "1c43293963771429",
+        "b6aaf294536e1db8",
+        "96bca9ca0bacc9bf",
+        "4c329e52db5ac0a3",
+        "87451b28d0a34932",
+        "09d9fd49b64d51a7",
+        "3bf7ea65388a9b29",
+        "63336f8bc1f980c0",
+        "719e2eefe35ddd66",
+        "a20099be8de72018",
+        "2d233f48d4b22964",
+        "fd67fa8aaabcd555",
+        "1e742b1875a3deae",
+        "7782f509fe8da9ad",
+        "10770a034e7a0c0e"
+      ]
     }
   ],
   "articles": [
-    {
-      "id": "d39b7654fe02e50e",
-      "title": "Huang's exit hits Nvidia and chip peers while the average S&P 500 stock rises - Quantisnow",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPelU3SUFTai1DejN4YzQ4bkZidEwzWTlLNnE2dzhvWmIydUQxR2JlcVZqVGRQVXVqVHVjRXhpbjM4REd0aVRSclU5X2ZMbHA2MFlONFpDcGVZVGJYQW5SakJFMWFWMGh4UC03QUVqTFIzaEc4QVNKZ0YwNnp0Ym1oZkkwazZUWlNhVk1hRFpEWUFpSnpQakp5QjdDckpYYWZqeVU3YWhGVlNtVWc?oc=5",
-      "published": "Fri, 13 Nov 2026 22:17:07 GMT",
-      "topic": "QQQ Nasdaq 100"
-    },
-    {
-      "id": "0ecb7e383521790c",
-      "title": "Nov. 25 Will Be a Critical Day for the Stock Market - AOL.com",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1XUW1iZldTeHlMU2tMbkUxZElrU25OUThFQUJPcXI4bDdPN0o2TmN1YU9ObExFQzhjNVk4WW9aS3R0a0JMWER4ZGxOanBJMmViNzlRbVZSTXJxMEttZ3NlaGtwbnRUaG42MUxra2NxLWNCcnRQdW9COA?oc=5",
-      "published": "Sun, 15 Nov 2026 03:20:00 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
-      "id": "6cbef7d1755d5392",
-      "title": "Nvidia: Leadership Uncertainty Is Real But I'm Buying The Fear (NASDAQ:NVDA) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSkxkRFk5X3lYbzhiMFU0ektaa28tV1lqWlBzSEQzX094dUt0dzE1S3ROZElRa2E5OElQNHFXeU5OeF9TOFFwUUJaLWUtOHF4eGduUVllczVKekxxMG1UVHpGOE54OTJ0cE9ZU2s3Y3p5UzdnNEdBSV84SDN5V19lUWpDcUNOVmhmbWQ1Tlo0NDRlMmd4WHVaN0hNNTFDdkIzdVk0?oc=5",
-      "published": "Sun, 15 Nov 2026 14:00:00 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
     {
       "id": "f928684794096ade",
       "title": "Accelevation Holdings Corp. - Class A ordinary shares (NQ: ACCV - FinancialContent",
@@ -916,7 +949,7 @@
       "id": "818d14721fee4a71",
       "title": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51M3YyYUhDNzU1Y2Rjb1RZakJNc2s1NWlnbHBYS1RWTTJyNnpzNUFiUEVJQmRoSElldkd0Z3Bva0s1UURoUFpJcDVxZnRJZXdDcGc?oc=5",
-      "published": "Tue, 17 Nov 2026 05:30:03 GMT",
+      "published": "Mon, 16 Nov 2026 16:43:02 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     },
     {
@@ -1730,399 +1763,30 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa0xNQkRlWWc4eGtzVG54WDR0dVdvRHE1QjhYMWZZYU1ORU1nS2sxS1JMM3V3UXNORjUyWHZNZUlHem82MkFKNFBic3BHejdwZmtybWk1V1ZzUFRjR3k2MFJaMkdBbnAzUmxxSldKRTJSODFRT1lycjBBYXNoVjd5b2lXMXVPN3J4b2lUWmpvNnhiVlFjUTBzUnpVb0NrUHBGNlo4c19rTWdCRVREWXljYkd3?oc=5",
       "published": "Tue, 17 Nov 2026 13:07:00 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "63336f8bc1f980c0",
+      "title": "The Nasdaq-100 Is Headed for Its Worst November Since 2008 - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQLWhZWDRZRlFUdVZFbDgxOW54WkZNRW9mMk9sQ0FaNERyRUpLTHR3RlVZSVhmT3o4WFRnek1obm02Q1ZiVWpqZDAwMERnZGNLOHdFdWFWYklkR1A4TkhuaEd4dFUteGE0UHF5Z3FnM1dzdTQyempvT3E4aHE0enhKbDNHN2lMQkVGeGhoNHd5OFBfYXNGZEVWR2toR1dIa3UySExVOQ?oc=5",
+      "published": "Tue, 17 Nov 2026 12:48:00 GMT",
+      "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "7782f509fe8da9ad",
+      "title": "The Stock Market Is Primed for an Explosive Week. Nvidia and the Federal Reserve May Decide What Comes Next. - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOWkNZd29iUTdLbzNVRmpiUnhIUjVPbk1jdk9EdV9pT0Njd2RESUlIcE8yeUk3cjB5eWJPRGtUNW5MYnFDUWtOb2NhQkFGOXotWU9vN1NHb3hyZDZhNE55M3BGSy15UHZJWmV6bEZIOWR0bjhuZ1ZXUWRnRVZIemdqT25TZndnVHpTbnp2NnFrX0dRNUgtRHRFZnloUExsRnBzNl9hSTBSaVpqdjBwZGhFVGM2cUZTQ2lRTmtEU2s3cGk5S2lHdlUyRnp3clR6eXhQOEtjYlpzeXJWM0FyNThsb2tqdzl1ODRZT1kzbTdTNHlkbk1LVzl2WWwxU1dVZXE3Um9pOUplVVdoR2NaZjZVRjI2dnp4aWtFcU9vMA?oc=5",
+      "published": "Tue, 17 Nov 2026 10:32:24 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "ccf24738d56de4d9",
+      "title": "Stock Market Today: Nvidia's 26% Plunge Puts Wall Street on Edge Ahead of Earnings Tonight - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUC1BMHZNSTRZLXBhbk5XeVE0akZFZThPMW8xZUlqZTVodE9SMFA3MFdYUWI3cE1HRktnWmhHdFh3U3lNYm9EMF9MYUtGajBPY2FGbFJpZENsTjFWRGU2QUdxMWdJbGNEckRXTFFBa3M2a2pNalNoRm4tMUdqbk5qNk1rSFlpajZxNlM1M3RRbzBRNUl6WVhuU08zZkEteklwQm55R00ySWNBczhrMUxUdWpiUHE1YjNEeTExUWtIQkVFb2RYc3BaVE5Lcw?oc=5",
+      "published": "Tue, 17 Nov 2026 14:28:00 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
   "candles": [
-    {
-      "time": "2026-11-10T14:30:00+00:00",
-      "close": 673.4101,
-      "volume": 4538266
-    },
-    {
-      "time": "2026-11-10T14:35:00+00:00",
-      "close": 673.83,
-      "volume": 810157
-    },
-    {
-      "time": "2026-11-10T14:40:00+00:00",
-      "close": 675.23,
-      "volume": 807277
-    },
-    {
-      "time": "2026-11-10T14:45:00+00:00",
-      "close": 674.015,
-      "volume": 669764
-    },
-    {
-      "time": "2026-11-10T14:50:00+00:00",
-      "close": 675.84,
-      "volume": 566125
-    },
-    {
-      "time": "2026-11-10T14:55:00+00:00",
-      "close": 679.07,
-      "volume": 744078
-    },
-    {
-      "time": "2026-11-10T15:00:00+00:00",
-      "close": 679.97,
-      "volume": 880711
-    },
-    {
-      "time": "2026-11-10T15:05:00+00:00",
-      "close": 679.73,
-      "volume": 543689
-    },
-    {
-      "time": "2026-11-10T15:10:00+00:00",
-      "close": 679.18,
-      "volume": 398387
-    },
-    {
-      "time": "2026-11-10T15:15:00+00:00",
-      "close": 677.93,
-      "volume": 543905
-    },
-    {
-      "time": "2026-11-10T15:20:00+00:00",
-      "close": 676.25,
-      "volume": 435171
-    },
-    {
-      "time": "2026-11-10T15:25:00+00:00",
-      "close": 676.5,
-      "volume": 729507
-    },
-    {
-      "time": "2026-11-10T15:30:00+00:00",
-      "close": 677.5978,
-      "volume": 339346
-    },
-    {
-      "time": "2026-11-10T15:35:00+00:00",
-      "close": 675.594,
-      "volume": 411480
-    },
-    {
-      "time": "2026-11-10T15:40:00+00:00",
-      "close": 674.14,
-      "volume": 374088
-    },
-    {
-      "time": "2026-11-10T15:45:00+00:00",
-      "close": 673.38,
-      "volume": 499596
-    },
-    {
-      "time": "2026-11-10T15:50:00+00:00",
-      "close": 672.55,
-      "volume": 821953
-    },
-    {
-      "time": "2026-11-10T15:55:00+00:00",
-      "close": 672.455,
-      "volume": 782436
-    },
-    {
-      "time": "2026-11-10T16:00:00+00:00",
-      "close": 674.235,
-      "volume": 482863
-    },
-    {
-      "time": "2026-11-10T16:05:00+00:00",
-      "close": 674.645,
-      "volume": 1349597
-    },
-    {
-      "time": "2026-11-10T16:10:00+00:00",
-      "close": 674.0,
-      "volume": 207348
-    },
-    {
-      "time": "2026-11-10T16:15:00+00:00",
-      "close": 673.87,
-      "volume": 412463
-    },
-    {
-      "time": "2026-11-10T16:20:00+00:00",
-      "close": 673.9801,
-      "volume": 211715
-    },
-    {
-      "time": "2026-11-10T16:25:00+00:00",
-      "close": 673.38,
-      "volume": 242126
-    },
-    {
-      "time": "2026-11-10T16:30:00+00:00",
-      "close": 673.41,
-      "volume": 437041
-    },
-    {
-      "time": "2026-11-10T16:35:00+00:00",
-      "close": 671.6701,
-      "volume": 338716
-    },
-    {
-      "time": "2026-11-10T16:40:00+00:00",
-      "close": 672.25,
-      "volume": 297977
-    },
-    {
-      "time": "2026-11-10T16:45:00+00:00",
-      "close": 670.67,
-      "volume": 322319
-    },
-    {
-      "time": "2026-11-10T16:50:00+00:00",
-      "close": 670.63,
-      "volume": 402134
-    },
-    {
-      "time": "2026-11-10T16:55:00+00:00",
-      "close": 669.85,
-      "volume": 332557
-    },
-    {
-      "time": "2026-11-10T17:00:00+00:00",
-      "close": 670.4545,
-      "volume": 297302
-    },
-    {
-      "time": "2026-11-10T17:05:00+00:00",
-      "close": 670.4693,
-      "volume": 198007
-    },
-    {
-      "time": "2026-11-10T17:10:00+00:00",
-      "close": 670.995,
-      "volume": 215880
-    },
-    {
-      "time": "2026-11-10T17:15:00+00:00",
-      "close": 671.15,
-      "volume": 221453
-    },
-    {
-      "time": "2026-11-10T17:20:00+00:00",
-      "close": 669.61,
-      "volume": 208512
-    },
-    {
-      "time": "2026-11-10T17:25:00+00:00",
-      "close": 670.12,
-      "volume": 458813
-    },
-    {
-      "time": "2026-11-10T17:30:00+00:00",
-      "close": 670.13,
-      "volume": 287113
-    },
-    {
-      "time": "2026-11-10T17:35:00+00:00",
-      "close": 667.81,
-      "volume": 592411
-    },
-    {
-      "time": "2026-11-10T17:40:00+00:00",
-      "close": 668.09,
-      "volume": 372173
-    },
-    {
-      "time": "2026-11-10T17:45:00+00:00",
-      "close": 668.5345,
-      "volume": 232135
-    },
-    {
-      "time": "2026-11-10T17:50:00+00:00",
-      "close": 669.29,
-      "volume": 286350
-    },
-    {
-      "time": "2026-11-10T17:55:00+00:00",
-      "close": 669.99,
-      "volume": 327407
-    },
-    {
-      "time": "2026-11-10T18:00:00+00:00",
-      "close": 669.26,
-      "volume": 225788
-    },
-    {
-      "time": "2026-11-10T18:05:00+00:00",
-      "close": 669.375,
-      "volume": 152460
-    },
-    {
-      "time": "2026-11-10T18:10:00+00:00",
-      "close": 669.0,
-      "volume": 148419
-    },
-    {
-      "time": "2026-11-10T18:15:00+00:00",
-      "close": 669.03,
-      "volume": 119231
-    },
-    {
-      "time": "2026-11-10T18:20:00+00:00",
-      "close": 668.8401,
-      "volume": 410533
-    },
-    {
-      "time": "2026-11-10T18:25:00+00:00",
-      "close": 669.63,
-      "volume": 143136
-    },
-    {
-      "time": "2026-11-10T18:30:00+00:00",
-      "close": 670.41,
-      "volume": 189987
-    },
-    {
-      "time": "2026-11-10T18:35:00+00:00",
-      "close": 670.09,
-      "volume": 168839
-    },
-    {
-      "time": "2026-11-10T18:40:00+00:00",
-      "close": 670.56,
-      "volume": 264196
-    },
-    {
-      "time": "2026-11-10T18:45:00+00:00",
-      "close": 670.58,
-      "volume": 157253
-    },
-    {
-      "time": "2026-11-10T18:50:00+00:00",
-      "close": 671.5507,
-      "volume": 155009
-    },
-    {
-      "time": "2026-11-10T18:55:00+00:00",
-      "close": 671.295,
-      "volume": 204616
-    },
-    {
-      "time": "2026-11-10T19:00:00+00:00",
-      "close": 671.58,
-      "volume": 141329
-    },
-    {
-      "time": "2026-11-10T19:05:00+00:00",
-      "close": 672.619,
-      "volume": 324423
-    },
-    {
-      "time": "2026-11-10T19:10:00+00:00",
-      "close": 671.46,
-      "volume": 282760
-    },
-    {
-      "time": "2026-11-10T19:15:00+00:00",
-      "close": 671.86,
-      "volume": 211979
-    },
-    {
-      "time": "2026-11-10T19:20:00+00:00",
-      "close": 671.83,
-      "volume": 107143
-    },
-    {
-      "time": "2026-11-10T19:25:00+00:00",
-      "close": 672.0,
-      "volume": 168639
-    },
-    {
-      "time": "2026-11-10T19:30:00+00:00",
-      "close": 672.4753,
-      "volume": 128823
-    },
-    {
-      "time": "2026-11-10T19:35:00+00:00",
-      "close": 671.435,
-      "volume": 256176
-    },
-    {
-      "time": "2026-11-10T19:40:00+00:00",
-      "close": 671.91,
-      "volume": 101682
-    },
-    {
-      "time": "2026-11-10T19:45:00+00:00",
-      "close": 673.295,
-      "volume": 157814
-    },
-    {
-      "time": "2026-11-10T19:50:00+00:00",
-      "close": 672.55,
-      "volume": 158024
-    },
-    {
-      "time": "2026-11-10T19:55:00+00:00",
-      "close": 672.645,
-      "volume": 149157
-    },
-    {
-      "time": "2026-11-10T20:00:00+00:00",
-      "close": 671.66,
-      "volume": 243467
-    },
-    {
-      "time": "2026-11-10T20:05:00+00:00",
-      "close": 672.25,
-      "volume": 293681
-    },
-    {
-      "time": "2026-11-10T20:10:00+00:00",
-      "close": 673.07,
-      "volume": 185741
-    },
-    {
-      "time": "2026-11-10T20:15:00+00:00",
-      "close": 673.0701,
-      "volume": 176592
-    },
-    {
-      "time": "2026-11-10T20:20:00+00:00",
-      "close": 674.065,
-      "volume": 311217
-    },
-    {
-      "time": "2026-11-10T20:25:00+00:00",
-      "close": 674.18,
-      "volume": 324631
-    },
-    {
-      "time": "2026-11-10T20:30:00+00:00",
-      "close": 673.84,
-      "volume": 248619
-    },
-    {
-      "time": "2026-11-10T20:35:00+00:00",
-      "close": 673.558,
-      "volume": 373963
-    },
-    {
-      "time": "2026-11-10T20:40:00+00:00",
-      "close": 673.38,
-      "volume": 380095
-    },
-    {
-      "time": "2026-11-10T20:45:00+00:00",
-      "close": 674.61,
-      "volume": 406096
-    },
-    {
-      "time": "2026-11-10T20:50:00+00:00",
-      "close": 675.3,
-      "volume": 1304795
-    },
-    {
-      "time": "2026-11-10T20:55:00+00:00",
-      "close": 674.81,
-      "volume": 1155557
-    },
     {
       "time": "2026-11-11T14:30:00+00:00",
       "close": 687.19,
@@ -3684,21 +3348,26 @@
       "volume": 3286771
     },
     {
-      "time": "2026-11-16T21:00:00+00:00",
-      "close": 661.75,
-      "volume": 0
+      "time": "2026-11-17T14:30:00+00:00",
+      "close": 660.86,
+      "volume": 3296776
+    },
+    {
+      "time": "2026-11-17T14:35:00+00:00",
+      "close": 661.345,
+      "volume": 1392338
     }
   ],
   "status": {
-    "updated_utc": "2026-11-17T13:43:36.722655+00:00",
+    "updated_utc": "2026-11-17T14:40:48.961821+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
       "Research prototype. Not live execution, not financial advice.",
       "Public free feeds can be delayed, incomplete or unavailable."
     ],
-    "last_candle_utc": "2026-11-16T21:00:00+00:00",
-    "last_price_usd": 661.75
+    "last_candle_utc": "2026-11-17T14:35:00+00:00",
+    "last_price_usd": 661.345
   },
   "metrics": {
     "evaluated_directional": 0,
