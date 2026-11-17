@@ -1,6 +1,6 @@
 {
-  "status": "insufficient_verified_forward_data",
-  "eligible_forecasts": 0,
+  "status": "forward_observations_only",
+  "eligible_forecasts": 1,
   "excluded": {
     "legacy_not_forward_verified": 7,
     "unresolved": 1
@@ -8,7 +8,7 @@
   "directional_predictions": 0,
   "directional_accuracy": null,
   "always_up_accuracy_same_subset": null,
-  "brier_score": null,
-  "coverage": null,
+  "brier_score": 0.2215,
+  "coverage": 0.0,
   "warning": "Overlapping horizons are correlated. This is descriptive paper research, not an independent backtest or evidence of trading profitability."
 }
