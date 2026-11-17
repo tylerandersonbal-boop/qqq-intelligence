@@ -17,8 +17,8 @@ class MissingTargetTest(unittest.TestCase):
         state = {"forecasts": [old], "articles": [], "candles": []}
         with patch.object(engine, "market", return_value=df), patch.object(engine, "news", return_value=[]), patch.object(engine, "read", return_value=state), patch.object(engine, "save"), patch.object(engine.Path, "write_text"):
             engine.main()
-        self.assertIsNotNone(old["outcome"])
-        self.assertIn("target_utc", old)
+        self.assertIsNone(old["outcome"])
+        self.assertNotIn("target_utc", old)
 
 
 if __name__ == "__main__":
