@@ -682,13 +682,6 @@
   ],
   "articles": [
     {
-      "id": "46e7dc749eb58dfd",
-      "title": "JPMorgan's Popular ETF Offers a Path to Earn Over $4,000 in Monthly Retirement Income - WLUK",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSjFmb01kS1pxcUdiM0wwdGNzbk9sUVpsWExiQ0szMnhrSDNJTVNpeUVXT0N6cXF0ckF6TTdtUlVLekVoN0dhR1lhb0VYaGVFMGtHdkJPUWY3OGxVM1lWYS03ZWxtTDBnZURLU3hBOVlmR05zQ0dMaFlWZFM4UzRhTmhWYjB4Zw?oc=5",
-      "published": "Sat, 14 Nov 2026 13:06:23 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
       "id": "14356900878f0c21",
       "title": "QQQ Is in a Correction (Down 10%). Should You Buy More of This Popular Tech ETF? - AOL.com",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBvaWlVMEcybUxxMTJ3bGRTN0hHaVNlU1FEaGdfYk1DejFqZkpQdGh6Y3dXM2dhb3N1MVVGRUdjY1RBYV9FWjUyV0hfbGpHZXh4U1k0ZGFLdHRPdW9ocWtjbHRsM1h4MzV6U0lfNDR6Qy1Mdkh6anpMLVdB?oc=5",
@@ -1729,6 +1722,13 @@
       "title": "Nasdaq 100 back below 28,000 - Nvidia faces more selling, Apple hits record highs [Video] - FXStreet",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRlU0SUZxYXBvQkZNMjgzX3ktWktxcDFFUl85TVhDOFlkVV91bV9SOGNGZnhKVmdrLUN0NlkxdEk4Sy13LWZoQVRWeDZwdWNrX0gtbER5R3NJUnNIRGVyVkRnQ3AtbFEwS0J3bHVKRklVTVdja1hTbC1DeS1uRGZQM3pHSVA3WHlTeXlWNXhDM2xPYnJleWZkN1FzQUNvcFFOWVVwcGFXb0xyR1E1WGpFeGtwdktwV18yYU1MWENURUI2dzdNRGc?oc=5",
       "published": "Mon, 16 Nov 2026 17:17:16 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "d0d22771584025db",
+      "title": "Dolphin Daily | Nvidia's Out-Year Shipments Slashed, Remote-Compute Loophole Shut: No End to Chip Woes? - Longbridge",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwSF9mUEVfdFVKWmh4STZDVlRkNE1DQm5CSGlOYU1xeHZfekUzMEJLUE02RGRNakIyd29SRGVLQlVsOVFDLXZib191eXdubEE?oc=5",
+      "published": "Tue, 17 Nov 2026 00:59:12 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
@@ -3690,7 +3690,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-17T05:25:55.949798+00:00",
+    "updated_utc": "2026-11-17T06:27:23.602940+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
