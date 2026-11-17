@@ -32,16 +32,19 @@ def score(forecasts):
         else:
             seen.add(key)
             origin = timestamp(rec.get("origin_utc"))
+            entry = timestamp(rec.get("entry_bar_utc"))
             recorded = timestamp(rec.get("recorded_utc"))
             target = timestamp(rec.get("target_utc"))
             outcome = rec.get("outcome") or {}
             probability = (rec.get("prediction") or {}).get("up_probability_raw_shrunk")
             direction = (rec.get("prediction") or {}).get("direction")
-            if not origin or not recorded:
+            if rec.get("scoring_version") != "forward_v2":
+                reason = "legacy_not_forward_verified"
+            elif not origin or not recorded:
                 reason = "no_verifiable_recording_time"
             elif not target or not outcome or "actual_return" not in outcome:
                 reason = "unresolved"
-            elif not (recorded <= origin + dt.timedelta(minutes=5) and recorded < target and origin < target):
+            elif not entry or not (origin < recorded <= entry and target == entry + dt.timedelta(minutes=15) and recorded < target and timestamp(outcome.get("evaluated_utc")) and timestamp(outcome.get("evaluated_utc")) >= target + dt.timedelta(minutes=5)):
                 reason = "not_proven_forward"
             elif direction not in ("UP", "DOWN", "UNCERTAIN"):
                 reason = "invalid_direction"
