@@ -786,7 +786,7 @@
       "origin_utc": "2026-11-17T15:25:00+00:00",
       "recorded_utc": "2026-11-17T15:33:41.735402+00:00",
       "horizon_candles": 3,
-      "entry_price": null,
+      "entry_price": 654.9500122070312,
       "scoring_version": "forward_v2",
       "prediction": {
         "up_probability_raw_shrunk": 0.5294,
@@ -815,6 +815,108 @@
         "vwap_note": "Unavailable: close/volume-only feed is insufficient for genuine VWAP.",
         "interpretation": "Research-only observations. These signals do not affect baseline forecasts."
       },
+      "outcome": {
+        "actual_return": -0.011665,
+        "direction_correct": null,
+        "evaluated_utc": "2026-11-17T16:36:51.260536+00:00"
+      },
+      "why": [
+        {
+          "why": "Why did the model predict UNCERTAIN?",
+          "answer": "Historical nearest-neighbor outcomes and observed momentum/volatility/volume features.",
+          "evidence": {
+            "momentum_15m": -0.002016,
+            "momentum_60m": -0.005197,
+            "volatility": 0.001525,
+            "volume_ratio": 2.613
+          },
+          "status": "mechanism documented"
+        },
+        {
+          "why": "Why did the market actually move this way?",
+          "answer": "Not causally identifiable from OHLCV data alone. Review timestamped order flow, broad markets and news.",
+          "evidence": {
+            "actual_return": -0.011665
+          },
+          "status": "unresolved"
+        },
+        {
+          "why": "Why might market participants have changed their orders?",
+          "answer": "Candidate factors include news surprises, liquidity, hedging, and broader market movement; none is proven here.",
+          "evidence": {
+            "news_headlines_available": 150
+          },
+          "status": "hypotheses"
+        },
+        {
+          "why": "Why did the forecast succeed or fail?",
+          "answer": "Compare observed outcome with frozen forecast; one observation cannot establish a robust explanation.",
+          "evidence": {
+            "direction_correct": null
+          },
+          "status": "requires repeated testing"
+        },
+        {
+          "why": "Why should we trust any inferred lesson?",
+          "answer": "Only if the relationship improves forward out-of-sample accuracy, calibration and cost-adjusted returns.",
+          "evidence": {},
+          "status": "not yet validated"
+        }
+      ],
+      "news_snapshot_ids": [
+        "1c43293963771429",
+        "b6aaf294536e1db8",
+        "96bca9ca0bacc9bf",
+        "4c329e52db5ac0a3",
+        "09d9fd49b64d51a7",
+        "63336f8bc1f980c0",
+        "87451b28d0a34932",
+        "719e2eefe35ddd66",
+        "a20099be8de72018",
+        "2d233f48d4b22964",
+        "fd67fa8aaabcd555",
+        "3bf7ea65388a9b29",
+        "1e742b1875a3deae",
+        "7782f509fe8da9ad",
+        "2cc91dea781d9b51"
+      ],
+      "entry_bar_utc": "2026-11-17T15:35:00+00:00",
+      "target_utc": "2026-11-17T15:50:00+00:00"
+    },
+    {
+      "id": "2026-11-17T16:30:00+00:00-h3",
+      "origin_utc": "2026-11-17T16:30:00+00:00",
+      "recorded_utc": "2026-11-17T16:36:51.260536+00:00",
+      "horizon_candles": 3,
+      "entry_price": null,
+      "scoring_version": "forward_v2",
+      "prediction": {
+        "up_probability_raw_shrunk": 0.4118,
+        "expected_return": -0.001211,
+        "matches": 30,
+        "direction": "DOWN",
+        "features": {
+          "momentum_15m": -0.001904,
+          "momentum_60m": -0.004355,
+          "volatility": 0.003458,
+          "volume_ratio": 4.393
+        }
+      },
+      "strategy_context": {
+        "status": "observed_not_predictive",
+        "rsi_14_close": 36.24,
+        "sma_10_close": 652.8382,
+        "sma_20_close": 655.4648,
+        "short_sma_above_long": false,
+        "support_20_prior_closes": 647.31,
+        "resistance_20_prior_closes": 662.47,
+        "close_breakout_above_prior_resistance": false,
+        "close_breakdown_below_prior_support": false,
+        "relative_volume_20": 5.097,
+        "vwap": null,
+        "vwap_note": "Unavailable: close/volume-only feed is insufficient for genuine VWAP.",
+        "interpretation": "Research-only observations. These signals do not affect baseline forecasts."
+      },
       "outcome": null,
       "why": [],
       "news_snapshot_ids": [
@@ -837,13 +939,6 @@
     }
   ],
   "articles": [
-    {
-      "id": "49752c60921652e8",
-      "title": "Stock Market Falls But Nasdaq Holds Key Level; Anthropic IPO, Nvidia Earnings Loom - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWlNKVkRyWWxPUEhTTW1lekhnU2h4anExcDZYQzlWV2VSalNTc3RwRXp0Y3VkbGFyNWRnbm5BaXNoTXc3elhvNnNoNnlNVkxZUHhfbVdjZTJKcHkyb1JVUmhDOWRmQU8xT1dHMk9RelppakJjblpyUjBjcUUyYTNXMDNEZUpsanI4NFh3LUlUTDRYUGhfdjlVVURkMEVBQjg0ZWFZellwT2Rvel9NT0hMVk5GNTg4OExUTDBSUGNSeFBmNEVhWVNpVlVCMEEzQy12NEE?oc=5",
-      "published": "Fri, 13 Nov 2026 22:36:00 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
     {
       "id": "f18b88f91032cb45",
       "title": "Wall Street\u2019s Wild Ride Delivers Big Paydays and Bigger Bruises - Bloomberg.com",
@@ -1885,6 +1980,13 @@
       "title": "Apple Is Now the World\u2019s Largest Company. Time to Buy the Stock? - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVlRwQVNjLVlwRWdabHdoT28wMW5TOFJjbTl5VXptd2c0SFplZk9rRWh4a01sZHJ4aC16VXU0RHVpTTJodjFFOGxyV0Y3RnBEWkJra0ZWRU9qVjg0Q3Ixb1k1MzhMWEdZQ3Y5YVJZcWVPV2phQ2NxT1BvQ2JGa1BjaUdCRmx4U3R1NzdvT2pwRE5lcG4wQVc0dFRhbVFYZ2hsUU1UYlFqYw?oc=5",
       "published": "Tue, 17 Nov 2026 14:45:00 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "c3f5517b1f56defc",
+      "title": "Market Movers blog: US markets fall again at open after week rocked by Nvidia scandal and Microsoft outage - Investment Week",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
+      "published": "Mon, 16 Nov 2026 08:00:00 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
@@ -3508,18 +3610,83 @@
       "time": "2026-11-17T15:25:00+00:00",
       "close": 658.42,
       "volume": 11615932
+    },
+    {
+      "time": "2026-11-17T15:30:00+00:00",
+      "close": 655.5,
+      "volume": 1072098
+    },
+    {
+      "time": "2026-11-17T15:35:00+00:00",
+      "close": 654.95,
+      "volume": 1007531
+    },
+    {
+      "time": "2026-11-17T15:40:00+00:00",
+      "close": 651.585,
+      "volume": 14848063
+    },
+    {
+      "time": "2026-11-17T15:45:00+00:00",
+      "close": 648.938,
+      "volume": 1339321
+    },
+    {
+      "time": "2026-11-17T15:50:00+00:00",
+      "close": 647.31,
+      "volume": 17369554
+    },
+    {
+      "time": "2026-11-17T15:55:00+00:00",
+      "close": 653.0999,
+      "volume": 1475833
+    },
+    {
+      "time": "2026-11-17T16:00:00+00:00",
+      "close": 654.7588,
+      "volume": 1385699
+    },
+    {
+      "time": "2026-11-17T16:05:00+00:00",
+      "close": 655.67,
+      "volume": 20854503
+    },
+    {
+      "time": "2026-11-17T16:10:00+00:00",
+      "close": 654.99,
+      "volume": 21264580
+    },
+    {
+      "time": "2026-11-17T16:15:00+00:00",
+      "close": 653.89,
+      "volume": 594599
+    },
+    {
+      "time": "2026-11-17T16:20:00+00:00",
+      "close": 653.39,
+      "volume": 22259834
+    },
+    {
+      "time": "2026-11-17T16:25:00+00:00",
+      "close": 653.69,
+      "volume": 22751283
+    },
+    {
+      "time": "2026-11-17T16:30:00+00:00",
+      "close": 652.645,
+      "volume": 46209991
     }
   ],
   "status": {
-    "updated_utc": "2026-11-17T15:33:41.735402+00:00",
+    "updated_utc": "2026-11-17T16:36:51.260536+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
       "Research prototype. Not live execution, not financial advice.",
       "Public free feeds can be delayed, incomplete or unavailable."
     ],
-    "last_candle_utc": "2026-11-17T15:25:00+00:00",
-    "last_price_usd": 658.42
+    "last_candle_utc": "2026-11-17T16:30:00+00:00",
+    "last_price_usd": 652.645
   },
   "metrics": {
     "evaluated_directional": 0,
