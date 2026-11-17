@@ -5,11 +5,12 @@ from scripts.accountability import score
 
 def sample(**changes):
     record = {
-        "id": "a", "origin_utc": "2026-11-13T14:30:00+00:00",
+        "id": "a", "scoring_version": "forward_v2", "origin_utc": "2026-11-13T14:30:00+00:00",
+        "entry_bar_utc": "2026-11-13T14:35:00+00:00",
         "recorded_utc": "2026-11-13T14:30:30+00:00",
-        "target_utc": "2026-11-13T14:45:00+00:00",
+        "target_utc": "2026-11-13T14:50:00+00:00",
         "prediction": {"direction": "UP", "up_probability_raw_shrunk": 0.7},
-        "outcome": {"actual_return": 0.01},
+        "outcome": {"actual_return": 0.01, "evaluated_utc": "2026-11-13T14:55:00+00:00"},
     }
     record.update(changes)
     return record
