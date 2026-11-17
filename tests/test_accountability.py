@@ -5,7 +5,8 @@ from scripts.accountability import score
 
 def sample(**changes):
     record = {
-        "id": "a", "scoring_version": "forward_v2", "origin_utc": "2026-11-13T14:30:00+00:00",\n        "entry_bar_utc": "2026-11-13T14:35:00+00:00",
+        "id": "a", "scoring_version": "forward_v2", "origin_utc": "2026-11-13T14:30:00+00:00",
+        "entry_bar_utc": "2026-11-13T14:35:00+00:00",
         "recorded_utc": "2026-11-13T14:30:30+00:00",
         "target_utc": "2026-11-13T14:50:00+00:00",
         "prediction": {"direction": "UP", "up_probability_raw_shrunk": 0.7},
