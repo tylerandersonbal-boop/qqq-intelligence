@@ -682,41 +682,6 @@
   ],
   "articles": [
     {
-      "id": "d0dade29a1b5df2e",
-      "title": "Want to Invest in Top Growth Stocks Like Amazon, Apple, and Microsoft but Avoid Nvidia? Consider This Low-Cost Vanguard ETF That\u2019s Up 24.8% This Year. - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOUzRJY1ljTU1BbmJLSUhpZXFiUFZuVjJIazZZeFh5Z2VObWtveUhTSkxndjA2ZlVnTnFVRDd5VWM2V1dxcG1URnlpMFBNODdEVFU5SG9qV0RSemI2UndvLTNuZmlvdXI2U1FJYnlMemFCVG96d3RSNTM2b3hNN1pSMkpibHEtYjJmMUlnZTdsLWlESnE1TzZ3VmtpNTJZT2hwSUNMakpvcHNqSEg1YTdqaXdxZEJXU3BYNE1QQXdZdjBmYzYtcWFKelJVY2t1aEY1OUdDSHFlQXNHZzBqX3V5WjZpTEVzNkFieHVhY1pySnI3eXhyTEdrbWExeURYNXNBemxwbG1YdERxUlV4SzVHbURRckY4bUk?oc=5",
-      "published": "Sun, 15 Nov 2026 11:30:00 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
-      "id": "4bc5122da69516c6",
-      "title": "AMD Just Beat Nvidia by the Widest Margin Since 1999 - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVGh3Q2U0ZXo2cGxDd3g2NWtvSlcyMzZta01oaTF1T2pUNFpQYXh4N0dWWW55aGhFdVRVWmxLUmpEZGk5M21ZOGtNaUhWcUN0ZG1DZHYzbkxmMXdMSWlfblMyNEVNRG5nNFFRWXBNVkl3VjhYdGpFZmNzR0RvWWZTM185SWRRbTllRExvZFNjd1BVd1JRZjhaNGFRSXJSSU5LeWMtazF2ZjdHeW9nTXphSjZLd1B2b216QzRvdUctX0JQQ2NJdkFvelUwVQ?oc=5",
-      "published": "Sat, 14 Nov 2026 15:07:00 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
-      "id": "9f04303dd54ea722",
-      "title": "The Week That Proved AI Is Real: MSFT +16%, AMZN +10%, META -10%, AAPL -4% - Winners, Losers and Key Takeaways - TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdDlGT0RCTjZrNnJHZGpMV1BJUHY5TFVTR0RQWlBPUTV6ZUtrMy1Yd3ptRjVhcDM1WjJNMTg2T0lwS3FGM3FUN01BaWxYNUtrdDdFb1FQTXpqTWF4YXNJa1VlZUowN0lZVXc1TmkwamMwMDRJalIzZG5QS2VOVWNYVkJJOENBWjBHeGlIdlNyVzRONmo1MzdlamVZMGxqTVg3c3ZrdmNxNnd2all5OFJHbHViMjlxZllCNTA0WEZzbGNudnpoXy1wSDJSWFRFWXBmUzVPRFB4a0w?oc=5",
-      "published": "Sat, 14 Nov 2026 20:04:26 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
-      "id": "018235026fe860e8",
-      "title": "Nvidia: Jensen Left, The Backlog Didn't (Rating Downgrade) (NASDAQ:NVDA) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTUkyMmdjdUxheGI3ZnQyeWNpU3hGU2RCWGhBX0xsU1R2di1tUUtlNkp0N2hGRHh0X0lIWWdTcjRybkRSM0xaRnBIcE5DbnVWeUJDWkotQkpjR0k4NURoaUJpd2U1U0RHOXkxVElvTjFLSjNLWkt0T045SVRxNTBoRWJIX2ZmeWJwYmxoOURPT1l1d2lHOE40SzhR?oc=5",
-      "published": "Fri, 13 Nov 2026 15:45:44 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
-      "id": "ebbaf860c6492cba",
-      "title": "Invesco NASDAQ 100 ETF (QQQM) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hX1M1ZGhGano5MWhSNlJsem9wNHV3M1B6NkE2LVNJOUZlU1hVLVRyYVhvbkljV0RGaWpPOGMya3VyTjVpc014dFphektOS1gzcHc?oc=5",
-      "published": "Sat, 14 Nov 2026 13:03:10 GMT",
-      "topic": "QQQ Nasdaq 100"
-    },
-    {
       "id": "d39b7654fe02e50e",
       "title": "Huang's exit hits Nvidia and chip peers while the average S&P 500 stock rises - Quantisnow",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPelU3SUFTai1DejN4YzQ4bkZidEwzWTlLNnE2dzhvWmIydUQxR2JlcVZqVGRQVXVqVHVjRXhpbjM4REd0aVRSclU5X2ZMbHA2MFlONFpDcGVZVGJYQW5SakJFMWFWMGh4UC03QUVqTFIzaEc4QVNKZ0YwNnp0Ym1oZkkwazZUWlNhVk1hRFpEWUFpSnpQakp5QjdDckpYYWZqeVU3YWhGVlNtVWc?oc=5",
@@ -951,7 +916,7 @@
       "id": "818d14721fee4a71",
       "title": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51M3YyYUhDNzU1Y2Rjb1RZakJNc2s1NWlnbHBYS1RWTTJyNnpzNUFiUEVJQmRoSElldkd0Z3Bva0s1UURoUFpJcDVxZnRJZXdDcGc?oc=5",
-      "published": "Mon, 16 Nov 2026 11:32:43 GMT",
+      "published": "Tue, 17 Nov 2026 05:30:03 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     },
     {
@@ -1428,7 +1393,7 @@
       "title": "Stock Market Today: Nasdaq-100 Sinks 1% as Nvidia Faces Its First Earnings Without Jensen Huang - 24/7 Wall St.",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQX1pMLWRxb0QydVI2UlFfTlpnVVdzeW1mYXFuNlhjZHc1WEswdjlJLW5DMDlZTWRxZjRIcDZYdGZpb19rdTZIYnBrdlg2ZGZaeHNrdFhqSFdCRzBxVEFTRkNXdTdIcUVtb01SYVNMaEtTRFYzWjRpSVhxV3V1T2Y4eElPOUFSaEZRaFJldG9Ddm1PS0Z1bzFJMkk3RXlRN3BRNVozX2NQY2FtMnNSc0JSS1dKbXZseENST2pjVlBMZ1BfeFRIR0lFZGNUQ3hTbmc0dENz?oc=5",
       "published": "Mon, 16 Nov 2026 14:58:00 GMT",
-      "topic": "QQQ Nasdaq 100"
+      "topic": "Federal Reserve inflation Nasdaq"
     },
     {
       "id": "c97e2b628cfc7d60",
@@ -1729,6 +1694,41 @@
       "title": "Prediction: Nvidia Stock Will Beat the Market Over the Next 10 Years - The Globe and Mail",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWmFFdDZkdDJGSkYtYTBVZG5sZDFvUElERFJJUms0bnhlV21Zdl9YZjd2SWJ0X3VtTHlBR3QtTzFVTzY1QjBuNTFIMTBKeF90RjAteE10WlN3WmVuUDJfZlVBUnN5ZzdyR2U5N1BmYzFFUUVXeDhRaUZDRnlBT18xRXNJU054eUk3NEZHWUNnelFnUXFqYVFGTnJlaG1CUzdDRV8tOWlyNmhSeDNXWWN5SHpMdnVoeERKLTZGLWRjOEg3WDJ1SW5OOGdfb296WkExdHU5OV9oU2Ixa0VDU1gwRkptREFhLWM?oc=5",
       "published": "Mon, 16 Nov 2026 17:51:30 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "1c43293963771429",
+      "title": "Forget QQQ: The Company Behind It Runs the Same Index for $30 Less a Year on a $100K Balance - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdS1abGhWTjFQZGdRWTFtSEVMQlMzMndjeGMyRWZ2UGNyeVVBUWY4WUlYb0RJNWd1OXZYV29wYWVPNWtFUTZLemtLY3RUMVdjeDdaMVUyN2gyY0k1bTAtbVRQNVZXbGk4eS1jQVVIT2xleFJSSVJKOEJrc2J3Z1pwUDFNMGh2TFBPVjJVX2otdXdaU2NFTzF3cTZ4dHNrNUVaNkU3MmpyTTdBbHRFV0Z1YmJ6WU5JUzYzcUtxRmZSVmlyazdNbXQxa0dVdzFPMWN6V3F5TFR3?oc=5",
+      "published": "Tue, 17 Nov 2026 13:13:00 GMT",
+      "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "b6aaf294536e1db8",
+      "title": "Invesco QQQ Institutional Flow Before the Bell, Tuesday: Nasdaq 100 Futures Up 0.3% - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSHZNSnVtRDFLR2VmNmdBbFFqRG5aaF9rZ3ZtS2NXUS1YQXlhN2JveVplc3F6dVJsd2poWVRfclgzRk9KT3BCUV92b1hPQ01SM1o5M0xpc1FLV0kwMThBNVoyZzJwWnZWZVB3VzhXY2ZNYmZtb3dLZFlQS05GdkxLRENpU3hyRm9TeWRTTVFpNFVUS21KTHVaLWkzcVM0cm92emctaTJuejFvbmFtLUVUSjRlMzdkaUZSaEdJ?oc=5",
+      "published": "Tue, 17 Nov 2026 12:40:54 GMT",
+      "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "1bf9b6266c477ba2",
+      "title": "Forget QQQ: The Company Behind It Runs the Same Index for $30 Less a Year on a $100K Balance - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZjZXd1ZVdWI1V1luX19PTTJNVGh1Wk5sM0dUdkMzNVZqOEVJUm5LRzR4MTdWTkxWX3I0XzZJYzZtT2VTWFlQYzlXSTVKT2FHZm9zNFV4aTJ0bWtrczhMMi1YTkFwSlBiWlVJSlFFVUN6dHdQaTFzUUE4M3hyZHRHYUZiRXNXU2hmUnEtejdmc1VyZFpPNkxpSWF6LUk?oc=5",
+      "published": "Tue, 17 Nov 2026 13:13:39 GMT",
+      "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "ad482dc878489128",
+      "title": "Nasdaq 100 forecast: US tech stocks extend decline as AI concerns intensify - FOREX.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSm5NazNweENaYWFkNXB5cTgtRGdOVTVfM3JkY0xVT2xBaGUxQ1ZONVM4Q3hWUjRTRG00a1FWVEV6SFpNU1g0dkxWaloxUjczS1lzRFJqQk1yS25xakJmcVlrcEN0Mm91bFRldDZ5MmVJSHA5X0trSjNKRTRoQ1ZGR3lQRGlubVN4c3FKTUdiVkZpUmJYTmN5Rnc2LWNaZ25kbUl4VFdYSkhhLTI5ZHB0eDk0SmRFWGh2ZGF1c0Jn?oc=5",
+      "published": "Sun, 15 Nov 2026 14:57:23 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "7d091c21599fe786",
+      "title": "Sam Altman Says It\u2019s \u201cHard to Imagine the AI Revolution Without Jensen\u201d - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa0xNQkRlWWc4eGtzVG54WDR0dVdvRHE1QjhYMWZZYU1ORU1nS2sxS1JMM3V3UXNORjUyWHZNZUlHem82MkFKNFBic3BHejdwZmtybWk1V1ZzUFRjR3k2MFJaMkdBbnAzUmxxSldKRTJSODFRT1lycjBBYXNoVjd5b2lXMXVPN3J4b2lUWmpvNnhiVlFjUTBzUnpVb0NrUHBGNlo4c19rTWdCRVREWXljYkd3?oc=5",
+      "published": "Tue, 17 Nov 2026 13:07:00 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
@@ -3690,7 +3690,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-17T12:26:00.687319+00:00",
+    "updated_utc": "2026-11-17T13:43:36.722655+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
