@@ -16,7 +16,7 @@ class ForwardTests(unittest.TestCase):
   df=bars(["2026-11-16T14:30:00Z","2026-11-16T14:35:00Z","2026-11-16T14:40:00Z","2026-11-16T14:45:00Z","2026-11-16T14:50:00Z"],[100,101,102,103,104])
   settle(r,df,dt.datetime(2026,11,16,14,55,tzinfo=UTC))
   self.assertEqual(r["entry_price"],102)
-  self.assertEqual(r["target_utc"],"2026-11-16T14:55:00+00:00" if False else r["target_utc"])
+  self.assertNotIn("target_utc",r)
   self.assertIsNone(r["outcome"])
   more=bars(["2026-11-16T14:30:00Z","2026-11-16T14:35:00Z","2026-11-16T14:40:00Z","2026-11-16T14:45:00Z","2026-11-16T14:50:00Z","2026-11-16T14:55:00Z"],[100,101,102,103,104,105])
   settle(r,more,dt.datetime(2026,11,16,15,0,tzinfo=UTC))
