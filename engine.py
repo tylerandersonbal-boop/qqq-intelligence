@@ -5,6 +5,7 @@ import requests, pandas as pd, numpy as np, feedparser
 from urllib.parse import quote
 from zoneinfo import ZoneInfo
 from scripts.strategy_context import snapshot as strategy_snapshot
+from scripts.forward_scoring import settle
 
 NY = ZoneInfo('America/New_York')
 BAR = dt.timedelta(minutes=5)
@@ -87,38 +88,17 @@ def main():
  fresh=news(); status['news']='ok' if fresh else 'unavailable'; articles=list({a['id']:a for a in old['articles']+fresh}.values())[-150:]
  forecasts=old['forecasts']; existing={x['id'] for x in forecasts}
  if df is not None:
-  # Evaluate previously frozen forecasts when target candle arrives.
-  lookup={t.isoformat():float(c) for t,c in zip(df.ts,df.close)}
+  # Legacy records remain visible but are not rescored as forward_v2.
   for rec in forecasts:
-   if rec.get('outcome') is not None:continue
-   target=rec.get('target_utc')
-   if target is not None and target in lookup and same_session(dt.datetime.fromisoformat(rec['origin_utc']), dt.datetime.fromisoformat(target)):
-    ret=lookup[target]/rec['entry_price']-1; direction=rec['prediction']['direction']
-    rec['outcome']={'actual_return':round(ret,6),'direction_correct':(ret>0 and direction=='UP') or (ret<0 and direction=='DOWN') if direction!='UNCERTAIN' else None,'evaluated_utc':NOW.isoformat()}
-    rec['why']=investigate(rec,articles)
+   settle(rec, df, NOW)
+   if rec.get("outcome") and not rec.get("why"):
+    rec["why"]=investigate(rec,articles)
   i=len(df)-1; horizon=3; p=predict(df,i,horizon)
   if p:
    ts=df.ts.iloc[i].isoformat(); key=ts+'-h3'
    # Future timestamp assumes uninterrupted 5m candles; instead target is assigned from subsequent data on later runs.
-   if key not in existing and BAR.total_seconds() <= (NOW-df.ts.iloc[i].to_pydatetime()).total_seconds() <= 600 and df.ts.iloc[i].tz_convert(NY).strftime('%H:%M') < '15:45':
-    forecasts.append({'id':key,'origin_utc':ts,'recorded_utc':NOW.isoformat(),'horizon_candles':horizon,'entry_price':float(df.close.iloc[i]),'prediction':p,'strategy_context':strategy_snapshot(df,i),'outcome':None,'why':[], 'news_snapshot_ids':[x['id'] for x in fresh[:15]]})
-  # For targets, locate third strictly later market candle when present.
-  all_times=list(df.ts.dt.strftime('%Y-%m-%dT%H:%M:%S+00:00'))
-  for rec in forecasts:
-   if rec.get('outcome') is not None:continue
-   try:
-    future=[t for t in all_times if t>rec['origin_utc']]
-    if len(future)>=rec['horizon_candles']:
-     target=future[rec['horizon_candles']-1]
-     if not same_session(dt.datetime.fromisoformat(rec['origin_utc']), dt.datetime.fromisoformat(target)):
-      rec['outcome']={'status':'unscored: horizon crosses market session','evaluated_utc':NOW.isoformat()}
-      rec['why']=investigate(rec,articles)
-      continue
-     rec['target_utc']=target
-     ret=lookup[target]/rec['entry_price']-1; direction=rec['prediction']['direction']
-     rec['outcome']={'actual_return':round(ret,6),'direction_correct':(ret>0 and direction=='UP') or (ret<0 and direction=='DOWN') if direction!='UNCERTAIN' else None,'evaluated_utc':NOW.isoformat()}
-     rec['why']=investigate(rec,articles)
-   except Exception as e: print('Evaluation error',e)
+   if key not in existing and BAR.total_seconds() <= (NOW-df.ts.iloc[i].to_pydatetime()).total_seconds() <= 600 and df.ts.iloc[i].tz_convert(NY).strftime('%H:%M') < '15:35':
+    forecasts.append({'id':key,'origin_utc':ts,'recorded_utc':NOW.isoformat(),'horizon_candles':horizon,'entry_price':None,'scoring_version':'forward_v2','prediction':p,'strategy_context':strategy_snapshot(df,i),'outcome':None,'why':[], 'news_snapshot_ids':[x['id'] for x in fresh[:15]]})
   old['candles']=[{'time':t.isoformat(),'close':round(float(c),4),'volume':int(v) if pd.notna(v) else 0} for t,c,v in zip(df.ts,df.close,df.volume)][-500:]
  # Important: free 5d feed means forecasts older than retained data can never resolve; mark expired.
  if df is not None:
@@ -127,7 +107,7 @@ def main():
    if rec.get('outcome') is None and rec['origin_utc']<earliest:
     rec['outcome']={'status':'expired: price history unavailable','evaluated_utc':NOW.isoformat()};rec['why']=investigate(rec,articles)
  old.update({'forecasts':forecasts[-800:],'articles':articles,'status':status})
- evaluated=[x for x in forecasts if x.get('outcome') and x['outcome'].get('direction_correct') is not None]
+ evaluated=[x for x in forecasts if x.get('scoring_version')=='forward_v2' and x.get('outcome') and x['outcome'].get('direction_correct') is not None]
  hits=[x for x in evaluated if x['outcome']['direction_correct']]
  old['metrics']={'evaluated_directional':len(evaluated),'direction_accuracy':round(len(hits)/len(evaluated),3) if evaluated else None,'note':'Exploratory, overlapping forecasts; NOT a valid independent out-of-sample backtest.'}
  save('state.json',old); (DOCS/'state.json').write_text(json.dumps(old,default=str))
