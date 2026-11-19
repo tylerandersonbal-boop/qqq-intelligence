@@ -2706,13 +2706,6 @@
   ],
   "articles": [
     {
-      "id": "2d233f48d4b22964",
-      "title": "The Nasdaq 100 faces pressure on Monday compared with the S - KuCoin",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB0WTg2TXdDYmJ2RW9zVzJPQXlyZi1zRk9ETXY5SHpkZFlTQktfendwV1ZuME1lX1d6Q0x0TUlxYzZQRmNDc2NwS1dzajNuSmxBNFJMU2hhVE9yQ3lmNjRTUUNfVEhQbHZ2MzRTVWpRS2J2Smc?oc=5",
-      "published": "Tue, 17 Nov 2026 03:20:12 GMT",
-      "topic": "QQQ Nasdaq 100"
-    },
-    {
       "id": "5b5f6520a9fa42d1",
       "title": "\u3010US Pre-Market\u3011Nasdaq Futures Fall Over 1%, Nvidia Drops About 4% as Jensen Huang Return Rumors Heat Up; Anthropic IPO Debuts This Week - TradingKey",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbUNmak9JWEVjQS1iX08yTUIteHU5ZTBSbThWcWhSYUJyTGd2c2V1ZFM0OXBrdXJERHNNaU54ZEd4MGNDWE5JbDJxbnZjT1I4c2dLc29JSk1PcnVnREFYaUczeVlCbGV2WEhvOHdyTWpSSHh1MnE2M2tjUUpybF9OTUtyWHFVa1h0QnZ2SzNKS1pwLW1jc196Mks2SXRtdUN4XzQxZnRKVWJvbTZyeDRDWGtRdXpDcGNsb2N4NjQwTGVVMnFwZHlBcGF3?oc=5",
@@ -2779,7 +2772,7 @@
       "id": "c58f2ee0c8e2ac68",
       "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81OEFKQTktenlhclpBTlVtWEJqNVpKOVNWNlRaNlRDRnR0dHRielpfZXdtR0pXcUcyNDN1WTlzOWVrWXZTNVhTbEVIOUxEaklxVWc?oc=5",
-      "published": "Wed, 18 Nov 2026 21:59:01 GMT",
+      "published": "Thu, 19 Nov 2026 17:55:01 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     },
     {
@@ -3753,6 +3746,13 @@
       "title": "Anthropic pops 34% to cross $2 trillion valuation in historic Nasdaq debut - Invezz",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQU00czJvYkgxQ1VpM1doajJ5TE85VXp4R2FTX0wyNG9OM0pZaFRQX2NHNVBfU2t2QmdxUzlMLXhuM2FWZXNPZnRBUWlXNTN4b1pGTndJcldqeGxYcFRveWQxOEwwQ1lHY0lkT1FadzI5SFZSNjNhN0FPcE9GQWZNcnBXNzhqdDRObGIxX19JNjZHa0NLMW9NUDRuQ083blFfYkxQVWxuN0VuMzBOYV9wMUVjejRETElLcElqU19keXlFUQ?oc=5",
       "published": "Thu, 19 Nov 2026 21:07:23 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "3da547d5cb04f74e",
+      "title": "Market Movers blog: US markets open higher after bumper Nvidia results despite volatility - Investment Week",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
+      "published": "Wed, 18 Nov 2026 08:00:00 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
@@ -5714,7 +5714,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-19T23:04:01.999858+00:00",
+    "updated_utc": "2026-11-19T23:46:10.103562+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
