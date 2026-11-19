@@ -2106,23 +2106,63 @@
       ],
       "entry_bar_utc": "2026-11-18T20:30:00+00:00",
       "target_utc": "2026-11-18T20:45:00+00:00"
+    },
+    {
+      "id": "2026-11-19T15:25:00+00:00-h3",
+      "origin_utc": "2026-11-19T15:25:00+00:00",
+      "recorded_utc": "2026-11-19T15:33:07.000872+00:00",
+      "horizon_candles": 3,
+      "entry_price": null,
+      "scoring_version": "forward_v2",
+      "prediction": {
+        "up_probability_raw_shrunk": 0.3824,
+        "expected_return": -0.000816,
+        "matches": 30,
+        "direction": "DOWN",
+        "features": {
+          "momentum_15m": -0.007848,
+          "momentum_60m": 0.005993,
+          "volatility": 0.007188,
+          "volume_ratio": 6.739
+        }
+      },
+      "strategy_context": {
+        "status": "observed_not_predictive",
+        "rsi_14_close": 55.73,
+        "sma_10_close": 669.9582,
+        "sma_20_close": 665.8248,
+        "short_sma_above_long": true,
+        "support_20_prior_closes": 657.6682,
+        "resistance_20_prior_closes": 674.62,
+        "close_breakout_above_prior_resistance": false,
+        "close_breakdown_below_prior_support": false,
+        "relative_volume_20": 10.001,
+        "vwap": null,
+        "vwap_note": "Unavailable: close/volume-only feed is insufficient for genuine VWAP.",
+        "interpretation": "Research-only observations. These signals do not affect baseline forecasts."
+      },
+      "outcome": null,
+      "why": [],
+      "news_snapshot_ids": [
+        "6d46afaa0e5ad8ea",
+        "fd8524dba3fb6b92",
+        "feec6ce26f3a5731",
+        "2dd48909ab51ad3d",
+        "18cf2cb903222b9f",
+        "4f6afe860d378840",
+        "e5b7c19f9352c92e",
+        "2095d99664b6d6ba",
+        "ed0d0160eabf22a0",
+        "ad972c22a7f561f7",
+        "53aae5d723864b51",
+        "41e136dd9076e88d",
+        "4dd3071fa6aa85a7",
+        "8efe9f77096a7442",
+        "e3ea588ca69c99a4"
+      ]
     }
   ],
   "articles": [
-    {
-      "id": "5be337f3be2eb190",
-      "title": "Behold the bull-trap: Michael Burry doubles his Nasdaq 100 puts, compares October high to March 2000 - MSN",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNeUpBeUhWVU5GdFUxczBoYnJ5S3E1Z19xQXo1SlBYNXFoc3dMWU81UUg4MW43LTZaRTkwYzJ1V20tRVlMNjZuZTNSZUphdnA0bk90UlFPMzBmWFpTbXhRSjEyUzNqbF9iS25GLS1QRFpHVmZTcDBkbC1VZFQyb2xPMGRoZjNIM2xqQmU4X3RuZ0hoVjB5aUlfMTBrTl9nQVlua2hMeUJnaHZ0V1BtcnRiR2VSTUJpYWszODhtekh6NFBFQmltUUl6b3A2MktLUzhweVFQbi1Sa2dTYnc4eVFHY1U5TFVuVTRG?oc=5",
-      "published": "Mon, 16 Nov 2026 15:35:34 GMT",
-      "topic": "QQQ Nasdaq 100"
-    },
-    {
-      "id": "4dd3071fa6aa85a7",
-      "title": "Nasdaq 100 Forecast: NDX falls after hotter inflation, Anthropic IPO details announced - StoneX",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxON1Q2X2paSDVqZVU3OS0tRFRkZF9JZTZ2d0ZkOHJROHkyYnoyUldxbkpMLUgwRm5CeVlnUWZtMi1OUlF5ZTNVSklUelo0U0Qtb3JCcGMwbkNHSzdIZUo4dWMyWXpHdXdJaWZOZzQ2c3dabFJjUEdOYXJBZ2VpTHV1ODZ4V1l3WW0xNnBwcEdhX3pPZlJuLS1fdFhyT25VLTEzZUszeEZadWdsVHd5eGVvS2N4STlxWFdHdEFkbVN6V0F1ZGhtSDIza2xBRE4?oc=5",
-      "published": "Thu, 19 Nov 2026 07:46:01 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
     {
       "id": "8324285e20155c06",
       "title": "Nov. 25 Will Be a Critical Day for the Stock Market - The Motley Fool",
@@ -3157,6 +3197,20 @@
       "title": "Nasdaq Drops 0.74% to Near Seven-Month Intraday Low, Dow Falls Over 800 Points as Chip Stocks Sell Off - TradingKey",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOcUpiWkVpVDBkLWtibkVTQ3o0V2E2WVE2OU1ybDVFTVhxb0JDZFpIV1VLVTZ1a0lYUFRZZEtmMWJreXd2dGlWWUhQbGs2RUdIRkQ0c2xfNjlqWUZIMHdnZ0NsVThDUndBVU9rSHRlWDZRQ2hIUTZxekZoSGJyNnhiVlRlZUFfSXRWNG1ZQjliU3ByWkp6ZkVvQTFnVkdJR0hQb2daaldDTXVQamhncEZQcjNZQ0NjRFFjR2lGYVQ4OFhNbUlEX0g2QVNTM2J6aXRzdXJnenNxZjB6dFU?oc=5",
       "published": "Tue, 17 Nov 2026 21:17:21 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "ad972c22a7f561f7",
+      "title": "Five Straight Losses, One Divergence: Where the Major Indexes Stand Now - Quantisnow",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVF9PblJ5Rl9SMi1fZjhvNTd2NUNCYkJaUHlxTUx0by1kZVVpMWx2UlJaeUhaRk56LVdKRGFaVlI3ejh4MjdRRWl1ZzN3T0lTVnNYbTN4VnVVTk83NHcxQ1lvVS1JdDE5LTBwclFYTFJCY0w1bGVjZDVzZDZTbmo5d3BTSGo2cHA3cllCby0xc3FEZUtzT1drWmdyQzFQR1ZVeko3SGk2VThXQk5E?oc=5",
+      "published": "Thu, 19 Nov 2026 13:50:11 GMT",
+      "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "2c00dd0a208f8c5c",
+      "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance Singapore",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwR3dOYjE3WFNiWHJyVlFBM0NSRklETno5Mjh3YjFQbEhXVDNuU2FQWURiX2pPWjhXUjhkLURpSWE2X0hNZFVSb1RyNUxoX09HZ3c?oc=5",
+      "published": "Wed, 18 Nov 2026 22:22:21 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
@@ -4720,18 +4774,78 @@
       "time": "2026-11-18T20:55:00+00:00",
       "close": 659.51,
       "volume": 1822203
+    },
+    {
+      "time": "2026-11-19T14:30:00+00:00",
+      "close": 674.54,
+      "volume": 4255310
+    },
+    {
+      "time": "2026-11-19T14:35:00+00:00",
+      "close": 671.585,
+      "volume": 1339137
+    },
+    {
+      "time": "2026-11-19T14:40:00+00:00",
+      "close": 674.07,
+      "volume": 924860
+    },
+    {
+      "time": "2026-11-19T14:45:00+00:00",
+      "close": 674.62,
+      "volume": 811803
+    },
+    {
+      "time": "2026-11-19T14:50:00+00:00",
+      "close": 671.105,
+      "volume": 756613
+    },
+    {
+      "time": "2026-11-19T14:55:00+00:00",
+      "close": 671.5,
+      "volume": 1042601
+    },
+    {
+      "time": "2026-11-19T15:00:00+00:00",
+      "close": 673.195,
+      "volume": 684652
+    },
+    {
+      "time": "2026-11-19T15:05:00+00:00",
+      "close": 671.58,
+      "volume": 947898
+    },
+    {
+      "time": "2026-11-19T15:10:00+00:00",
+      "close": 668.71,
+      "volume": 702434
+    },
+    {
+      "time": "2026-11-19T15:15:00+00:00",
+      "close": 666.16,
+      "volume": 12936966
+    },
+    {
+      "time": "2026-11-19T15:20:00+00:00",
+      "close": 665.18,
+      "volume": 952661
+    },
+    {
+      "time": "2026-11-19T15:25:00+00:00",
+      "close": 663.4623,
+      "volume": 15261201
     }
   ],
   "status": {
-    "updated_utc": "2026-11-19T14:34:09.496094+00:00",
+    "updated_utc": "2026-11-19T15:33:07.000872+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
       "Research prototype. Not live execution, not financial advice.",
       "Public free feeds can be delayed, incomplete or unavailable."
     ],
-    "last_candle_utc": "2026-11-18T20:55:00+00:00",
-    "last_price_usd": 659.51
+    "last_candle_utc": "2026-11-19T15:25:00+00:00",
+    "last_price_usd": 663.4623
   },
   "metrics": {
     "evaluated_directional": 11,
