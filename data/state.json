@@ -2504,7 +2504,7 @@
       "origin_utc": "2026-11-19T19:30:00+00:00",
       "recorded_utc": "2026-11-19T19:37:29.253346+00:00",
       "horizon_candles": 3,
-      "entry_price": null,
+      "entry_price": 650.719970703125,
       "scoring_version": "forward_v2",
       "prediction": {
         "up_probability_raw_shrunk": 0.5588,
@@ -2533,8 +2533,54 @@
         "vwap_note": "Unavailable: close/volume-only feed is insufficient for genuine VWAP.",
         "interpretation": "Research-only observations. These signals do not affect baseline forecasts."
       },
-      "outcome": null,
-      "why": [],
+      "outcome": {
+        "actual_return": -0.005302,
+        "direction_correct": false,
+        "evaluated_utc": "2026-11-19T20:31:56.911550+00:00"
+      },
+      "why": [
+        {
+          "why": "Why did the model predict UP?",
+          "answer": "Historical nearest-neighbor outcomes and observed momentum/volatility/volume features.",
+          "evidence": {
+            "momentum_15m": 0.004534,
+            "momentum_60m": -0.001671,
+            "volatility": 0.001291,
+            "volume_ratio": 0.087
+          },
+          "status": "mechanism documented"
+        },
+        {
+          "why": "Why did the market actually move this way?",
+          "answer": "Not causally identifiable from OHLCV data alone. Review timestamped order flow, broad markets and news.",
+          "evidence": {
+            "actual_return": -0.005302
+          },
+          "status": "unresolved"
+        },
+        {
+          "why": "Why might market participants have changed their orders?",
+          "answer": "Candidate factors include news surprises, liquidity, hedging, and broader market movement; none is proven here.",
+          "evidence": {
+            "news_headlines_available": 150
+          },
+          "status": "hypotheses"
+        },
+        {
+          "why": "Why did the forecast succeed or fail?",
+          "answer": "Compare observed outcome with frozen forecast; one observation cannot establish a robust explanation.",
+          "evidence": {
+            "direction_correct": false
+          },
+          "status": "requires repeated testing"
+        },
+        {
+          "why": "Why should we trust any inferred lesson?",
+          "answer": "Only if the relationship improves forward out-of-sample accuracy, calibration and cost-adjusted returns.",
+          "evidence": {},
+          "status": "not yet validated"
+        }
+      ],
       "news_snapshot_ids": [
         "6d46afaa0e5ad8ea",
         "6884675142f6df4d",
@@ -2551,17 +2597,66 @@
         "8b6df1281e3a17d4",
         "8efe9f77096a7442",
         "d5ba3ad1098416eb"
+      ],
+      "entry_bar_utc": "2026-11-19T19:40:00+00:00",
+      "target_utc": "2026-11-19T19:55:00+00:00"
+    },
+    {
+      "id": "2026-11-19T20:25:00+00:00-h3",
+      "origin_utc": "2026-11-19T20:25:00+00:00",
+      "recorded_utc": "2026-11-19T20:31:56.911550+00:00",
+      "horizon_candles": 3,
+      "entry_price": null,
+      "scoring_version": "forward_v2",
+      "prediction": {
+        "up_probability_raw_shrunk": 0.5294,
+        "expected_return": 0.000243,
+        "matches": 30,
+        "direction": "UNCERTAIN",
+        "features": {
+          "momentum_15m": 0.000496,
+          "momentum_60m": -0.008263,
+          "volatility": 0.001813,
+          "volume_ratio": 0.887
+        }
+      },
+      "strategy_context": {
+        "status": "observed_not_predictive",
+        "rsi_14_close": 41.74,
+        "sma_10_close": 647.213,
+        "sma_20_close": 648.3736,
+        "short_sma_above_long": false,
+        "support_20_prior_closes": 645.32,
+        "resistance_20_prior_closes": 651.32,
+        "close_breakout_above_prior_resistance": false,
+        "close_breakdown_below_prior_support": false,
+        "relative_volume_20": 1.013,
+        "vwap": null,
+        "vwap_note": "Unavailable: close/volume-only feed is insufficient for genuine VWAP.",
+        "interpretation": "Research-only observations. These signals do not affect baseline forecasts."
+      },
+      "outcome": null,
+      "why": [],
+      "news_snapshot_ids": [
+        "6d46afaa0e5ad8ea",
+        "6884675142f6df4d",
+        "fd8524dba3fb6b92",
+        "feec6ce26f3a5731",
+        "4ac0aab9f6178e66",
+        "4f6afe860d378840",
+        "2dd48909ab51ad3d",
+        "35ecf0697f037938",
+        "e5b7c19f9352c92e",
+        "1d6509243230aa6f",
+        "b55ca6d3a11b63bb",
+        "ed0d0160eabf22a0",
+        "8b6df1281e3a17d4",
+        "8efe9f77096a7442",
+        "fe195fafdb02daac"
       ]
     }
   ],
   "articles": [
-    {
-      "id": "c34ee27cc80d6c50",
-      "title": "Michael Burry\u2019s Nasdaq-100 puts target a 2027 tech crash: QQQ is down 10%, but Apple and Microsoft earning - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOLUJ2QU5iNDhXUVcybFVkaDdfalRaWE1Tek4tcGUyWmNfbEpDaGhqa01tMFJwTmJnLXhHWFJZNFpMVGRYaGF5dER5TmV4QW9Rd24weEpUejU1QmJmUTRaank1NWFjWFlnMkdIdmMyVVFVM29NcG83YlFQZVdwRkhQeTJnMGFzZEVqcjk0ci1MVE9jUGh6STBSckttNGhCbW1BaGMyZVZneEVUQnNpZTJhWUdxWXhfSFFMdFQ3MkRsYmNxSUs2OTNCeC1vejhmOE9NV3FXOTNic2t3dWJTMXlUZDdGcVBkN25LNjFua1F2R2UtbDc2MTk5aE9OSDFDY2NkVk5VVUVzLWhnc1NWdWg0aFVBTS1sZDdCY3NCY01CSVFWNXVocmpCcUNhbndUWlJ1ZzRnWDMzVnpLUdIBvwJBVV95cUxOXzFjTlU5eS1KOUNPcjVjZXVNMkMyWGJ6eXNWMWtrYkdwVmZiZEtrWjBVVUxaVnVSZ25XX1Q0SUphMm9Vc3dOX0VybXRfNDZodVVHZjB6WTdtNXdDZE9nQ2p1U0JXcmg2RjBPcl8wZ0FwU1l4cUNzZzBhZi1fYWtIc29UckNxVEVZQUFuSC1xV0dtM2VNUDFfN0k0blVIQnpfUmVUVWNSWHFpc1R0ay1nWlg4V3ZTcldOa3hrbEFrMW9hZUpibWdMRnJEcE9wT1RGaUhPaW9KbjN2cndEaG9WR0NFbzJMdWFmZmY5WDB3ZUNBZ2diU2p3Vm9TOFdhMzRYaG95Y2Rrdl9Vd3k2bk9Wa3RDNlAzVWhKTFNMWGZraUZyRFNVb1FlcEJvekZrZlpkV0ZEQ09DT3RXUHdjZ1k4?oc=5",
-      "published": "Mon, 16 Nov 2026 19:01:38 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
     {
       "id": "8da2d23a3f03e7ed",
       "title": "Why is Invesco QQQ Trust ETF sliding today? - Investing.com",
@@ -3604,6 +3699,13 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQUhmS0plNWhTY0RDd29TX04yN0RoY0RzLTAxLUVpWDRyMlVnd19OMG50bVFHSUROMXpXTTJvVElQVWk1VHpvSjBBdVkza2w2cERhc3ZqSVVNN2RPZHZjZWx1Vkxmc1JKWUprTFFoNzRKZHhyZnRVQUpzd1JObll6RkhNd2IxOVdSOWd0MnRxMEF0d3daUUJNcFJRU0djaExSSTBNSHRrTUhUdjhOWkhDNUQycTFfVWtWWnR2dkhLcE9Tdw?oc=5",
       "published": "Thu, 19 Nov 2026 19:10:46 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "ec0b689ad8671fd2",
+      "title": "Wall Street mixed after Nvidia earnings, Fed minutes - Charlotte Observer",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8teTk3RUpkUkhaS09FeWRyOWF4OHE4SzQ5Q0xjWTd5WDBpSmxpR0x2UDg4WGtDVXRJZWdzNU9ONlZkbTBnQ1BCZkc4T0ItSngwTFZKbUY3ZnNnLWptOXVyNV9DTHNtZEtna2NDcDlycnRObmtsMklzbQ?oc=5",
+      "published": "Wed, 18 Nov 2026 10:35:00 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
     }
   ],
   "candles": [
@@ -3640,12 +3742,12 @@
     {
       "time": "2026-11-13T15:00:00+00:00",
       "close": 678.2,
-      "volume": 860797
+      "volume": 860830
     },
     {
       "time": "2026-11-13T15:05:00+00:00",
       "close": 678.21,
-      "volume": 933235
+      "volume": 933202
     },
     {
       "time": "2026-11-13T15:10:00+00:00",
@@ -3660,12 +3762,12 @@
     {
       "time": "2026-11-13T15:20:00+00:00",
       "close": 674.305,
-      "volume": 768591
+      "volume": 768605
     },
     {
       "time": "2026-11-13T15:25:00+00:00",
       "close": 675.22,
-      "volume": 735771
+      "volume": 735757
     },
     {
       "time": "2026-11-13T15:30:00+00:00",
@@ -3675,42 +3777,42 @@
     {
       "time": "2026-11-13T15:35:00+00:00",
       "close": 673.415,
-      "volume": 652434
+      "volume": 652436
     },
     {
       "time": "2026-11-13T15:40:00+00:00",
       "close": 673.9,
-      "volume": 403325
+      "volume": 0
     },
     {
       "time": "2026-11-13T15:45:00+00:00",
       "close": 674.8599,
-      "volume": 385327
+      "volume": 14339827
     },
     {
       "time": "2026-11-13T15:50:00+00:00",
       "close": 674.13,
-      "volume": 708136
+      "volume": 708085
     },
     {
       "time": "2026-11-13T15:55:00+00:00",
       "close": 674.89,
-      "volume": 342406
+      "volume": 342420
     },
     {
       "time": "2026-11-13T16:00:00+00:00",
       "close": 672.84,
-      "volume": 404533
+      "volume": 404519
     },
     {
       "time": "2026-11-13T16:05:00+00:00",
       "close": 674.66,
-      "volume": 740718
+      "volume": 741011
     },
     {
       "time": "2026-11-13T16:10:00+00:00",
       "close": 673.08,
-      "volume": 301142
+      "volume": 300849
     },
     {
       "time": "2026-11-13T16:15:00+00:00",
@@ -3780,12 +3882,12 @@
     {
       "time": "2026-11-13T17:20:00+00:00",
       "close": 676.13,
-      "volume": 184177
+      "volume": 184095
     },
     {
       "time": "2026-11-13T17:25:00+00:00",
       "close": 677.1601,
-      "volume": 271168
+      "volume": 271250
     },
     {
       "time": "2026-11-13T17:30:00+00:00",
@@ -3805,12 +3907,12 @@
     {
       "time": "2026-11-13T17:45:00+00:00",
       "close": 677.29,
-      "volume": 240715
+      "volume": 240734
     },
     {
       "time": "2026-11-13T17:50:00+00:00",
       "close": 677.62,
-      "volume": 139812
+      "volume": 139793
     },
     {
       "time": "2026-11-13T17:55:00+00:00",
@@ -3840,12 +3942,12 @@
     {
       "time": "2026-11-13T18:20:00+00:00",
       "close": 676.635,
-      "volume": 110024
+      "volume": 110027
     },
     {
       "time": "2026-11-13T18:25:00+00:00",
       "close": 677.85,
-      "volume": 215692
+      "volume": 215689
     },
     {
       "time": "2026-11-13T18:30:00+00:00",
@@ -3865,12 +3967,12 @@
     {
       "time": "2026-11-13T18:45:00+00:00",
       "close": 678.2806,
-      "volume": 139340
+      "volume": 139363
     },
     {
       "time": "2026-11-13T18:50:00+00:00",
       "close": 679.065,
-      "volume": 242722
+      "volume": 242699
     },
     {
       "time": "2026-11-13T18:55:00+00:00",
@@ -3895,32 +3997,32 @@
     {
       "time": "2026-11-13T19:15:00+00:00",
       "close": 680.18,
-      "volume": 202516
+      "volume": 202514
     },
     {
       "time": "2026-11-13T19:20:00+00:00",
       "close": 679.56,
-      "volume": 170988
+      "volume": 170990
     },
     {
       "time": "2026-11-13T19:25:00+00:00",
       "close": 680.01,
-      "volume": 141351
+      "volume": 140830
     },
     {
       "time": "2026-11-13T19:30:00+00:00",
       "close": 679.23,
-      "volume": 345499
+      "volume": 346020
     },
     {
       "time": "2026-11-13T19:35:00+00:00",
-      "close": 679.51,
-      "volume": 312659
+      "close": 679.525,
+      "volume": 312810
     },
     {
       "time": "2026-11-13T19:40:00+00:00",
       "close": 679.0099,
-      "volume": 151791
+      "volume": 151640
     },
     {
       "time": "2026-11-13T19:45:00+00:00",
@@ -3934,23 +4036,23 @@
     },
     {
       "time": "2026-11-13T19:55:00+00:00",
-      "close": 679.87,
-      "volume": 485103
+      "close": 679.855,
+      "volume": 484833
     },
     {
       "time": "2026-11-13T20:00:00+00:00",
       "close": 679.565,
-      "volume": 227721
+      "volume": 227991
     },
     {
       "time": "2026-11-13T20:05:00+00:00",
       "close": 679.53,
-      "volume": 229893
+      "volume": 229977
     },
     {
       "time": "2026-11-13T20:10:00+00:00",
       "close": 679.79,
-      "volume": 194838
+      "volume": 194754
     },
     {
       "time": "2026-11-13T20:15:00+00:00",
@@ -3985,12 +4087,12 @@
     {
       "time": "2026-11-13T20:45:00+00:00",
       "close": 679.925,
-      "volume": 329289
+      "volume": 328820
     },
     {
       "time": "2026-11-13T20:50:00+00:00",
       "close": 681.35,
-      "volume": 831790
+      "volume": 832259
     },
     {
       "time": "2026-11-13T20:55:00+00:00",
@@ -4025,22 +4127,22 @@
     {
       "time": "2026-11-16T14:55:00+00:00",
       "close": 667.755,
-      "volume": 730374
+      "volume": 730349
     },
     {
       "time": "2026-11-16T15:00:00+00:00",
       "close": 665.44,
-      "volume": 750726
+      "volume": 750751
     },
     {
       "time": "2026-11-16T15:05:00+00:00",
       "close": 665.35,
-      "volume": 0
+      "volume": 775293
     },
     {
       "time": "2026-11-16T15:10:00+00:00",
       "close": 665.46,
-      "volume": 9495287
+      "volume": 1007499
     },
     {
       "time": "2026-11-16T15:15:00+00:00",
@@ -4130,12 +4232,12 @@
     {
       "time": "2026-11-16T16:40:00+00:00",
       "close": 668.08,
-      "volume": 193107
+      "volume": 193047
     },
     {
       "time": "2026-11-16T16:45:00+00:00",
       "close": 667.204,
-      "volume": 211774
+      "volume": 211834
     },
     {
       "time": "2026-11-16T16:50:00+00:00",
@@ -4160,17 +4262,17 @@
     {
       "time": "2026-11-16T17:10:00+00:00",
       "close": 666.88,
-      "volume": 157178
+      "volume": 157203
     },
     {
       "time": "2026-11-16T17:15:00+00:00",
       "close": 665.901,
-      "volume": 240901
+      "volume": 241002
     },
     {
       "time": "2026-11-16T17:20:00+00:00",
       "close": 665.22,
-      "volume": 233546
+      "volume": 233420
     },
     {
       "time": "2026-11-16T17:25:00+00:00",
@@ -4245,12 +4347,12 @@
     {
       "time": "2026-11-16T18:35:00+00:00",
       "close": 661.41,
-      "volume": 832407
+      "volume": 832351
     },
     {
       "time": "2026-11-16T18:40:00+00:00",
       "close": 662.31,
-      "volume": 442403
+      "volume": 442459
     },
     {
       "time": "2026-11-16T18:45:00+00:00",
@@ -4265,12 +4367,12 @@
     {
       "time": "2026-11-16T18:55:00+00:00",
       "close": 664.61,
-      "volume": 232940
+      "volume": 233091
     },
     {
       "time": "2026-11-16T19:00:00+00:00",
       "close": 663.81,
-      "volume": 229078
+      "volume": 228927
     },
     {
       "time": "2026-11-16T19:05:00+00:00",
@@ -4319,13 +4421,13 @@
     },
     {
       "time": "2026-11-16T19:50:00+00:00",
-      "close": 663.98,
-      "volume": 418243
+      "close": 663.99,
+      "volume": 417348
     },
     {
       "time": "2026-11-16T19:55:00+00:00",
       "close": 663.99,
-      "volume": 405097
+      "volume": 405992
     },
     {
       "time": "2026-11-16T20:00:00+00:00",
@@ -4384,8 +4486,8 @@
     },
     {
       "time": "2026-11-16T20:55:00+00:00",
-      "close": 661.86,
-      "volume": 3285919
+      "close": 661.85,
+      "volume": 3286771
     },
     {
       "time": "2026-11-17T14:30:00+00:00",
@@ -4415,12 +4517,12 @@
     {
       "time": "2026-11-17T14:55:00+00:00",
       "close": 662.47,
-      "volume": 631457
+      "volume": 631459
     },
     {
       "time": "2026-11-17T15:00:00+00:00",
       "close": 660.91,
-      "volume": 484681
+      "volume": 484679
     },
     {
       "time": "2026-11-17T15:05:00+00:00",
@@ -4435,22 +4537,22 @@
     {
       "time": "2026-11-17T15:15:00+00:00",
       "close": 659.0,
-      "volume": 415793
+      "volume": 415795
     },
     {
       "time": "2026-11-17T15:20:00+00:00",
       "close": 659.22,
-      "volume": 415846
+      "volume": 415866
     },
     {
       "time": "2026-11-17T15:25:00+00:00",
       "close": 658.42,
-      "volume": 699284
+      "volume": 699268
     },
     {
       "time": "2026-11-17T15:30:00+00:00",
       "close": 655.5,
-      "volume": 1072098
+      "volume": 1072092
     },
     {
       "time": "2026-11-17T15:35:00+00:00",
@@ -4459,13 +4561,13 @@
     },
     {
       "time": "2026-11-17T15:40:00+00:00",
-      "close": 651.585,
-      "volume": 1226923
+      "close": 651.595,
+      "volume": 1226883
     },
     {
       "time": "2026-11-17T15:45:00+00:00",
       "close": 648.938,
-      "volume": 1338953
+      "volume": 1338993
     },
     {
       "time": "2026-11-17T15:50:00+00:00",
@@ -4495,12 +4597,12 @@
     {
       "time": "2026-11-17T16:15:00+00:00",
       "close": 653.89,
-      "volume": 0
+      "volume": 594599
     },
     {
       "time": "2026-11-17T16:20:00+00:00",
       "close": 653.39,
-      "volume": 22259834
+      "volume": 520413
     },
     {
       "time": "2026-11-17T16:25:00+00:00",
@@ -4515,12 +4617,12 @@
     {
       "time": "2026-11-17T16:35:00+00:00",
       "close": 652.87,
-      "volume": 397678
+      "volume": 397682
     },
     {
       "time": "2026-11-17T16:40:00+00:00",
       "close": 652.52,
-      "volume": 294814
+      "volume": 294810
     },
     {
       "time": "2026-11-17T16:45:00+00:00",
@@ -4540,12 +4642,12 @@
     {
       "time": "2026-11-17T17:00:00+00:00",
       "close": 650.95,
-      "volume": 426457
+      "volume": 426607
     },
     {
       "time": "2026-11-17T17:05:00+00:00",
       "close": 653.32,
-      "volume": 1131565
+      "volume": 1131415
     },
     {
       "time": "2026-11-17T17:10:00+00:00",
@@ -4565,17 +4667,17 @@
     {
       "time": "2026-11-17T17:25:00+00:00",
       "close": 656.04,
-      "volume": 441274
+      "volume": 441270
     },
     {
       "time": "2026-11-17T17:30:00+00:00",
       "close": 655.18,
-      "volume": 218175
+      "volume": 217961
     },
     {
       "time": "2026-11-17T17:35:00+00:00",
       "close": 654.115,
-      "volume": 424602
+      "volume": 424820
     },
     {
       "time": "2026-11-17T17:40:00+00:00",
@@ -4630,12 +4732,12 @@
     {
       "time": "2026-11-17T18:30:00+00:00",
       "close": 656.31,
-      "volume": 229735
+      "volume": 229813
     },
     {
       "time": "2026-11-17T18:35:00+00:00",
       "close": 654.93,
-      "volume": 223506
+      "volume": 223428
     },
     {
       "time": "2026-11-17T18:40:00+00:00",
@@ -4645,12 +4747,12 @@
     {
       "time": "2026-11-17T18:45:00+00:00",
       "close": 654.21,
-      "volume": 249959
+      "volume": 250122
     },
     {
       "time": "2026-11-17T18:50:00+00:00",
       "close": 653.6,
-      "volume": 242158
+      "volume": 241995
     },
     {
       "time": "2026-11-17T18:55:00+00:00",
@@ -4715,12 +4817,12 @@
     {
       "time": "2026-11-17T19:55:00+00:00",
       "close": 652.19,
-      "volume": 884831
+      "volume": 885358
     },
     {
       "time": "2026-11-17T20:00:00+00:00",
       "close": 652.29,
-      "volume": 631446
+      "volume": 630919
     },
     {
       "time": "2026-11-17T20:05:00+00:00",
@@ -4745,12 +4847,12 @@
     {
       "time": "2026-11-17T20:25:00+00:00",
       "close": 653.39,
-      "volume": 258313
+      "volume": 258266
     },
     {
       "time": "2026-11-17T20:30:00+00:00",
       "close": 654.62,
-      "volume": 542232
+      "volume": 542279
     },
     {
       "time": "2026-11-17T20:35:00+00:00",
@@ -4769,23 +4871,23 @@
     },
     {
       "time": "2026-11-17T20:50:00+00:00",
-      "close": 653.7,
-      "volume": 1168307
+      "close": 653.705,
+      "volume": 1170113
     },
     {
       "time": "2026-11-17T20:55:00+00:00",
       "close": 657.03,
-      "volume": 2098898
+      "volume": 2097092
     },
     {
       "time": "2026-11-18T14:30:00+00:00",
       "close": 659.86,
-      "volume": 4025490
+      "volume": 4025488
     },
     {
       "time": "2026-11-18T14:35:00+00:00",
       "close": 657.29,
-      "volume": 1422868
+      "volume": 1422870
     },
     {
       "time": "2026-11-18T14:40:00+00:00",
@@ -4830,12 +4932,12 @@
     {
       "time": "2026-11-18T15:20:00+00:00",
       "close": 658.72,
-      "volume": 587334
+      "volume": 587344
     },
     {
       "time": "2026-11-18T15:25:00+00:00",
       "close": 659.758,
-      "volume": 431538
+      "volume": 431528
     },
     {
       "time": "2026-11-18T15:30:00+00:00",
@@ -4910,12 +5012,12 @@
     {
       "time": "2026-11-18T16:40:00+00:00",
       "close": 654.32,
-      "volume": 430894
+      "volume": 0
     },
     {
       "time": "2026-11-18T16:45:00+00:00",
       "close": 654.8599,
-      "volume": 272951
+      "volume": 20790687
     },
     {
       "time": "2026-11-18T16:50:00+00:00",
@@ -4925,12 +5027,12 @@
     {
       "time": "2026-11-18T16:55:00+00:00",
       "close": 656.1418,
-      "volume": 360803
+      "volume": 360411
     },
     {
       "time": "2026-11-18T17:00:00+00:00",
       "close": 657.51,
-      "volume": 410250
+      "volume": 410642
     },
     {
       "time": "2026-11-18T17:05:00+00:00",
@@ -4965,27 +5067,27 @@
     {
       "time": "2026-11-18T17:35:00+00:00",
       "close": 659.82,
-      "volume": 417132
+      "volume": 417122
     },
     {
       "time": "2026-11-18T17:40:00+00:00",
       "close": 659.04,
-      "volume": 285543
+      "volume": 285487
     },
     {
       "time": "2026-11-18T17:45:00+00:00",
       "close": 659.25,
-      "volume": 299094
+      "volume": 299160
     },
     {
       "time": "2026-11-18T17:50:00+00:00",
       "close": 659.81,
-      "volume": 283924
+      "volume": 283662
     },
     {
       "time": "2026-11-18T17:55:00+00:00",
       "close": 658.955,
-      "volume": 194740
+      "volume": 195002
     },
     {
       "time": "2026-11-18T18:00:00+00:00",
@@ -5005,12 +5107,12 @@
     {
       "time": "2026-11-18T18:15:00+00:00",
       "close": 658.83,
-      "volume": 215185
+      "volume": 215313
     },
     {
       "time": "2026-11-18T18:20:00+00:00",
       "close": 659.6599,
-      "volume": 187552
+      "volume": 187424
     },
     {
       "time": "2026-11-18T18:25:00+00:00",
@@ -5025,22 +5127,22 @@
     {
       "time": "2026-11-18T18:35:00+00:00",
       "close": 661.335,
-      "volume": 261055
+      "volume": 261048
     },
     {
       "time": "2026-11-18T18:40:00+00:00",
       "close": 662.0144,
-      "volume": 331891
+      "volume": 331898
     },
     {
       "time": "2026-11-18T18:45:00+00:00",
       "close": 661.5262,
-      "volume": 272903
+      "volume": 272970
     },
     {
       "time": "2026-11-18T18:50:00+00:00",
       "close": 661.56,
-      "volume": 1120859
+      "volume": 1120792
     },
     {
       "time": "2026-11-18T18:55:00+00:00",
@@ -5090,22 +5192,22 @@
     {
       "time": "2026-11-18T19:40:00+00:00",
       "close": 658.9,
-      "volume": 198736
+      "volume": 198375
     },
     {
       "time": "2026-11-18T19:45:00+00:00",
       "close": 658.31,
-      "volume": 142153
+      "volume": 142514
     },
     {
       "time": "2026-11-18T19:50:00+00:00",
       "close": 658.7,
-      "volume": 171851
+      "volume": 171956
     },
     {
       "time": "2026-11-18T19:55:00+00:00",
       "close": 658.3973,
-      "volume": 237629
+      "volume": 237524
     },
     {
       "time": "2026-11-18T20:00:00+00:00",
@@ -5150,12 +5252,12 @@
     {
       "time": "2026-11-18T20:40:00+00:00",
       "close": 658.99,
-      "volume": 400808
+      "volume": 400902
     },
     {
       "time": "2026-11-18T20:45:00+00:00",
       "close": 659.1,
-      "volume": 553848
+      "volume": 553754
     },
     {
       "time": "2026-11-18T20:50:00+00:00",
@@ -5165,12 +5267,12 @@
     {
       "time": "2026-11-18T20:55:00+00:00",
       "close": 659.51,
-      "volume": 1822203
+      "volume": 1822731
     },
     {
       "time": "2026-11-19T14:30:00+00:00",
       "close": 674.54,
-      "volume": 4255310
+      "volume": 4255331
     },
     {
       "time": "2026-11-19T14:35:00+00:00",
@@ -5180,12 +5282,12 @@
     {
       "time": "2026-11-19T14:40:00+00:00",
       "close": 674.07,
-      "volume": 924860
+      "volume": 924870
     },
     {
       "time": "2026-11-19T14:45:00+00:00",
       "close": 674.62,
-      "volume": 811803
+      "volume": 811737
     },
     {
       "time": "2026-11-19T14:50:00+00:00",
@@ -5195,12 +5297,12 @@
     {
       "time": "2026-11-19T14:55:00+00:00",
       "close": 671.5,
-      "volume": 1042601
+      "volume": 1042889
     },
     {
       "time": "2026-11-19T15:00:00+00:00",
       "close": 673.195,
-      "volume": 684652
+      "volume": 684563
     },
     {
       "time": "2026-11-19T15:05:00+00:00",
@@ -5210,7 +5312,7 @@
     {
       "time": "2026-11-19T15:10:00+00:00",
       "close": 668.71,
-      "volume": 702434
+      "volume": 702374
     },
     {
       "time": "2026-11-19T15:15:00+00:00",
@@ -5225,47 +5327,47 @@
     {
       "time": "2026-11-19T15:25:00+00:00",
       "close": 663.4623,
-      "volume": 15261201
+      "volume": 15261204
     },
     {
       "time": "2026-11-19T15:30:00+00:00",
       "close": 660.46,
-      "volume": 1138971
+      "volume": 15591553
     },
     {
       "time": "2026-11-19T15:35:00+00:00",
       "close": 657.535,
-      "volume": 1589007
+      "volume": 33752809
     },
     {
       "time": "2026-11-19T15:40:00+00:00",
       "close": 659.722,
-      "volume": 36864598
+      "volume": 36865135
     },
     {
       "time": "2026-11-19T15:45:00+00:00",
       "close": 658.0,
-      "volume": 59744546
+      "volume": 20674716
     },
     {
       "time": "2026-11-19T15:50:00+00:00",
       "close": 658.1703,
-      "volume": 21418564
+      "volume": 21610801
     },
     {
       "time": "2026-11-19T15:55:00+00:00",
       "close": 661.4,
-      "volume": 21997197
+      "volume": 21997196
     },
     {
       "time": "2026-11-19T16:00:00+00:00",
       "close": 662.26,
-      "volume": 67415058
+      "volume": 22681112
     },
     {
       "time": "2026-11-19T16:05:00+00:00",
       "close": 660.2,
-      "volume": 811311
+      "volume": 24046011
     },
     {
       "time": "2026-11-19T16:10:00+00:00",
@@ -5275,22 +5377,22 @@
     {
       "time": "2026-11-19T16:15:00+00:00",
       "close": 661.0574,
-      "volume": 48597009
+      "volume": 24368836
     },
     {
       "time": "2026-11-19T16:20:00+00:00",
       "close": 662.0845,
-      "volume": 333286
+      "volume": 333236
     },
     {
       "time": "2026-11-19T16:25:00+00:00",
       "close": 662.84,
-      "volume": 24993219
+      "volume": 49854666
     },
     {
       "time": "2026-11-19T16:30:00+00:00",
       "close": 661.47,
-      "volume": 25418112
+      "volume": 25418173
     },
     {
       "time": "2026-11-19T16:35:00+00:00",
@@ -5305,22 +5407,22 @@
     {
       "time": "2026-11-19T16:45:00+00:00",
       "close": 662.44,
-      "volume": 27031337
+      "volume": 53540613
     },
     {
       "time": "2026-11-19T16:50:00+00:00",
       "close": 658.27,
-      "volume": 1619385
+      "volume": 28854860
     },
     {
       "time": "2026-11-19T16:55:00+00:00",
       "close": 654.72,
-      "volume": 59192902
+      "volume": 30296962
     },
     {
       "time": "2026-11-19T17:00:00+00:00",
       "close": 649.97,
-      "volume": 2011089
+      "volume": 31704470
     },
     {
       "time": "2026-11-19T17:05:00+00:00",
@@ -5330,7 +5432,7 @@
     {
       "time": "2026-11-19T17:10:00+00:00",
       "close": 649.82,
-      "volume": 1147484
+      "volume": 1148109
     },
     {
       "time": "2026-11-19T17:15:00+00:00",
@@ -5345,32 +5447,32 @@
     {
       "time": "2026-11-19T17:25:00+00:00",
       "close": 656.62,
-      "volume": 1053854
+      "volume": 1053846
     },
     {
       "time": "2026-11-19T17:30:00+00:00",
       "close": 657.58,
-      "volume": 688694
+      "volume": 688687
     },
     {
       "time": "2026-11-19T17:35:00+00:00",
-      "close": 654.09,
-      "volume": 754840
+      "close": 654.32,
+      "volume": 570017
     },
     {
       "time": "2026-11-19T17:40:00+00:00",
       "close": 652.17,
-      "volume": 605386
+      "volume": 39736754
     },
     {
       "time": "2026-11-19T17:45:00+00:00",
-      "close": 653.5,
-      "volume": 572682
+      "close": 653.4713,
+      "volume": 40136500
     },
     {
       "time": "2026-11-19T17:50:00+00:00",
       "close": 654.55,
-      "volume": 40914089
+      "volume": 572100
     },
     {
       "time": "2026-11-19T17:55:00+00:00",
@@ -5380,12 +5482,12 @@
     {
       "time": "2026-11-19T18:00:00+00:00",
       "close": 651.29,
-      "volume": 544605
+      "volume": 544861
     },
     {
       "time": "2026-11-19T18:05:00+00:00",
       "close": 650.7775,
-      "volume": 484427
+      "volume": 42229405
     },
     {
       "time": "2026-11-19T18:10:00+00:00",
@@ -5425,7 +5527,7 @@
     {
       "time": "2026-11-19T18:45:00+00:00",
       "close": 649.47,
-      "volume": 420373
+      "volume": 419926
     },
     {
       "time": "2026-11-19T18:50:00+00:00",
@@ -5440,17 +5542,17 @@
     {
       "time": "2026-11-19T19:00:00+00:00",
       "close": 648.8616,
-      "volume": 47426896
+      "volume": 274612
     },
     {
       "time": "2026-11-19T19:05:00+00:00",
       "close": 648.67,
-      "volume": 580348
+      "volume": 580513
     },
     {
       "time": "2026-11-19T19:10:00+00:00",
       "close": 649.01,
-      "volume": 528145
+      "volume": 528253
     },
     {
       "time": "2026-11-19T19:15:00+00:00",
@@ -5460,33 +5562,88 @@
     {
       "time": "2026-11-19T19:20:00+00:00",
       "close": 649.29,
-      "volume": 508608
+      "volume": 508636
     },
     {
       "time": "2026-11-19T19:25:00+00:00",
       "close": 651.08,
-      "volume": 592965
+      "volume": 589725
     },
     {
       "time": "2026-11-19T19:30:00+00:00",
       "close": 651.32,
-      "volume": 385094
+      "volume": 384914
+    },
+    {
+      "time": "2026-11-19T19:35:00+00:00",
+      "close": 649.54,
+      "volume": 325128
+    },
+    {
+      "time": "2026-11-19T19:40:00+00:00",
+      "close": 650.72,
+      "volume": 448613
+    },
+    {
+      "time": "2026-11-19T19:45:00+00:00",
+      "close": 649.2,
+      "volume": 381752
+    },
+    {
+      "time": "2026-11-19T19:50:00+00:00",
+      "close": 648.17,
+      "volume": 757567
+    },
+    {
+      "time": "2026-11-19T19:55:00+00:00",
+      "close": 647.27,
+      "volume": 778027
+    },
+    {
+      "time": "2026-11-19T20:00:00+00:00",
+      "close": 645.32,
+      "volume": 1274850
+    },
+    {
+      "time": "2026-11-19T20:05:00+00:00",
+      "close": 646.15,
+      "volume": 809972
+    },
+    {
+      "time": "2026-11-19T20:10:00+00:00",
+      "close": 645.38,
+      "volume": 830910
+    },
+    {
+      "time": "2026-11-19T20:15:00+00:00",
+      "close": 647.2,
+      "volume": 972441
+    },
+    {
+      "time": "2026-11-19T20:20:00+00:00",
+      "close": 647.02,
+      "volume": 619909
+    },
+    {
+      "time": "2026-11-19T20:25:00+00:00",
+      "close": 645.7,
+      "volume": 603943
     }
   ],
   "status": {
-    "updated_utc": "2026-11-19T19:37:29.253346+00:00",
+    "updated_utc": "2026-11-19T20:31:56.911550+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
       "Research prototype. Not live execution, not financial advice.",
       "Public free feeds can be delayed, incomplete or unavailable."
     ],
-    "last_candle_utc": "2026-11-19T19:30:00+00:00",
-    "last_price_usd": 651.32
+    "last_candle_utc": "2026-11-19T20:25:00+00:00",
+    "last_price_usd": 645.7
   },
   "metrics": {
-    "evaluated_directional": 14,
-    "direction_accuracy": 0.429,
+    "evaluated_directional": 15,
+    "direction_accuracy": 0.4,
     "note": "Exploratory, overlapping forecasts; NOT a valid independent out-of-sample backtest."
   }
 }
