@@ -2110,13 +2110,6 @@
   ],
   "articles": [
     {
-      "id": "a0878e1c3653d7d9",
-      "title": "History Says the Nasdaq Gained an Average of 17% in the 6 Months After a Correction. Here\u2019s the Simplest Way to Invest. - AOL.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMlR1bzFwSEk5b3lDZXhmeFlYdjhEejl6T0Z6ZWNmVUxfYWFMeUZ3MmNnOGZBSngzQ2JLN2lKUXk2UGlTYTZOLTcyOU5jZmNJc1l3TFliZXhsbmNTR0dEelRYeXpSRUZSWHJEWnRiX181TlJ6cm9JMlBCaVR0bG0yTTZBRTA?oc=5",
-      "published": "Mon, 16 Nov 2026 12:14:02 GMT",
-      "topic": "QQQ Nasdaq 100"
-    },
-    {
       "id": "7e47b614e4e9aa3f",
       "title": "There's Now a 100% Chance of a Fed Rate Hike in December -- but That's Not the Worst News for Wall Street - The Globe and Mail",
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxON1RlaUpsMDUzek95ZU13c0lnNGVzNUdnM1R1anY2akpjQUpiT3hNajZyanpQNWpkZG5JVjdhR1RmcHJPTmRPbGJhR285ZzJHamR1Wnp2Ym5wUk9MUDE5LXlIbXZaRnBrUTV5eEZsYXlvVWM3V1dLMmdFWjliMzFQdFh3NVpON0tGNkp0eVB3Z1JaYmNqbTJBN3RoZldDM0lVMllwLXdJR1Y2UnRyNzNoejhXcGdCZWxnRkI2cW9RLVZqZzNVTVRpbDR6QzFXdWJkRWZCUkkxc0F1Nk5EWlBuMmd3eXRocFV0ZHBpLUx3NEQtMEsxRGFaS1UwaHU1QlEzWnBKeDFjZ0F3Zk9JdFBsT210SWQxdw?oc=5",
@@ -3157,6 +3150,13 @@
       "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ0NhQ0JLODM0S1FxM2RYX3RiY3JrelIwRDE5NEhnLVJPVWxUUUp5TWI5aF8wdGo0bjJqS3lUdTZNYVRKNTJJbFJQSVJsNzVqVzhHd2paTlFCOXlHeXc5Ui1aU1FiaWR4YWt2Q2RpWElveGFqTGVBMDA3bEJzeXlJb1U2ajdtWFNTYWdpWkFzZktfNzY5?oc=5",
       "published": "Wed, 18 Nov 2026 23:00:02 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "2f20986365356230",
+      "title": "US STOCKS-Wall Street ends mixed after Nvidia earnings, Fed minutes - Metrobank Wealth Insights",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOamFEbm8yS1BhdHltTzAxenQwUHI2eG5kenV2NG5STXROcUYxWHNNczRDbHp5R0NlUzVIb3hHZnR0X2NsZ2ZUdzhtV3d5NFkxd1RlZ2JRVHJrTk5Ud0xJdmVMZWlCVm1jX3NSd3Y1MnlJUzlUWjRQREh4MmRDLUpHR2dic19UcTRQLVJFZGVIbEdtTkxMczAzOWVXbmd3cjhNemhnSURMbHI4cU9KR1lILQ?oc=5",
+      "published": "Thu, 19 Nov 2026 00:15:27 GMT",
       "topic": "Federal Reserve inflation Nasdaq"
     }
   ],
@@ -5118,7 +5118,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-18T23:56:48.593954+00:00",
+    "updated_utc": "2026-11-19T00:56:03.346761+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
