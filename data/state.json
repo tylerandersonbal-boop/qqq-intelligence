@@ -2110,13 +2110,6 @@
   ],
   "articles": [
     {
-      "id": "c97e2b628cfc7d60",
-      "title": "Nasdaq Soars Last Week Without NVIDIA: ETFs in Focus - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT0tEVnJMbk51Z19vTWdJbkpOaXY5ekZkMlJHaHp6cUJZWmRNWHhVdE5PNEJTUGRkU3Y1eGh1RTdLMHdXOXlpUUtWM2lvMFpxUXgxZnIxR1FfQlZCV2tGTHJCY3Rab2FMaWNTd0NQVC0ta3VRd2FpaGVER3hXZE9CTkI3bl9od0FQSmlZY1pyc0RiUGNSMWVkZlJXVTdwWFQxWUlTbmp0a3c2ZDA?oc=5",
-      "published": "Mon, 16 Nov 2026 13:00:00 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
       "id": "833709b7a82791f9",
       "title": "Trade Your View | Can tech stocks break higher this week? - Moomoo",
       "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxNZkhZa1pKSTZJb0wtMktPa1hKNE16bFU4QVZkS21sYVh2OUwtU1R5RjFBODd0Y3FyQjQ5cG1VY0NiRWpYYW9hMFpRa3FJNHFnQlFvOVhNYjdoajQ3UE9KUllObVdXQU9OUVJIOTZKYjBmOUg3RUF4NU8yUnJ4YnBlYlQ4SWNOZEV1V1NmWjRJS0Y4enoyT1FUZTRBMWlxX0FfWXBoMmlMcHp5YVpnQ0V1QnVkdS1seWE5T2JmWDVtSWMyRm5IZ1d4RS1XeFItR21TTkJINXFlU0VhWWx6S09ialhNcGlqYU45VlV0Qmh6X1BNT1NuemIyUDR4OGpldHlPaklLaWNhbTJKbkhlYk5wZVBFLWJOQWNLUXlWcUxLS0VxVEllS05JbXhEcnFKWEJlekFtNF9sR2lYTWhwUXJsUFBzVnRnZWw2b0dQcGJfU09ZZy1IOXRweHNkdU5ETG9TSEpmeUVZZ2VLRFRrZkVmWUdlUzlSbFVPZldLZXl0d0xUbjBJTEhBR1FFNnM?oc=5",
@@ -2519,7 +2512,7 @@
       "id": "c7dcfab0b3cbb99c",
       "title": "Amazon.com, Inc. (AMZN) Stock Price, News, Quote & History - Yahoo! Finance Canada",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52VmlnWW8wU2RIQTdZRHNkNlhzSXhpMHUwd29BNmZIV0x2R0pUYkN3SjhldXZIeW5xQTh6UkxienZKWHpwMExhaXZwYXZHM3dBUmc?oc=5",
-      "published": "Mon, 16 Nov 2026 17:36:43 GMT",
+      "published": "Wed, 18 Nov 2026 12:07:17 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     },
     {
@@ -3157,6 +3150,13 @@
       "title": "6. QQQ: Riding the Nasdaq-100 without picking a single winner - Moomoo",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMDFHZ05oNnd0UlZHUzZoX0hFTE5aVlk0MlBZbVRzZkdfNmZOOEs4c3BudHFhZFBRbFBUVE5zU0pSaHZBUU54ZW1XTHFTVE1YNVQ5emFlUTJSRGx1SzhoNUZtX1FpTzA1UElhUk1lcnFrTTRFWWZXNG56TGNrZ212SUY0U0RuZUhpMXZERFZXMDBoUmNkbE5OS2NNTFkzRk1Sam5JZW9TZW85Zw?oc=5",
       "published": "Thu, 19 Nov 2026 09:36:04 GMT",
+      "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "41e136dd9076e88d",
+      "title": "ProShares Ultra QQQ (QLD) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5iN1ZleWpPY21uZFg5a1BjeW1RMVAyN09HaF96OVluOVNZbjhqY2FsZktKM0luRVJtSkNXUm00T2FiUkZycmwxREtQTTA5Q3ZH?oc=5",
+      "published": "Thu, 19 Nov 2026 11:08:14 GMT",
       "topic": "QQQ Nasdaq 100"
     }
   ],
@@ -5118,7 +5118,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-19T12:13:39.210182+00:00",
+    "updated_utc": "2026-11-19T13:33:01.306190+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
