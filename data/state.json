@@ -2112,7 +2112,7 @@
       "origin_utc": "2026-11-19T15:25:00+00:00",
       "recorded_utc": "2026-11-19T15:33:07.000872+00:00",
       "horizon_candles": 3,
-      "entry_price": null,
+      "entry_price": 657.5349731445312,
       "scoring_version": "forward_v2",
       "prediction": {
         "up_probability_raw_shrunk": 0.3824,
@@ -2141,8 +2141,54 @@
         "vwap_note": "Unavailable: close/volume-only feed is insufficient for genuine VWAP.",
         "interpretation": "Research-only observations. These signals do not affect baseline forecasts."
       },
-      "outcome": null,
-      "why": [],
+      "outcome": {
+        "actual_return": 0.000966,
+        "direction_correct": false,
+        "evaluated_utc": "2026-11-19T16:38:29.169966+00:00"
+      },
+      "why": [
+        {
+          "why": "Why did the model predict DOWN?",
+          "answer": "Historical nearest-neighbor outcomes and observed momentum/volatility/volume features.",
+          "evidence": {
+            "momentum_15m": -0.007848,
+            "momentum_60m": 0.005993,
+            "volatility": 0.007188,
+            "volume_ratio": 6.739
+          },
+          "status": "mechanism documented"
+        },
+        {
+          "why": "Why did the market actually move this way?",
+          "answer": "Not causally identifiable from OHLCV data alone. Review timestamped order flow, broad markets and news.",
+          "evidence": {
+            "actual_return": 0.000966
+          },
+          "status": "unresolved"
+        },
+        {
+          "why": "Why might market participants have changed their orders?",
+          "answer": "Candidate factors include news surprises, liquidity, hedging, and broader market movement; none is proven here.",
+          "evidence": {
+            "news_headlines_available": 150
+          },
+          "status": "hypotheses"
+        },
+        {
+          "why": "Why did the forecast succeed or fail?",
+          "answer": "Compare observed outcome with frozen forecast; one observation cannot establish a robust explanation.",
+          "evidence": {
+            "direction_correct": false
+          },
+          "status": "requires repeated testing"
+        },
+        {
+          "why": "Why should we trust any inferred lesson?",
+          "answer": "Only if the relationship improves forward out-of-sample accuracy, calibration and cost-adjusted returns.",
+          "evidence": {},
+          "status": "not yet validated"
+        }
+      ],
       "news_snapshot_ids": [
         "6d46afaa0e5ad8ea",
         "fd8524dba3fb6b92",
@@ -2159,7 +2205,47 @@
         "4dd3071fa6aa85a7",
         "8efe9f77096a7442",
         "e3ea588ca69c99a4"
-      ]
+      ],
+      "entry_bar_utc": "2026-11-19T15:35:00+00:00",
+      "target_utc": "2026-11-19T15:50:00+00:00"
+    },
+    {
+      "id": "2026-11-19T16:30:00+00:00-h3",
+      "origin_utc": "2026-11-19T16:30:00+00:00",
+      "recorded_utc": "2026-11-19T16:38:29.169966+00:00",
+      "horizon_candles": 3,
+      "entry_price": null,
+      "scoring_version": "forward_v2",
+      "prediction": {
+        "up_probability_raw_shrunk": 0.5,
+        "expected_return": 9e-05,
+        "matches": 30,
+        "direction": "UNCERTAIN",
+        "features": {
+          "momentum_15m": 0.000624,
+          "momentum_60m": 0.001529,
+          "volatility": 0.002689,
+          "volume_ratio": 1.069
+        }
+      },
+      "strategy_context": {
+        "status": "observed_not_predictive",
+        "rsi_14_close": 41.99,
+        "sma_10_close": 660.9172,
+        "sma_20_close": 663.3338,
+        "short_sma_above_long": false,
+        "support_20_prior_closes": 657.535,
+        "resistance_20_prior_closes": 673.195,
+        "close_breakout_above_prior_resistance": false,
+        "close_breakdown_below_prior_support": false,
+        "relative_volume_20": 1.595,
+        "vwap": null,
+        "vwap_note": "Unavailable: close/volume-only feed is insufficient for genuine VWAP.",
+        "interpretation": "Research-only observations. These signals do not affect baseline forecasts."
+      },
+      "outcome": null,
+      "why": [],
+      "news_snapshot_ids": []
     }
   ],
   "articles": [
@@ -4834,22 +4920,87 @@
       "time": "2026-11-19T15:25:00+00:00",
       "close": 663.4623,
       "volume": 15261201
+    },
+    {
+      "time": "2026-11-19T15:30:00+00:00",
+      "close": 660.46,
+      "volume": 1138971
+    },
+    {
+      "time": "2026-11-19T15:35:00+00:00",
+      "close": 657.535,
+      "volume": 1589007
+    },
+    {
+      "time": "2026-11-19T15:40:00+00:00",
+      "close": 659.722,
+      "volume": 36864598
+    },
+    {
+      "time": "2026-11-19T15:45:00+00:00",
+      "close": 658.0,
+      "volume": 59744546
+    },
+    {
+      "time": "2026-11-19T15:50:00+00:00",
+      "close": 658.1703,
+      "volume": 21418564
+    },
+    {
+      "time": "2026-11-19T15:55:00+00:00",
+      "close": 661.4,
+      "volume": 21997197
+    },
+    {
+      "time": "2026-11-19T16:00:00+00:00",
+      "close": 662.26,
+      "volume": 67415058
+    },
+    {
+      "time": "2026-11-19T16:05:00+00:00",
+      "close": 660.2,
+      "volume": 811311
+    },
+    {
+      "time": "2026-11-19T16:10:00+00:00",
+      "close": 661.6901,
+      "volume": 441473
+    },
+    {
+      "time": "2026-11-19T16:15:00+00:00",
+      "close": 661.0574,
+      "volume": 48597009
+    },
+    {
+      "time": "2026-11-19T16:20:00+00:00",
+      "close": 662.0845,
+      "volume": 333286
+    },
+    {
+      "time": "2026-11-19T16:25:00+00:00",
+      "close": 662.84,
+      "volume": 24993219
+    },
+    {
+      "time": "2026-11-19T16:30:00+00:00",
+      "close": 661.47,
+      "volume": 25418112
     }
   ],
   "status": {
-    "updated_utc": "2026-11-19T15:33:07.000872+00:00",
+    "updated_utc": "2026-11-19T16:38:29.169966+00:00",
     "market": "ok",
-    "news": "ok",
+    "news": "unavailable",
     "warnings": [
       "Research prototype. Not live execution, not financial advice.",
       "Public free feeds can be delayed, incomplete or unavailable."
     ],
-    "last_candle_utc": "2026-11-19T15:25:00+00:00",
-    "last_price_usd": 663.4623
+    "last_candle_utc": "2026-11-19T16:30:00+00:00",
+    "last_price_usd": 661.47
   },
   "metrics": {
-    "evaluated_directional": 11,
-    "direction_accuracy": 0.455,
+    "evaluated_directional": 12,
+    "direction_accuracy": 0.417,
     "note": "Exploratory, overlapping forecasts; NOT a valid independent out-of-sample backtest."
   }
 }
