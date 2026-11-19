@@ -2110,13 +2110,6 @@
   ],
   "articles": [
     {
-      "id": "fd67fa8aaabcd555",
-      "title": "Stock Market Today: Nasdaq-100 Sinks 1% as Nvidia Faces Its First Earnings Without Jensen Huang - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQX1pMLWRxb0QydVI2UlFfTlpnVVdzeW1mYXFuNlhjZHc1WEswdjlJLW5DMDlZTWRxZjRIcDZYdGZpb19rdTZIYnBrdlg2ZGZaeHNrdFhqSFdCRzBxVEFTRkNXdTdIcUVtb01SYVNMaEtTRFYzWjRpSVhxV3V1T2Y4eElPOUFSaEZRaFJldG9Ddm1PS0Z1bzFJMkk3RXlRN3BRNVozX2NQY2FtMnNSc0JSS1dKbXZseENST2pjVlBMZ1BfeFRIR0lFZGNUQ3hTbmc0dENz?oc=5",
-      "published": "Mon, 16 Nov 2026 14:58:00 GMT",
-      "topic": "QQQ Nasdaq 100"
-    },
-    {
       "id": "c97e2b628cfc7d60",
       "title": "Nasdaq Soars Last Week Without NVIDIA: ETFs in Focus - TradingView",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT0tEVnJMbk51Z19vTWdJbkpOaXY5ekZkMlJHaHp6cUJZWmRNWHhVdE5PNEJTUGRkU3Y1eGh1RTdLMHdXOXlpUUtWM2lvMFpxUXgxZnIxR1FfQlZCV2tGTHJCY3Rab2FMaWNTd0NQVC0ta3VRd2FpaGVER3hXZE9CTkI3bl9od0FQSmlZY1pyc0RiUGNSMWVkZlJXVTdwWFQxWUlTbmp0a3c2ZDA?oc=5",
@@ -3158,6 +3151,13 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZzBwR0NHNFV3YmRCS1N2TmxpODZRWHRWTUF4OUhaVVRIUnU5RkZaUjFaTURXRVhCZGlucGF2Y3MzTzlabFZ4akRDSUc4QzUzNEpHOGhHRW55cGxTdUlYVzgxN21xemcza1huekdTUUZvR2VtcVNna2JSa3l6RzFwU3c3ZFpoUWxMbU1SUHlVcjFpRWFDWjNvM1hKb0s5UHFHcDN4d0dR0gGrAUFVX3lxTE9lYWNzY0pNY2wwYktfS2oyUXJWVHNvSDh1Y2xqV2NTUXVVQTlyTEFkZjJqX0o3SnZZbTYxTWdZUFBlYi1uWFk5STVrNE5YcmdHaEtsWHl3TkgwUm9xUkRhX3pmaW9GencwQUItU0pyM3RzWWxsRWt0cU5DZl9ULW5QU2hRRk13LWN5cTRkS1lvYTZkQXhVUm44dldBRmVNRDZ3eF9rSkdSN2hJOA?oc=5",
       "published": "Wed, 18 Nov 2026 13:05:24 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "6d46afaa0e5ad8ea",
+      "title": "6. QQQ: Riding the Nasdaq-100 without picking a single winner - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMDFHZ05oNnd0UlZHUzZoX0hFTE5aVlk0MlBZbVRzZkdfNmZOOEs4c3BudHFhZFBRbFBUVE5zU0pSaHZBUU54ZW1XTHFTVE1YNVQ5emFlUTJSRGx1SzhoNUZtX1FpTzA1UElhUk1lcnFrTTRFWWZXNG56TGNrZ212SUY0U0RuZUhpMXZERFZXMDBoUmNkbE5OS2NNTFkzRk1Sam5JZW9TZW85Zw?oc=5",
+      "published": "Thu, 19 Nov 2026 09:36:04 GMT",
+      "topic": "QQQ Nasdaq 100"
     }
   ],
   "candles": [
@@ -5118,7 +5118,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-19T11:15:15.915745+00:00",
+    "updated_utc": "2026-11-19T12:13:39.210182+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
