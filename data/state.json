@@ -3116,7 +3116,7 @@
       "origin_utc": "2026-11-20T18:30:00+00:00",
       "recorded_utc": "2026-11-20T18:37:33.429140+00:00",
       "horizon_candles": 3,
-      "entry_price": null,
+      "entry_price": 619.8699951171875,
       "scoring_version": "forward_v2",
       "prediction": {
         "up_probability_raw_shrunk": 0.5,
@@ -3145,8 +3145,54 @@
         "vwap_note": "Unavailable: close/volume-only feed is insufficient for genuine VWAP.",
         "interpretation": "Research-only observations. These signals do not affect baseline forecasts."
       },
-      "outcome": null,
-      "why": [],
+      "outcome": {
+        "actual_return": 0.003101,
+        "direction_correct": null,
+        "evaluated_utc": "2026-11-20T19:39:50.915045+00:00"
+      },
+      "why": [
+        {
+          "why": "Why did the model predict UNCERTAIN?",
+          "answer": "Historical nearest-neighbor outcomes and observed momentum/volatility/volume features.",
+          "evidence": {
+            "momentum_15m": 8e-05,
+            "momentum_60m": 0.000322,
+            "volatility": 0.002011,
+            "volume_ratio": 0.041
+          },
+          "status": "mechanism documented"
+        },
+        {
+          "why": "Why did the market actually move this way?",
+          "answer": "Not causally identifiable from OHLCV data alone. Review timestamped order flow, broad markets and news.",
+          "evidence": {
+            "actual_return": 0.003101
+          },
+          "status": "unresolved"
+        },
+        {
+          "why": "Why might market participants have changed their orders?",
+          "answer": "Candidate factors include news surprises, liquidity, hedging, and broader market movement; none is proven here.",
+          "evidence": {
+            "news_headlines_available": 150
+          },
+          "status": "hypotheses"
+        },
+        {
+          "why": "Why did the forecast succeed or fail?",
+          "answer": "Compare observed outcome with frozen forecast; one observation cannot establish a robust explanation.",
+          "evidence": {
+            "direction_correct": null
+          },
+          "status": "requires repeated testing"
+        },
+        {
+          "why": "Why should we trust any inferred lesson?",
+          "answer": "Only if the relationship improves forward out-of-sample accuracy, calibration and cost-adjusted returns.",
+          "evidence": {},
+          "status": "not yet validated"
+        }
+      ],
       "news_snapshot_ids": [
         "83f9df68b7fb78d0",
         "c3ea1ad6d5f54e0b",
@@ -3163,52 +3209,66 @@
         "4dd3071fa6aa85a7",
         "40cfc6d837f5644e",
         "8efe9f77096a7442"
+      ],
+      "entry_bar_utc": "2026-11-20T18:40:00+00:00",
+      "target_utc": "2026-11-20T18:55:00+00:00"
+    },
+    {
+      "id": "2026-11-20T19:30:00+00:00-h3",
+      "origin_utc": "2026-11-20T19:30:00+00:00",
+      "recorded_utc": "2026-11-20T19:39:50.915045+00:00",
+      "horizon_candles": 3,
+      "entry_price": null,
+      "scoring_version": "forward_v2",
+      "prediction": {
+        "up_probability_raw_shrunk": 0.4412,
+        "expected_return": -0.000732,
+        "matches": 30,
+        "direction": "DOWN",
+        "features": {
+          "momentum_15m": -0.006036,
+          "momentum_60m": -0.013716,
+          "volatility": 0.002121,
+          "volume_ratio": 1.722
+        }
+      },
+      "strategy_context": {
+        "status": "observed_not_predictive",
+        "rsi_14_close": 26.08,
+        "sma_10_close": 618.4918,
+        "sma_20_close": 619.7101,
+        "short_sma_above_long": false,
+        "support_20_prior_closes": 614.63,
+        "resistance_20_prior_closes": 623.0801,
+        "close_breakout_above_prior_resistance": false,
+        "close_breakdown_below_prior_support": true,
+        "relative_volume_20": 0.342,
+        "vwap": null,
+        "vwap_note": "Unavailable: close/volume-only feed is insufficient for genuine VWAP.",
+        "interpretation": "Research-only observations. These signals do not affect baseline forecasts."
+      },
+      "outcome": null,
+      "why": [],
+      "news_snapshot_ids": [
+        "83f9df68b7fb78d0",
+        "c3ea1ad6d5f54e0b",
+        "6722cba3166a1d63",
+        "9d411986b8d5d057",
+        "b0c3fbdaf70b7644",
+        "fd8524dba3fb6b92",
+        "d365522f109304cd",
+        "bce1a6ea6da7ab2d",
+        "4ac0aab9f6178e66",
+        "feec6ce26f3a5731",
+        "2dd48909ab51ad3d",
+        "0b2541c65c3995c3",
+        "bfd7f49991fe6f0c",
+        "4dd3071fa6aa85a7",
+        "b4dd76adb5d5b610"
       ]
     }
   ],
   "articles": [
-    {
-      "id": "75306cb437247384",
-      "title": "VTIP: 2x Margin Over Inflation Of A Year Ago Is Attractive (NASDAQ:VTIP) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOWMyaXVOaHVzMjVzdHBOaS1acVJWLXNnUy00TmVZdS1HR1FxamliQlg2eUR1a0VYdk44ckJjVTczZl9IR0Z1aU82cVhESllmU3Y0Mnk2MlJPSEZ1RU8xNWRyeXFKa1RLWTNmRHRSM3dsd1ZWdV9EVTQ3VnJaNExLQmJBRWVGYU1MQnppZ2ZERk5jWVJhUFFMZGd1ZWNwNS1BRUVCdkVWbXNyd2xMS25RVXBSRHNOZXBMZjlLcHVvVHhUQVdvSWM0R3psazVSRW5IR2FCeGRZWQ?oc=5",
-      "published": "Mon, 16 Nov 2026 20:29:41 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
-      "id": "c964bf548fdc547d",
-      "title": "If Nvidia's Earnings Show Tightness, Alphabet and Amazon Could Rise 40% and 33% By The End of 2026, Respectively - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPaGJtUUZscVdGTUVJVDVweUNnWkxrQ055TklGOG1yd1R6RW5hejhtblotQ2VsZ1pZRTV4M2lvMENMaXZaMTJFSi1TQk8xbnc5STZQLVdWRVNGbjlnckpUVk9tWjE1WUpLSjdYajFYajIxb253TGp5Q1RVVkE2V2d2YWwxR3UzeGVEMDVvRjVtalY4RkFfZGNheFFiSU9fd2NpT1QzNlAxajdwOU9LTkJGY2M2Rm9GWDFWajBVbWNORVBjZXhvOW14b2phcHN6Yldwd3Z5OWlQaUYxQl9UaXJwVjdLdGVidw?oc=5",
-      "published": "Tue, 17 Nov 2026 15:45:00 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
-      "id": "818d14721fee4a71",
-      "title": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51M3YyYUhDNzU1Y2Rjb1RZakJNc2s1NWlnbHBYS1RWTTJyNnpzNUFiUEVJQmRoSElldkd0Z3Bva0s1UURoUFpJcDVxZnRJZXdDcGc?oc=5",
-      "published": "Tue, 17 Nov 2026 06:34:27 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
-      "id": "b1f05808e3a8456b",
-      "title": "Treasury prices catch a small bid as stock market weakens and Warsh says AI might 'disappoint' - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9Hb0xmSm1PekxUM0FmRThxUmxKLUp6RFhoZmg0SXdEd2xaeGdKODRRbkhqN205X0MwZmhqbHlhRnVvQVpaUDhWMWp6QUJoamxaazJNN1lFNUVVWVRISnpLVGxpbllUbklySjAteGtLdWR6WmNCQ0hj?oc=5",
-      "published": "Mon, 16 Nov 2026 09:17:30 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
-      "id": "340f2a126e7a3166",
-      "title": "Fed Chairman Warsh grapples with AI\u2019s potential economic impact, steers clear of its inflation risk - LancasterOnline",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOT2N2RWNxWm9UWk9fUmZnZ0MxV0lmUmpBdkpqSEZ6ZlVaS2RrVGdGenhCcmpSR3U4TnE5a2RVbzNJUkxicFlhWlVITDlFemhhSjRPZlQySE15QlFUOWh1NkNXaFdJd0J2NFFMOWJmY2lUT1M0X0diTXBQWERCYy1HcXlTaFVqTFdHS0o2OFcwYTZ0LU13R3FFWHRuV1JoN0ViNXlBTFBkZG5zNXk4OVprSG1oODVpSnF6N3k5MmpKOTZ6UE1nMktHS1BmR01idzVWY1U1MjlpeGltVWprRWhZem5VblR2Z2JqWTdQYVhmcFlFbW9yOWNGNDFJdmcyUFU4bXVzLVZvRGR2ZGh3aVhLMl9ueEhqVU9zaUIwVjl3?oc=5",
-      "published": "Mon, 16 Nov 2026 18:10:46 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
-      "id": "305d38bcb3225a4c",
-      "title": "Wall Street Futures Decline as Nvidia Leadership Uncertainty and Inflation Concerns Weigh on Markets: Dow Jones, S&P, Nasdaq - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRFgxRU1DUUoxYlh2TmxnUzlpa096UDVTQzdQTVk3cVVSRXoyOVZXX1dmRERDLUY3TnN3enEwUzJYUk1sZGFYVmh1WGl2cDVFbUNmenFsU09VZ3Z4Rll6dWVua21fd2QyY2F0M0NqRjcxb0dYVmVNbGFtdjBNZUJwM3hYZk4yZThGOEUtRU1yYXNwbEt1TUwzUW9OU1VXOEV4?oc=5",
-      "published": "Mon, 16 Nov 2026 14:14:33 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
     {
       "id": "da9fe4ce8dd82445",
       "title": "Nasdaq 100 Forecast: NDX falls ahead of Nvidia\u2019s earnings & Anthropic\u2019s debut this week - FOREX.com",
@@ -4215,6 +4275,48 @@
       "title": "Anthropic Soars 17% on Listing Day, Market Cap Hits $2 Trillion: How Long Will the AI Boom Last? - 36Kr",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KMzVGTzlxcWxxVU85VjJvQTdZOUVMdlRscEM5TURuejB0cWtnZU9FdXV3dDZ4R3BpQmFhSDRHek1qRVlFY1VJRFdlSXVndUVBR3ZF?oc=5",
       "published": "Fri, 20 Nov 2026 09:32:27 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "6722cba3166a1d63",
+      "title": "Berkshire Hathaway Is Up 14% in 2026 While the NASDAQ 100 Has Gone Nowhere. Is It Time to Dump Tech Stocks and Buy Berkshire? - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQWVRpSTNremhENnJudzFTeW1WR2owMlFpd0psbERmR2ZTQWtLRTFfMTJSdEJfekVtZ0pGYURiYTRJZVhIY3Y1Zm1qZnIwbU1ELWZlNm9Pbk42NmoyblAxUVBZOW9CYXlUTXNQbVg0aU8tc1kteGloM2F4emt6ZVdub2xRMzZ6VjFJVHRrZTE4R0x2NUFtRjVGWFdDV0RfV3Yzd0lwQmRoUHpVblUyWGpHclVOcjZzSUhBT3JFQXJIb3EzZVE4eU1qLUgzalI5WlpicmhGN2k4eGdTTENKYTJ4VElYc2pLanBfa0s1SG5DMjFjOUVtWEpIV2F3?oc=5",
+      "published": "Fri, 20 Nov 2026 18:52:00 GMT",
+      "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "bfd7f49991fe6f0c",
+      "title": "The Fed is too busy fighting inflation to rescue the stock market - MarketWatch",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcXlrMXRSSklDUVdOYXMwYnNBdk1PeXZpcVRwUFY4MDdfR0IzLXdZVGQzX1ZsbzViOXE0ZmdYSjVUWXB2QnY1bVdLMWRmUUx6d3NLUXZBVHl0M0Y4dkJtSnRIR0pjekFtRHJlMXd0X1pvZzZBeVhSNnRaUWJOVHczcU1RbUxQS1NEajhtSV80R0dqNWNZY3lxUGpjbjFmcXc3Z1lhSHhiV2RqNm9r?oc=5",
+      "published": "Fri, 20 Nov 2026 19:22:00 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "b4dd76adb5d5b610",
+      "title": "Nasdaq falls as Anthropic slides, dragging AI stocks into weekly selloff - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNY3dwak9pZ2ZsR2FiYXQzQ1BCZ1FWVkFGbUw3X3ViTGJlYkFIc3FHc1psRThxNHZLcDlMTFRpTjdRcTF0NF9CTk01NEIxV1MwalpoWVMycW1wTTlkaGdOTnMwbG1WRzBVREdXMjBsblpFQlF3NUE3YXlSWC1HS2pjWWptQUhGcERXQ25SUjRlQUt2eVYzdEZHczdzTFlfNkFnMkxqekFsTmpWZy1mNXU0UEhXVkt6UXpzMF9HaWVWZnAyT1pQREVZ?oc=5",
+      "published": "Fri, 20 Nov 2026 14:41:38 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "1464d98eb1963a88",
+      "title": "Could a December Fed Increase Look Close to Certain, and What Would It Mean for iShares 7-10 Year Treasury Bond ETF (NASDAQ:IEF) Investors? - Kalkine",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxObHlOTWJ5eWtIdHJZV1p6Z1c1cnZfdDd4U1BxSUlOWUNnWm1FNnJGUzFkZlhUXy1uQVFYdWJrb2N2ZVJfbFdSOUFmeFFQZE93a09jUlJqNGxUQjl3Y2lqT3NiWjdYMTNfaXM5S3hhalNIbzg4Wm1rVTU3UERvcTZDYjhHc3g4LWpSMnM5cUxNaHFTM0p0OFVzd2Z1SkZSQ1dEaGVudldTRFBLTlpTSGNPMGE0eEFFMnVBTHZ6Q1M0UjZnMnBCdnhoaTFyMS1XRDdtQ25aOWFNblB6SzZoejFoaW40Qmp2bFFRdmJoZ1N1RHVhSzJManVrcTdiMEJXa2NMZ2NsYllRRQ?oc=5",
+      "published": "Thu, 19 Nov 2026 12:37:00 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "6a8a0c5acc41e5a2",
+      "title": "Yahoo Finance - Stock Market Live, Quotes, Business & Finance News - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBBTy1pM1poaEROWTVTNDVTYVdvTDZEWmM1VDhGdlUzWW1OUXNvQ3RmZTVZQ3BGVlhvbTlWNFNhUQ?oc=5",
+      "published": "Fri, 20 Nov 2026 15:59:43 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "a782035fdd245f57",
+      "title": "Anthropic tops SpaceX with record $2 trillion Nasdaq debut - The Standard (HK)",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdFhYTmRackRkV3AwbWVWXzVLNF85QUpTYk5FTTM0clE5X1RRY1dvaWUzbEtKSjhlZFVpaGZMM0NsY2hOdnVMSEtWSHlLeXNUTVJuMm1VRjYzdzl5QU9XVXVBZm5wTkNvM09venhUdkQxMkdGdW40blRiME5GQTRyRmR5TjhWOWIyaXdrZUlxQmRseXl5T1ZmdW91Nk54TXQtNm80Z1QxYjZwbWwxbXJJcA?oc=5",
+      "published": "Thu, 19 Nov 2026 19:45:30 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
@@ -6023,18 +6125,78 @@
       "time": "2026-11-20T18:30:00+00:00",
       "close": 621.91,
       "volume": 955613
+    },
+    {
+      "time": "2026-11-20T18:35:00+00:00",
+      "close": 621.9784,
+      "volume": 883540
+    },
+    {
+      "time": "2026-11-20T18:40:00+00:00",
+      "close": 619.87,
+      "volume": 548635
+    },
+    {
+      "time": "2026-11-20T18:45:00+00:00",
+      "close": 620.27,
+      "volume": 460797
+    },
+    {
+      "time": "2026-11-20T18:50:00+00:00",
+      "close": 623.0801,
+      "volume": 598774
+    },
+    {
+      "time": "2026-11-20T18:55:00+00:00",
+      "close": 621.792,
+      "volume": 1375751
+    },
+    {
+      "time": "2026-11-20T19:00:00+00:00",
+      "close": 620.87,
+      "volume": 1080449
+    },
+    {
+      "time": "2026-11-20T19:05:00+00:00",
+      "close": 619.77,
+      "volume": 586552
+    },
+    {
+      "time": "2026-11-20T19:10:00+00:00",
+      "close": 617.531,
+      "volume": 1087761
+    },
+    {
+      "time": "2026-11-20T19:15:00+00:00",
+      "close": 617.105,
+      "volume": 672890
+    },
+    {
+      "time": "2026-11-20T19:20:00+00:00",
+      "close": 616.4901,
+      "volume": 604756
+    },
+    {
+      "time": "2026-11-20T19:25:00+00:00",
+      "close": 614.63,
+      "volume": 1307040
+    },
+    {
+      "time": "2026-11-20T19:30:00+00:00",
+      "close": 613.38,
+      "volume": 1458527
     }
   ],
   "status": {
-    "updated_utc": "2026-11-20T18:37:33.429140+00:00",
+    "updated_utc": "2026-11-20T19:39:50.915045+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
       "Research prototype. Not live execution, not financial advice.",
       "Public free feeds can be delayed, incomplete or unavailable."
     ],
-    "last_candle_utc": "2026-11-20T18:30:00+00:00",
-    "last_price_usd": 621.91
+    "last_candle_utc": "2026-11-20T19:30:00+00:00",
+    "last_price_usd": 613.38
   },
   "metrics": {
     "evaluated_directional": 17,
