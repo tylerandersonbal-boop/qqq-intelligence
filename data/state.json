@@ -2912,7 +2912,7 @@
       "origin_utc": "2026-11-20T16:35:00+00:00",
       "recorded_utc": "2026-11-20T16:40:49.812384+00:00",
       "horizon_candles": 3,
-      "entry_price": null,
+      "entry_price": 622.3200073242188,
       "scoring_version": "forward_v2",
       "prediction": {
         "up_probability_raw_shrunk": 0.4706,
@@ -2941,8 +2941,54 @@
         "vwap_note": "Unavailable: close/volume-only feed is insufficient for genuine VWAP.",
         "interpretation": "Research-only observations. These signals do not affect baseline forecasts."
       },
-      "outcome": null,
-      "why": [],
+      "outcome": {
+        "actual_return": -0.003664,
+        "direction_correct": null,
+        "evaluated_utc": "2026-11-20T17:38:38.408037+00:00"
+      },
+      "why": [
+        {
+          "why": "Why did the model predict UNCERTAIN?",
+          "answer": "Historical nearest-neighbor outcomes and observed momentum/volatility/volume features.",
+          "evidence": {
+            "momentum_15m": -0.004325,
+            "momentum_60m": -0.011574,
+            "volatility": 0.002282,
+            "volume_ratio": 1.73
+          },
+          "status": "mechanism documented"
+        },
+        {
+          "why": "Why did the market actually move this way?",
+          "answer": "Not causally identifiable from OHLCV data alone. Review timestamped order flow, broad markets and news.",
+          "evidence": {
+            "actual_return": -0.003664
+          },
+          "status": "unresolved"
+        },
+        {
+          "why": "Why might market participants have changed their orders?",
+          "answer": "Candidate factors include news surprises, liquidity, hedging, and broader market movement; none is proven here.",
+          "evidence": {
+            "news_headlines_available": 150
+          },
+          "status": "hypotheses"
+        },
+        {
+          "why": "Why did the forecast succeed or fail?",
+          "answer": "Compare observed outcome with frozen forecast; one observation cannot establish a robust explanation.",
+          "evidence": {
+            "direction_correct": null
+          },
+          "status": "requires repeated testing"
+        },
+        {
+          "why": "Why should we trust any inferred lesson?",
+          "answer": "Only if the relationship improves forward out-of-sample accuracy, calibration and cost-adjusted returns.",
+          "evidence": {},
+          "status": "not yet validated"
+        }
+      ],
       "news_snapshot_ids": [
         "83f9df68b7fb78d0",
         "9d411986b8d5d057",
@@ -2959,38 +3005,66 @@
         "4dd3071fa6aa85a7",
         "8efe9f77096a7442",
         "bc53b58c9bea2a67"
+      ],
+      "entry_bar_utc": "2026-11-20T16:45:00+00:00",
+      "target_utc": "2026-11-20T17:00:00+00:00"
+    },
+    {
+      "id": "2026-11-20T17:30:00+00:00-h3",
+      "origin_utc": "2026-11-20T17:30:00+00:00",
+      "recorded_utc": "2026-11-20T17:38:38.408037+00:00",
+      "horizon_candles": 3,
+      "entry_price": null,
+      "scoring_version": "forward_v2",
+      "prediction": {
+        "up_probability_raw_shrunk": 0.5588,
+        "expected_return": 0.000251,
+        "matches": 30,
+        "direction": "UP",
+        "features": {
+          "momentum_15m": 0.001506,
+          "momentum_60m": -0.004069,
+          "volatility": 0.002734,
+          "volume_ratio": 0.043
+        }
+      },
+      "strategy_context": {
+        "status": "observed_not_predictive",
+        "rsi_14_close": 36.03,
+        "sma_10_close": 621.7135,
+        "sma_20_close": 623.9942,
+        "short_sma_above_long": false,
+        "support_20_prior_closes": 620.04,
+        "resistance_20_prior_closes": 629.54,
+        "close_breakout_above_prior_resistance": false,
+        "close_breakdown_below_prior_support": false,
+        "relative_volume_20": 0.043,
+        "vwap": null,
+        "vwap_note": "Unavailable: close/volume-only feed is insufficient for genuine VWAP.",
+        "interpretation": "Research-only observations. These signals do not affect baseline forecasts."
+      },
+      "outcome": null,
+      "why": [],
+      "news_snapshot_ids": [
+        "83f9df68b7fb78d0",
+        "c3ea1ad6d5f54e0b",
+        "9d411986b8d5d057",
+        "b0c3fbdaf70b7644",
+        "fd8524dba3fb6b92",
+        "bce1a6ea6da7ab2d",
+        "4ac0aab9f6178e66",
+        "4d4d8570ad9ce5f2",
+        "6884675142f6df4d",
+        "4f6afe860d378840",
+        "2dd48909ab51ad3d",
+        "feec6ce26f3a5731",
+        "4dd3071fa6aa85a7",
+        "40cfc6d837f5644e",
+        "8efe9f77096a7442"
       ]
     }
   ],
   "articles": [
-    {
-      "id": "9a6b71b9fc857b3a",
-      "title": "Tech stocks rebound as Nasdaq futures rise 0.37%; NVIDIA earnings and Anthropic IPO on the horizon | Tonight's Highlights - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcDJEclFWRjlCc0JkeW1ZUk9zLTFjMDB6azFfcnl1Rzk3NVZxQ0R3NC1RZmhMWE5xZTVlOUZidUQ5S1JRWWIzSFJtdXVIejRuaDhZa25kWFFXQ3VIZzlPUlB1M3pCSGRvZF8tbHlDckR6ei1GYnliekYxU1JhRlFhbE9fMk0xdzBxelIxcWhkamJNQk1RNDMzSURCU0FCZXc?oc=5",
-      "published": "Tue, 17 Nov 2026 13:30:12 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
-      "id": "fdbe4caee98ebb01",
-      "title": "Nvidia Turmoil Rattles Wall Street: The Numbers Behind the Chip Stock Slump - Around Prague",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOc2RXNVBWcV8yOHdGUGQ2c3FjaEd1eGk0S0NfY25mQV80aC1qejd4Z1o3UFU5aHFRNDlHYVQtb01zX1lNUVF1aE9ycXpxMWNONkJkX1NGblpMRjF0UkFXWUY1RHNxenlvNC14WXBycy0xQmpvMm9uNFI3enpLblZMeTNZTS1FYTMtVGJ6dkhpWlF3UnVIRUhoX0NWR18ycVlsVTNvWWNjRjA0dWpFa2c?oc=5",
-      "published": "Wed, 18 Nov 2026 01:08:43 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
-      "id": "18cf2cb903222b9f",
-      "title": "The Nasdaq-100 Is Doing Something It Did Only in 2000 and 2018. Here's What Happened Next Both Times - 24/7 Wall St.",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQekZFYmdrLWJpZF82ZU9uUEo4TjVXT2QxVUx4YWtwSWhSU1NIQTNadmV6alNjWWdIRnBFaEtBWGJlRkpyVE5VX2lHRlBqYVR5MGprMlhCb1prdkVnQ2YzM0tiOU1IMnVJNDRFeW5XZll1dVdLa2VDcmNyUXVTUGFyZ3JpOWZaZHQ2MkZicWdvbGFEdE9uVVMyZ0xMYW9YSnp2MFdUZHNnRF9zM243bWZtdVdmczhRNmtwQmNldGlrODhRZmJvSC04ZTEwZnNoaUgyOF9sNHBTR203dw?oc=5",
-      "published": "Wed, 18 Nov 2026 02:51:00 GMT",
-      "topic": "QQQ Nasdaq 100"
-    },
-    {
-      "id": "1d6509243230aa6f",
-      "title": "The Nasdaq-100 Is Doing Something It Did Only in 2000 and 2018. Here\u2019s What Happened Next Both Times - AOL.com",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zRUdQTUdBMDNDSndiZGZ0dWZmcU9zWHA3RU9aZUlsMUdOZmhLZ2tiZ0dCWWtObV9tSGNveGpkcEpFWERDVUw2cXB0Zmh5MXFhMGpRN0d6WDdDekZwZGE1eW1JWUc4MnhIOGxQTDZCcFhuaFJMamJfcllXQnZETkk?oc=5",
-      "published": "Wed, 18 Nov 2026 02:51:00 GMT",
-      "topic": "QQQ Nasdaq 100"
-    },
     {
       "id": "2bd82377ce33ebd2",
       "title": "QQQ ETF Guide: How to invest in the Nasdaq-100 from Singapore - Beansprout",
@@ -4011,6 +4085,34 @@
       "title": "Satya Nadella Explains the Buyout Offers, Microsoft Stock (NASDAQ:MSFT) Notches Up - TipRanks",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZEZMRmcxTlg4anp1M1VfLUR3d1JJRjV2QU9FMHpueks3ekhZdjJBRlh0QTlKVXRxNGxxOTdWQkJNVmg5aWd4NGlldHlXejdwRk9oaEtTNnZTY2g2dVlMdXRNbkQ1ejRqcWExZC1SNlZ0NlZET0VnNmFKTjIxNmRtclVsR1VfQmlkSFItNDdTVDJ5QndwcVRETnAzNlppVkZleWw0SnE0SVFteGNQ?oc=5",
       "published": "Thu, 19 Nov 2026 18:11:42 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "c3ea1ad6d5f54e0b",
+      "title": "$E-mini NASDAQ 100 Futures (DEC6) (NQmain.US)$ $Invesco QQQ Trust (QQQ.US)$ - Moomoo",
+      "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxQMy10anpYNkRNOExHeVN6cVBHUU56VXlrb05NRHVWWF9DVWEtbWpaaFVyems1dTFudm1kaVhBUUVNSXR3UC1nMncyeW5ud1RHeGlpTGVCMUkxVmpNa0MtbVEyRXRJTHBGYU16RnhMSWg5RjlDUTRhNk0yTGlMY09YZ3FMOGhucmtOZC1PTmNqcnpMaEJDZnlhWWNwQkVkbDFQVktqXzN2dHBqUHVXQnctT0I1bnc5MEFSNW45aGV4ZU5Cc3N2V1VzZ1k0X0J2NEZtTUg3dDNzOHN0Q2pBb1pyZlJDWGZvdExmTXFSTktkYWYwekdJdXViTWRJMHBqYVBORV9CUS1DcWtDS2FlcFlxcGxWOXdCRGd6YzZCLW5KaFB6UWV5ZWFBWlJkTHRCa3JjcE5mSEd0VTdLWnpxLTNkUTJuTzFWNWd3MVB2V3FqMjJxTTBJSFdDWjJaRmtraWNEbmlDUlI3elNUZmJHZmt3Wno5M211T21tSmRj?oc=5",
+      "published": "Fri, 20 Nov 2026 14:36:01 GMT",
+      "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "40cfc6d837f5644e",
+      "title": "Nasdaq falls as Anthropic fails to rekindle AI optimism - The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMC05SWJva0dTUXZuc1hCNWg1cXJPZDh6MGV0cVdFbDNfZ2V1aWUyYXVqZG5DbE1TZlVSekUwZkxRSFBqZGZWS2l3VERDYWYxWUpWaUFZZGlNNW10Z2NSY0RyVmVrb21YYkFvMjBDRUVTVndETTczckRBNHgybGJTQl9aN0dicm5BWWM5T3pSNFBvVWtGMktmZkpGMUd5dGxsZkxKQVFB0gGmAUFVX3lxTE0wLTlJYm9rR1NRdm5zWEI1aDVxck9kOHowZXRxV0VsM19nZXVpZTJhdWpkbkNsTVNmVVJ6RTBmTFFIUGpkZlZLaXdURENhZjFZSlZpQVlkaU01bXRnY1JjRHJWZWtvbVhiQW8yMENFRVNWd0RNNzNyREE0eDJsYlNCX1o3R2JybkFZYzlPelI0UG9Va0YyS2ZmSkYxR3l0bGxmTEpBUUE?oc=5",
+      "published": "Fri, 20 Nov 2026 16:18:03 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "3ae4c09b995aabec",
+      "title": "Nasdaq set for lower open as Anthropic retreat deepens AI jitters - Charlotte Observer",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9QbHY2LTBteW10eUx6X2RFcFRCcTI4WkZ2X3BOTDhuNS1ITlZkazBFTkgxY1ZETjBBS0hWSXFnZ1pxU09ldXc5ZnJVeC1HS3p6Sl9nY0VFM2JCLTNJY3BOWFNldUVGSnV3VExLNXY3MVJLUjdRYTk3bA?oc=5",
+      "published": "Fri, 20 Nov 2026 10:47:00 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "4cda37ab811901a9",
+      "title": "Microsoft Corporation (MSFT) stock price, news, quote and history - Yahoo Finance UK",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41d2UzenppWG9mNk9od2RxVTIxSzNxTFJIYlV1U3lBX284NVY2NTBSSnRVclctbDNIODhyRTZPTFVYZ25YcHlYdVdOYUJXc3dvdnc?oc=5",
+      "published": "Thu, 19 Nov 2026 21:13:25 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
@@ -5704,18 +5806,73 @@
       "time": "2026-11-20T16:35:00+00:00",
       "close": 623.85,
       "volume": 44807794
+    },
+    {
+      "time": "2026-11-20T16:40:00+00:00",
+      "close": 622.72,
+      "volume": 45941904
+    },
+    {
+      "time": "2026-11-20T16:45:00+00:00",
+      "close": 622.32,
+      "volume": 55023843
+    },
+    {
+      "time": "2026-11-20T16:50:00+00:00",
+      "close": 622.2295,
+      "volume": 53591710
+    },
+    {
+      "time": "2026-11-20T16:55:00+00:00",
+      "close": 624.2,
+      "volume": 1104410
+    },
+    {
+      "time": "2026-11-20T17:00:00+00:00",
+      "close": 620.04,
+      "volume": 55378239
+    },
+    {
+      "time": "2026-11-20T17:05:00+00:00",
+      "close": 622.78,
+      "volume": 1765463
+    },
+    {
+      "time": "2026-11-20T17:10:00+00:00",
+      "close": 620.97,
+      "volume": 1036886
+    },
+    {
+      "time": "2026-11-20T17:15:00+00:00",
+      "close": 620.775,
+      "volume": 797555
+    },
+    {
+      "time": "2026-11-20T17:20:00+00:00",
+      "close": 621.36,
+      "volume": 3931722
+    },
+    {
+      "time": "2026-11-20T17:25:00+00:00",
+      "close": 620.75,
+      "volume": 779446
+    },
+    {
+      "time": "2026-11-20T17:30:00+00:00",
+      "close": 621.71,
+      "volume": 1108391
     }
   ],
   "status": {
-    "updated_utc": "2026-11-20T16:40:49.812384+00:00",
+    "updated_utc": "2026-11-20T17:38:38.408037+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
       "Research prototype. Not live execution, not financial advice.",
       "Public free feeds can be delayed, incomplete or unavailable."
     ],
-    "last_candle_utc": "2026-11-20T16:35:00+00:00",
-    "last_price_usd": 623.85
+    "last_candle_utc": "2026-11-20T17:30:00+00:00",
+    "last_price_usd": 621.71
   },
   "metrics": {
     "evaluated_directional": 16,
