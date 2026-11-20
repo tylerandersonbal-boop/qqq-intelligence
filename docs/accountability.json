@@ -2,7 +2,8 @@
   "status": "forward_observations_only",
   "eligible_forecasts": 20,
   "excluded": {
-    "legacy_not_forward_verified": 7
+    "legacy_not_forward_verified": 7,
+    "unresolved": 1
   },
   "directional_predictions": 15,
   "directional_accuracy": 0.4,
