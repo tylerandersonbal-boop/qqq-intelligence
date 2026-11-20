@@ -2706,13 +2706,6 @@
   ],
   "articles": [
     {
-      "id": "5b5f6520a9fa42d1",
-      "title": "\u3010US Pre-Market\u3011Nasdaq Futures Fall Over 1%, Nvidia Drops About 4% as Jensen Huang Return Rumors Heat Up; Anthropic IPO Debuts This Week - TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbUNmak9JWEVjQS1iX08yTUIteHU5ZTBSbThWcWhSYUJyTGd2c2V1ZFM0OXBrdXJERHNNaU54ZEd4MGNDWE5JbDJxbnZjT1I4c2dLc29JSk1PcnVnREFYaUczeVlCbGV2WEhvOHdyTWpSSHh1MnE2M2tjUUpybF9OTUtyWHFVa1h0QnZ2SzNKS1pwLW1jc196Mks2SXRtdUN4XzQxZnRKVWJvbTZyeDRDWGtRdXpDcGNsb2N4NjQwTGVVMnFwZHlBcGF3?oc=5",
-      "published": "Mon, 16 Nov 2026 12:39:22 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
       "id": "fb48d58e02e6544c",
       "title": "Nov. 25 Will Be a Critical Day for the Stock Market - The Globe and Mail",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVXowTjJXdW5qeW1wZlNHMmF2TWF1TlBDbFBNT2VjQTU1b0RuelhveXBCNGI3YlNJV0tUbmtOMmxPX2hEdXNjd001dVg1RnF2cVRjcllMQ2xvOTdHa3VqbUJKSWlEcTZZU1BCNnh1R2tkUlB6NmowVVlXd3Exd0tUMzlnV09LTm9nX1paQTVZYnNEMmw2NDd2b3BMTThZeHFPZzAtcFYzN3pTZVI2dXJQS19Dcl9ScUMydHlYRFROdmcydTlUbExQZDk3T2IxNWlzd3Rv?oc=5",
@@ -3689,7 +3682,7 @@
       "id": "bc53b58c9bea2a67",
       "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONFhTcEs0ZXJTOXhCWUVEQlBXR3BaeFdLVjdiNkNXdVFrNWtaVjFJRVc0cTcyRUJBRXBqV0JZUHUza3I0TndGYzZRX3N3eU4zR3plNl9wUkR5VU1FQ0phSjZEODlXYjJYQk5QaVRoTFotemhuTWFwSkhrYzFfNE1tM0JJNlBFY1BmNFNhS0FTeURyaGtHM2xJb3VoRE5LY0I1SVUxeko5dDJvRGlGam1ITllSRFU1OEV6T0tF?oc=5",
-      "published": "Thu, 19 Nov 2026 21:38:51 GMT",
+      "published": "Thu, 19 Nov 2026 09:03:00 GMT",
       "topic": "Federal Reserve inflation Nasdaq"
     },
     {
@@ -3754,6 +3747,13 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
       "published": "Wed, 18 Nov 2026 08:00:00 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "0b2541c65c3995c3",
+      "title": "Invesco QQQ (NASDAQ:QQQ) Stock Falls 2.2% - What's Next? - MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN3V6WmY2bGdMb0J2dHFSYmFZeXBEMk1mejhLU1RFSExiZTJPa3N2ekQ4SVB6OVVOV1FHbzlmVk03dmI3R3U4QVBDM2h4djBUNFlTbHZsYnRvdy1BMDFVWDJYaXVUdEpKeVVLMjBsc251NnlDWDBWbWdDeXQwMjRIWjctUVkzX1owZDJyelZRcUpHZnUwb3ZMbzlzSUhFNFZYU0FRRWQyWWEwMHVR?oc=5",
+      "published": "Thu, 19 Nov 2026 22:33:55 GMT",
+      "topic": "QQQ Nasdaq 100"
     }
   ],
   "candles": [
@@ -5714,7 +5714,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-19T23:46:10.103562+00:00",
+    "updated_utc": "2026-11-20T00:30:03.436315+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
