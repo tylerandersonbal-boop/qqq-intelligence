@@ -3420,13 +3420,6 @@
   ],
   "articles": [
     {
-      "id": "faf1836da98cfa5c",
-      "title": "Nasdaq futures rise as Nvidia posts strong results, Anthropic IPO nears - Traders Union",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUVd1US1TV2t3UHBlQmlJdTUtbGh4OGktZDFVb1VjRGlXdUFpNGpLX1h4Q2gyeEljTV9VNll5STdBTW5VNUdRSVFtdE5zSThtSkxodjRnTG0xdHRLVXFKdW5obUljaVRtQ2lPelE4SVhLR183cDYtNDFGbk1aN252aEh0b0VNa05zclBneURBRQ?oc=5",
-      "published": "Wed, 18 Nov 2026 13:25:29 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
       "id": "fd8524dba3fb6b92",
       "title": "Invesco QQQ Is 14% Below Its October Record. Here's Where I Think It Will Be in 2030. - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORWxpOThLS3F5ai0wN2lZallkNUtYTmR1ZHJVUFRJZjJXTWdfZmpqYTBleENIMHRRY053TnhPaWV2RzRMOXZkVTRWcUIteWhoRjBtX2FnZTl5bWVNTHRSbW4waTdoVk1uU204VnUwV1FqeS1CWEZxamx0ZUV5RWJHNWJpdTBTM3dZRmpkazNPNnZYQWphUUdkUQ?oc=5",
@@ -3766,7 +3759,7 @@
       "id": "c58f2ee0c8e2ac68",
       "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81OEFKQTktenlhclpBTlVtWEJqNVpKOVNWNlRaNlRDRnR0dHRielpfZXdtR0pXcUcyNDN1WTlzOWVrWXZTNVhTbEVIOUxEaklxVWc?oc=5",
-      "published": "Fri, 20 Nov 2026 19:22:24 GMT",
+      "published": "Fri, 20 Nov 2026 22:07:57 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     },
     {
@@ -4445,7 +4438,7 @@
       "id": "818d14721fee4a71",
       "title": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51M3YyYUhDNzU1Y2Rjb1RZakJNc2s1NWlnbHBYS1RWTTJyNnpzNUFiUEVJQmRoSElldkd0Z3Bva0s1UURoUFpJcDVxZnRJZXdDcGc?oc=5",
-      "published": "Fri, 20 Nov 2026 20:43:20 GMT",
+      "published": "Fri, 20 Nov 2026 21:48:59 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     },
     {
@@ -4468,6 +4461,13 @@
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qbjRORXFoZGVkdW1pNDJJTXJoWDhqRkl6cXNjSjIxOEZlMXhEYjQxQVppcF9KcTczeFEyWGduR0xaZlVyenNnamtaR3N1amtLNlE?oc=5",
       "published": "Sat, 21 Nov 2026 06:38:59 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "a8f8bfd1ceb52861",
+      "title": "Nasdaq 100 $QQQ now down year-to-date \ud83d\udcc9 \ud83d\udcc9 \ud83d\udcc9 - Howl.Link",
+      "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5ZcFhYRU9MV0R4bTd2TjRnR3AxS29vcElJTjFRY2xSMWdHNzF5a09ic05oNG9nemdKUDRz?oc=5",
+      "published": "Sat, 21 Nov 2026 23:13:49 GMT",
+      "topic": "QQQ Nasdaq 100"
     }
   ],
   "candles": [
@@ -6428,7 +6428,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-21T23:00:30.438205+00:00",
+    "updated_utc": "2026-11-21T23:37:52.717721+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
