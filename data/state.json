@@ -3420,41 +3420,6 @@
   ],
   "articles": [
     {
-      "id": "4f6afe860d378840",
-      "title": "What investors should know about Anthropic's unusual IPO - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUXotRHBaOFpMdjhaN1ZjaTVUYlk5R1dVeV9peE4ydGstX1E3NnJuX3Y1Y2pRUS1DRVR6cDZwMk1XTV8xRksxdWprV3hhQUExZmJzWGtPLUhUY2s3a0VmYUItTTVZVE9nX3dCSU9iU2VfM2ZUWG93c1ZWYkp1cy1BStIBhgFBVV95cUxOc1cwUm52ZVFiNFZKQ2hWYXpaN2NVZ2ZSTG52M0NtMnZvNVN5bGxTaXM2SUhLakkyZnFTdmtNYWp3OEFzZ2NSYlFyTXppRTM1MnVlNTVXYWRhamhiR3ZnWU9RN0gyX2lqZjJDOUtMMnd5WnpZbnQyaHBUSEw5WGVrU0VEZXowdw?oc=5",
-      "published": "Wed, 18 Nov 2026 18:31:27 GMT",
-      "topic": "QQQ Nasdaq 100"
-    },
-    {
-      "id": "18ed792b375a4b3f",
-      "title": "US Stocks Diverge as Nasdaq Rises 0.4%; Select Tech Stocks Gain as Nvidia Drops Nearly 3% Post-Earnings While AMD Surges 5% - TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUU11cWRxVVJseEhRLWhKMTRUcGxCWVQ2aDU0VWhsb29hQS1fR0N6N0lmWWY1Y3lIZGlMTnItSEhCdHhLNzlRdnpBUk8xS0dCMVlvY3k0ZkhKeDF1ZGp4UWJTaFJOQW5SRGhNTDlkV09BUF9TcFBMSTRPTFZyRlhGSk4wakt6TG1HRHdkUUxCQURQLUdrLWFNRFdfTE9hcW5oNXJCTW1iTjY3T1R6Ukt6clNWaDZVN3RGSzlTZnlIT1RsNGpxdXBRQXFlT3hKY0gtdjAw?oc=5",
-      "published": "Wed, 18 Nov 2026 21:18:31 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
-      "id": "a9782b4bba28ff44",
-      "title": "Nvidia's Blowout Quarter Lifts Nasdaq as Waller Floats Half-Point Hike, Fed Minutes Loom - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1CajhzcnFDOUFrV1FFQkNJLXBoV2JGSHhZX2FYNElxQko0dXU5ZTNXS1FnclNZbUZDMmZQS3RrOFY1QjkzZGNpLV8xNE5iSVBnYnJYVjVsYWNzTzZadlEyTzFzWHNta2ZtMkxQZnZfZnlOVWtqT0E?oc=5",
-      "published": "Wed, 18 Nov 2026 18:25:00 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
-      "id": "3f8a45816559a339",
-      "title": "The Stock Market Is Primed for an Explosive Week. Nvidia and the Federal Reserve May Decide What Comes Next. - AOL.co.uk",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUUhQb1E5MURSU29fNm96M0Y2MmVwQ0laYjhra2NVQTZNc3ZoNm9SaWR4dTA1RW4xMFJGaTV5c0NReS0tS0pOaVVpT3ltNjAzdU5IU0pXY0hlZVJod0xaeXYzR0ZJb2t3UklocFJ0OWtueU1xbjZCRHlqZ0RPZFVVbDNGQVA4WW8?oc=5",
-      "published": "Tue, 17 Nov 2026 10:32:02 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
-      "id": "fe195fafdb02daac",
-      "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLUw0WGdCZWFQMDBna01NRTEzWEQxbHlSU2RHS2FFX0dIdDc5Si1kQjdzRVFpSTRLeThVQ1V5NG01UG1HSGtJNFZOYjI0OHpIbHRvWjdNOFNjZWhhYzFTWVJJVklORUV4YmJoOWhjd1Nhc1hULXVVYncyUmZUQjJwMFh4RGJsSFhhcjlwc2NpVUhNUEdfQXdsekQ1c3AzZVlZcUdSN3ZlTDJUQ3g4WjRlNHhydEJ2OVJTeHpj?oc=5",
-      "published": "Thu, 19 Nov 2026 22:54:10 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
       "id": "34d202f802e35ada",
       "title": "Wall Street closes mixed as Nvidia concerns and Fed rate signals weigh - Chosunbiz",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLTN5V2xTRWRDRXk5MGZkSEZhQkhZNDl4bmFUa1lGY21rLVo3bUNaNXVHQVI0UFBSbUNIYXlUbHZ6VVU2SUZieVQ3ZGNyb0dFTjlDelhmUDMzMWZQVEs4aVoxUHBSaTZpQzRmcmZCTWRVdnVvaklnYy1fZ0RPX2V0R29BV0ZROGl20gGcAUFVX3lxTE5Zcm1qWkRDLTRTU1AxS09PaWpLckdreXk5SmhfYXBQU1VpRFdJanF3bTBWbU9rMGtmX3JKejVOZWliYXZPTE9yUm5Bejg0MEh2U253NjJjMW5LY21DcGxROExEMzRvOXRJOF9pZWQtYWJXdENvZ0hWRjNtTHVoMm5kY1AxdHRSdXhnU3lWSE01aWUtdEwtUVA0OU00Zw?oc=5",
@@ -4468,6 +4433,41 @@
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53cHdNOU9obnZUVjlBQncwQXFwWjJBMGpDZlplQjFxRUFKUFktcVRicXRVbmJSRTR1VE1fclV0emdOcEtpWC1RcjJsZUg0REQtdURhZ2ZyZm9SalFYemM5SVpfd1ljbW5FX3MwWHV5eWF6cnAzX0hmTVZZYXQ?oc=5",
       "published": "Sat, 21 Nov 2026 10:05:17 GMT",
       "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "e136dbf4cd561d2a",
+      "title": "Anthropic Closes Up 17% While Nasdaq Falls; Mohamed El-Erian Calls It \u2018Making Room\u2019 For AI - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQnQwVHV6d21uWnU4eDVhVDcwRUJjQUlwNnhHSTFDRVFnbFR5cTlrUC1DWGpxdXZPTkdfeV82SmhYeEJlRUVoN3JBamNuRTljcXBLdExiTkFDYnBVRFRWTTZyLVpaREg5RTQ3dmYyM241b0ZiV3l0TlN4dmRfNkkyMGttYTFmNWRxcWMxaVQ1dlZkUmcydmNrSFFZbVNhQQ?oc=5",
+      "published": "Thu, 19 Nov 2026 22:01:52 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "9a158e237c5ed4fa",
+      "title": "Anthropic raises $81bn in IPO - Kuwait Times",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOWMxai1pa05JS1ZlclZCNTJsbm1JSzFTRkNhQ3hrYk9zV2JNNmZmTlBnSVdrMjhxZnBhNUhIX0duUG10WnROa3RCRVpDWVJpNjNoQTI3ckpJcGdQckIwQy1NZERzNkhQa0lZakxGM3JHOXY5OEtwdGNBNm5vTmRHTjJn0gGGAUFVX3lxTE9yS1pDVHNHekZTTzZTaXRUQ3BpU0dCMklLaC1iN0NtOGxlSG1nVkxKbElFMHFUclBQQlJZUzV6THBBY3JnaFpVYzhSQ1VGQkMtYm1od1ZXUGY1c0pibVVWbkJ0TVQyNm9TdmVpUml5bU84WHE3b0VYTkRoemtnbG53a05XRm5n?oc=5",
+      "published": "Thu, 19 Nov 2026 16:50:47 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "28d5c5a06709358a",
+      "title": "Look Out Below And Watch For This; Apple, Palomar, Interparfums In Focus - Video - Investor's Business Daily",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5QMTlBbmZja0d0a2lrSURwaGNRY0MwOTh5NE1EaGZPVlFOQW5ZNTRWdzUyQ3RHNS1wM2Y0YlVFX3dJZTNaRUZyNF91ODk?oc=5",
+      "published": "Fri, 20 Nov 2026 22:14:00 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "bca90d559bbc8dcd",
+      "title": "Anthropic registers 17% gain and a market value of nearly $1.8 trillion on stock market debut - EL PA\u00cdS English",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRmdkejdkWUd3R290RnVVWmtOY18zZU4zWnVET3dnbXVwejNhQnJGS3pjRXg4YTRRcXZuUXpNLWhySnc0VW5kV3k2aHFoam41S0JreTd4RkxIdW5lQktoWW5CckdVZVFoM1JvblJabzJaMno5b3VmNmFNLWRxUnMzQi1qNFV4UjZXeWJPYS04OGljdnJ4WE5QZlpWbS1PazJuV0pwYkFHbFlpU3VMcll2cGVZYlRaYWkxMzdMTXpQUjZTT18yaVHSAdoBQVVfeXFMTmJnaDNoOE45MnZGNHA3V1NUQkJiZkEwS2d6WUNla2RRUThGbzNxQ2hQRS1DM1VGOFdXenpZTVBvUzhsSFdQYWFtZGczcTZGR2hQMXhDNmJUZ184emF6NkRxelYtSnJVZXFtQlc0QkJEa00yYmViTjV3eXNGWDB6R2lxdEF4X1haV05Mc1dWeUVOTnMzQkdlalJUMG9neUpCdk41MHAyd0lEaEF3ekFsMTltN2pCSFV4R3lzNjBPQkZ1MHZNQVV3YlptTWQ5RENXSXZHTi1mOF9pSEE?oc=5",
+      "published": "Thu, 19 Nov 2026 16:45:28 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "179104afbbfa4d09",
+      "title": "Nasdaq Plunges 5.28% as AI Rally Unravels; Nvidia Sinks 14%, Deepening Correction - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ET0ItNTlzTEI2dmRudFlZMndRMG5EOTZ1MnYwaFVleENKTW5ZTnI2MGUyYW1TYWtveFRIUC1ERXgzN3h1OXFUQzBSdnAxRC11V1NEMEF0RjhmcERwQzBZQlQ2ZjE0bV9JaV9VZGU1dDFQQllhV0E?oc=5",
+      "published": "Fri, 20 Nov 2026 22:25:00 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
   "candles": [
@@ -6428,7 +6428,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-21T13:28:37.400297+00:00",
+    "updated_utc": "2026-11-21T14:21:53.445580+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
