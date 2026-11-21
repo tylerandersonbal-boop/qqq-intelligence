@@ -3420,13 +3420,6 @@
   ],
   "articles": [
     {
-      "id": "3556936886335a95",
-      "title": "Wall Street mixed after Nvidia earnings, Fed minutes - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLUw0WGdCZWFQMDBna01NRTEzWEQxbHlSU2RHS2FFX0dIdDc5Si1kQjdzRVFpSTRLeThVQ1V5NG01UG1HSGtJNFZOYjI0OHpIbHRvWjdNOFNjZWhhYzFTWVJJVklORUV4YmJoOWhjd1Nhc1hULXVVYncyUmZUQjJwMFh4RGJsSFhhcjlwc2NpVUhNUEdfQXdsekQ1c3AzZVlZcUdSN3ZlTDJUQ3g4WjRlNHhydEJ2OVJTeHpj?oc=5",
-      "published": "Wed, 18 Nov 2026 19:40:52 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
       "id": "4f6afe860d378840",
       "title": "What investors should know about Anthropic's unusual IPO - ABC News - Breaking News, Latest News and Videos",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUXotRHBaOFpMdjhaN1ZjaTVUYlk5R1dVeV9peE4ydGstX1E3NnJuX3Y1Y2pRUS1DRVR6cDZwMk1XTV8xRksxdWprV3hhQUExZmJzWGtPLUhUY2s3a0VmYUItTTVZVE9nX3dCSU9iU2VfM2ZUWG93c1ZWYkp1cy1BStIBhgFBVV95cUxOc1cwUm52ZVFiNFZKQ2hWYXpaN2NVZ2ZSTG52M0NtMnZvNVN5bGxTaXM2SUhLakkyZnFTdmtNYWp3OEFzZ2NSYlFyTXppRTM1MnVlNTVXYWRhamhiR3ZnWU9RN0gyX2lqZjJDOUtMMnd5WnpZbnQyaHBUSEw5WGVrU0VEZXowdw?oc=5",
@@ -4468,6 +4461,13 @@
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPaEdYVEVKRDRybFJoM3JDVjRGNmVTdlg1X0EyV3QwZk1uMTRsTUpPM0REczJrazBPakNCVTVxTTZxcU9NZ24zaVRPek42MTAyVzJwcEJyZDlqcW1TZW8tNERnQjlxbGRKMUtCdmJ1a3hBZ1BEQ0ZlaVA1aG5nLXZqbHFHTE9jUjVSRVdRaDFndGRoV0xLSFp6bGZ0NEV0WmJHUzJYNU1rQUNCSnRaM3JFbW1qdDJGeEUtbUhPYXZYZGRKSW9XdDVmbUcyTHhwSkc5TEZRMXZFcXZXS3Jmc1JZ?oc=5",
       "published": "Thu, 19 Nov 2026 22:01:52 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "5c8f2732df3e6466",
+      "title": "AI boom and Trump's tariffs fuel inflation, cha... - Pluang",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53cHdNOU9obnZUVjlBQncwQXFwWjJBMGpDZlplQjFxRUFKUFktcVRicXRVbmJSRTR1VE1fclV0emdOcEtpWC1RcjJsZUg0REQtdURhZ2ZyZm9SalFYemM5SVpfd1ljbW5FX3MwWHV5eWF6cnAzX0hmTVZZYXQ?oc=5",
+      "published": "Sat, 21 Nov 2026 10:05:17 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
     }
   ],
   "candles": [
@@ -6428,7 +6428,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-21T11:35:56.679269+00:00",
+    "updated_utc": "2026-11-21T12:24:30.383283+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
