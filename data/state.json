@@ -3420,13 +3420,6 @@
   ],
   "articles": [
     {
-      "id": "95f617439a9573b9",
-      "title": "US Stocks Diverge: Dow Falls 369 Points in Continued Slide, Nvidia's Strong Earnings Underpin Nasdaq - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSZnZVYmE1dEVVajJuV252UDktSVVDcmZhVnZYNEQ0bnZEN2dxdVozWnBkTTJMVmYxNWo3Sm5oYnFMOXpaUDNSNkM3cDF5My1ZdnVreFJlb0lFY2xBNUdTbjIzNG12Vm1sUXg3MUdaTHF3aHp4WkE?oc=5",
-      "published": "Wed, 18 Nov 2026 15:55:00 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
       "id": "54757603b7a46813",
       "title": "Nasdaq futures rise as Nvidia forecast eases AI concerns ahead of Anthropic pricing - WTVB",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTlJHeVdHOWg1Vkd0VE5IOWpuclRtdTdwVmdTZ0w0MFU3ZmNhMjZMUTVMMlJRNjdIYXdLbHZ2amtCZDhnMVNxR3dtYWRpSnM2NkpWWEJoaFpIOXZRSWk0T24yMDZydF9CVWZqYmN5NzQ2UUxxRW1TRFRvRHhpQ25VTkVTaVBQb3VGR2YwQTl0dzg2UkRFeHp3elA3b2haWjdlYzg0SEtkRVZyRjdPYTJ0bg?oc=5",
@@ -3990,7 +3983,7 @@
       "id": "c58f2ee0c8e2ac68",
       "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81OEFKQTktenlhclpBTlVtWEJqNVpKOVNWNlRaNlRDRnR0dHRielpfZXdtR0pXcUcyNDN1WTlzOWVrWXZTNVhTbEVIOUxEaklxVWc?oc=5",
-      "published": "Fri, 20 Nov 2026 16:09:05 GMT",
+      "published": "Fri, 20 Nov 2026 19:12:35 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     },
     {
@@ -4439,7 +4432,7 @@
       "title": "Nasdaq 100 Ends Worst Week Since 2020, S&P 500 In Correction Territory As AI Rout Sours Sentiment \u2014 ANT, NVDA, TTWO, ZS, CRWD In Focus - TradingView",
       "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNRjJaLW11WnduZjdJQ3NFMnl5Vm9VU01qa3dJa1oyckhTc2NXckRIZ2taNVBHcDZFbFNEQ0tPY3JIVTE5WHE2MUVkZGVKNzU4eFpkLXNJLU5xZC10c1NmTmtiR0RrNU9BVVVjUjI0cWZ3ZG9vUHp3OGJxSzdYR2xOT1ZMemZLUjVjMnhzVVIxaURyZEpoR0RJQzAtU0c3ZTJZZVh5ZE80WUt0RFhhLTlIdWt1WjdLOGVRdDhVNU1xNDVXLXpNMFhMWTd2VGRIYkI1U2RCbGpCdGZOMWxIb25FZkZDb1JreGQzc2FnWjhSWDRxLThHTGkwdm5TRFpLT2x6Ml9EU1RlQ2JaREZDaTZkQ05iUldMajA?oc=5",
       "published": "Sat, 21 Nov 2026 01:30:00 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
+      "topic": "QQQ Nasdaq 100"
     },
     {
       "id": "2f6404b2bdb31967",
@@ -4468,6 +4461,13 @@
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9nVjlTU0FMNHZwQXdObEg0Vm0wWjhId1pKS2YtREJGN0MwWWtkdUhjYlBOd24wYWtrNE5pOVhodFdMT01ERi15amxYMDE1MUd6UUE?oc=5",
       "published": "Fri, 20 Nov 2026 09:28:25 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "fc9823f3104cac2f",
+      "title": "Nasdaq set for lower open as Anthropic retreat deepens AI jitters - WTVB",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcDRSREJhbDN4T1RxVTY0SmExa1ItZHNvZjBrOG91MS02Ml9KUEdjTExwTmZNVk9Ya3BLWXkyaHVGQXdlc2xHbkVybUtoSXc4RVB3c0hwTFd0WFFNY01GZE1TZmZQMzJuamVzRUhhRkRKM3JRUlZhOGR0c2xwd2w0NnlPV3NHR2JqN0hwMUhGajBGcl9aS2hOakV3WFhJaFI3MV80?oc=5",
+      "published": "Fri, 20 Nov 2026 11:18:24 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
     }
   ],
   "candles": [
@@ -6428,7 +6428,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-21T04:28:50.342737+00:00",
+    "updated_utc": "2026-11-21T05:27:22.310617+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
