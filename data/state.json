@@ -3420,13 +3420,6 @@
   ],
   "articles": [
     {
-      "id": "78f4b1d760ea0b4a",
-      "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes - Free Malaysia Today",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVW9NcEZXN2xucmhuVFVjTGRIMXdSaHJtWnQ2b3k1dTRWMHI0eFdKd1Qtb3FVVjVPVlpWVF94ajMxM1dVem5CUUx5WUF5TGpRRUw3ZWRhSlhzX2NCbDhWc2J1T0dKbWM5MWpJVU1PM2JVR09rUXNnWVJsNnJITmRMbFIxV0d5UndGdGZVZFpPcjVDWFJiNzIxVm9zZHNZLTI1Q2J4dVNSV2VFTTcwd1ZOYzd0bWVGaEVKLWtZ?oc=5",
-      "published": "Wed, 18 Nov 2026 21:56:00 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
       "id": "4ac0aab9f6178e66",
       "title": "Invesco QQQ Is 14% Below Its October Record. Here's Where I Think It Will Be in 2030. - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaU9Wc1B6SHBlTHhoUXJJdVkxYjZLSmp3dE1PUThPSVB6eWM0bWtmUVJkTkdrbTlUY3E1QWZoNEpuY20zaVdFd1VkZnZuSm1yRHFNRFRnX3AxelJ6LXlmODJUZVh6Qy1yU2lTaE84QUZfbTc0ZnR4S21vWHVpcFFGR3FHbDJ3SG5NNldiTXJ3S1ktNnQxWlFtVkIweThkZVg2Z2pGM041RWVweU56V1h2NDFNTVpWM1JqRkVHYjNyVXhaRTg?oc=5",
@@ -4468,6 +4461,13 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV1U4dnBGMkhzWi1Rb29JRUtmWWgxYktRY2FsWE1HUzJPZUgzaGlUT0w1YnJQOFlOZjQtZ2FKdTVHTl9oUzJObXJ6NERDbG1mVG10R1JWR1YzdFVOaEt4SXVUU3RFVlcydHFrNVRZVjBKYkFaNWlpWXZHa2FqWnh0Zzlmcy1MRjZGZEtzX2IycC1ZSnJVYVZqYlZYak9xQlNCcW1j?oc=5",
       "published": "Sat, 21 Nov 2026 15:17:00 GMT",
       "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "e5d1b1b0015fbd79",
+      "title": "Anthropic hits $2.1-trillion valuation in Nasdaq debut, tops SpaceX\u2019s June listing - Business Day",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTmpaY19BNmk4MVQ3bjQ4b2xsTFh2QzNnUUlKWFdLNV8wQW9ELXRORFJrcXZVVFFJUWMzYzBxcVhDV24ycW95ci00NFhqUEp0dXRRbDZKalBpdjVBd1duZll2aDJRSWhyQ0ZFRXIwdUtGWnpQQ0pnTk9ZVk1KNEFOZUNIczJfNGd4ZURhbEVPTm4yU0dza2VyRURWVW4yUVVZMmVzekNZRWVxV3ZLb3BDZ1RMRy1Ha2hoMzA5Y1h2Q0hTUUU5dE45MGkySmU3aEgxcUdheDhOR0dLNE8ySE1JRVY1SHQ?oc=5",
+      "published": "Thu, 19 Nov 2026 17:37:36 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
   "candles": [
@@ -6428,7 +6428,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-21T15:54:15.660859+00:00",
+    "updated_utc": "2026-11-21T16:35:13.357430+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
