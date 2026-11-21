@@ -3420,13 +3420,6 @@
   ],
   "articles": [
     {
-      "id": "31651f08cd38b49e",
-      "title": "Anthropic Has Priced Its IPO. Here\u2019s What Investors Need To Know - Investopedia",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNkVMMmtaYnNFbXlUYjNfMWNPU0lMR0NCc2V4T0pkcG01aHRkbzRUbUlNa3VGV08wTlo2VkQ0Q01ZVUcxQkRfRXJMOUdFS3hJMTV5THFBZzF2OGp0T1ZXTUNtU016M0pydU5zb1FJek5DS2ZaQ2RDUHoyRTRlaXNFam9FcWpxaHR2eVJmZXVhaHVHRk1iVWpTVlRqSHJxMFVKVUp1bWJXWQ?oc=5",
-      "published": "Wed, 18 Nov 2026 21:59:13 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
       "id": "faf1836da98cfa5c",
       "title": "Nasdaq futures rise as Nvidia posts strong results, Anthropic IPO nears - Traders Union",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUVd1US1TV2t3UHBlQmlJdTUtbGh4OGktZDFVb1VjRGlXdUFpNGpLX1h4Q2gyeEljTV9VNll5STdBTW5VNUdRSVFtdE5zSThtSkxodjRnTG0xdHRLVXFKdW5obUljaVRtQ2lPelE4SVhLR183cDYtNDFGbk1aN252aEh0b0VNa05zclBneURBRQ?oc=5",
@@ -4468,6 +4461,13 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSVZ5NmNUbHhSeHlEa09ldjdScmtHNTlJVFRVaTVLYUVodnAyZzg0SlFRMlUyakQxT0dvZkdkNHRFWmNiZ3N2Yy1Xdkx1U29iYjFoSzNlTzY4eWR4NkJucHBHa3JuRWd0eEtBZGhMRzJBUXN6MXMzUVhXUDZpSDJyYjB1Z2dlQQ?oc=5",
       "published": "Thu, 19 Nov 2026 23:53:06 GMT",
       "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "3cde22ac0d19bdd3",
+      "title": "How Nvidia & Anthropic Erased Every Major Index\u2019s 2026 Gains in One Week - Emerald Book",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qbjRORXFoZGVkdW1pNDJJTXJoWDhqRkl6cXNjSjIxOEZlMXhEYjQxQVppcF9KcTczeFEyWGduR0xaZlVyenNnamtaR3N1amtLNlE?oc=5",
+      "published": "Sat, 21 Nov 2026 06:38:59 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
   "candles": [
@@ -6428,7 +6428,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-21T22:20:29.955115+00:00",
+    "updated_utc": "2026-11-21T23:00:30.438205+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
