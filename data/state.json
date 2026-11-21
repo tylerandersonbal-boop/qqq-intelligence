@@ -3420,13 +3420,6 @@
   ],
   "articles": [
     {
-      "id": "0f0f160d1b5dcb55",
-      "title": "Should You Buy the Worst-Performing Magnificent Seven Stock of 2026 Before 2027? - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQOHB0REtTRUk3MEs3N1dMQkNlNkZuY0FxTWttY1dTRnpiNGktc0VsTGlRUEFhRmNOM1M1THR4SVVraHY0OXVoR0U3X1RFT3U0RjZ0WDVVM1hONzN6dUxlOWdjX1gyLVM4bTJDaFkySXNMQzNJWVczUUItNzdCN0dfWEx1MmNKUE50TW8tY3A0R1pEVWo0dTY2dzMxT1QzTGJCYVNnT2w3Wk1BTm50Rm84UzRTaVJRUnlBMlhiSmp2VTNOSW1FaXJuOEVfSDZneTl5TmwySWxFelc2WEdMM1haSHU3Q0F5UHBiY0lmc1ppaC1zQURFSFA0?oc=5",
-      "published": "Wed, 18 Nov 2026 15:25:25 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
       "id": "923857398b171b64",
       "title": "10 worst performing Nasdaq-100 names as tech struggles ahead of Nvidia results - Seeking Alpha",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQY3FKXy15QTlBeXpMUmMyeElwMU8yZmJJdUU1ZFhZRG44dFZFcHk2RE5naHZTREI1R1FSNlRnSW9VdS1nM0ktel82S0J4UTNpbWpDdXh1cS1rZjZoRFR5cUg1OC1NTHNKYWd0bmIyWUFRRDRJdlRvR3l5Y0hha3BWeU5wU0JHcTNvVWtJWWctc1hZRWQ1NTFPTGFLQ1hQMkdKV1h1cEVDRXlERDZUUVhJVXRMcHJBSGs?oc=5",
@@ -4468,6 +4461,13 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUzhrZjNmazdHOGdUQUxlTkp5MjVhZ3VqdFRKbDkxdV93dUJqSVFFRi10UEpyVHZ2U2tIclBrdUstbFJBcU1JYVlCWlZseVBKVmhpTUp5dWg5VUhhZ0o3ZlM4bkNBZUFqZ2Iwb2NFZExoYno0TFE4LVBuQTF0ejdfSC1oVFNWWFZydm1ESG9NeWdzTXRmeWgxdUVZRkI?oc=5",
       "published": "Sat, 21 Nov 2026 06:02:39 GMT",
       "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "694359677aecf7a5",
+      "title": "Nvidia plunges 14% and Nasdaq sheds $4 trillion in a week - Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRkNLbnAxRnloaW1IVmg0TWljWS1oOWdlVUhMSWVkeTlvZ09VSGZjZWJXWll1Z2x0ZndOcEVYMVZGd2NmZVZsMlFvS1R4bTZSNElRaWFjU2JDVkNsQ2VLNWVPSlNQbDFmbUN5ZzI0d1BndFFaLXByWlF0ZHZJeE9faWhQUmJ0cWlhLU8xT3N2NWxZRExsMjRF?oc=5",
+      "published": "Sat, 21 Nov 2026 08:10:56 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
   "candles": [
@@ -6428,7 +6428,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-21T07:40:58.205261+00:00",
+    "updated_utc": "2026-11-21T08:31:35.134356+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
