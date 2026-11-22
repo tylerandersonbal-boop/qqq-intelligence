@@ -3420,13 +3420,6 @@
   ],
   "articles": [
     {
-      "id": "8efe9f77096a7442",
-      "title": "News Flash: Inflation Is Reaccelerating, and There's More at Play Than Just Higher Gas and Diesel Prices - The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNHFKdGFBZXdBazlYTHRDelhkQWxuWDZHT3E5ejlFUHRmeXVGMnJOczdjZFUxbW0yc1pzcEU2d2o2WUlxT3lwS1hyMmI3aWVsTkU3ajZTeFFIUXl1SUNzY2Jja2dNUHhRY2RvR21RX2NoY1dJcV95SHdsWnhiMUliUjdLTldFWW9qbmVibXJhQkZWaHZNRGpJNW5PemJuVnU5b3phUlZnVEUtNGJTSXluNDd0YlZTU3NOTTRsOUR3?oc=5",
-      "published": "Thu, 19 Nov 2026 09:06:02 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
       "id": "be6203180328b65c",
       "title": "US Stocks Mixed as Nvidia Earnings, Hawkish Fed Minutes Collide Ahead of Anthropic IPO - BigGo Finance",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9RbVA2UXdoNnRSalJUODlZX241U09qQ1NnVmpQYWJMZjVVQWdCYnNHMVVNZU1jdDlTNUt5TDNDcFB1Q3hWTFI0Nk13OS1aNUlDb1ZZMG1DM1dBbzBPOFVXY3VscEZObklNbDloYXowSWhaLW4xNnc?oc=5",
@@ -3738,7 +3731,7 @@
       "id": "c58f2ee0c8e2ac68",
       "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81OEFKQTktenlhclpBTlVtWEJqNVpKOVNWNlRaNlRDRnR0dHRielpfZXdtR0pXcUcyNDN1WTlzOWVrWXZTNVhTbEVIOUxEaklxVWc?oc=5",
-      "published": "Sat, 21 Nov 2026 01:11:09 GMT",
+      "published": "Sat, 21 Nov 2026 04:51:49 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     },
     {
@@ -4468,6 +4461,13 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOUJYRlBWTEI1UHk5THB6Yi1WelpzU2RJZXY0SHI5dFhvYXNrblUtdndkZ202Z0ZxZHYxVVlUSTFCUzJtUHNBRjMtdmUySEJrMDlxSkk1eVdrN19ZNmRDVHRHVUk4cW5aenB5LW0xT002NHI4M1lZMXJFR0puZGlXTU1YZFc0dmdoYTJRRDlGMjVtS3BRMmVubk9qYTlJN2hXR3dhTnlSZUp3YlpRN2xheWxqX2ZXRmJkVnc?oc=5",
       "published": "Sun, 22 Nov 2026 01:28:29 GMT",
       "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "f1116f25def2c06b",
+      "title": "Anthropic Raises 93.5 Billion in Record Nasdaq IPO - Demokratis.co.id",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WSGkxT0hXYnh4X2xGc1RKckc1YmtUQWphZlJ3eGc2MXJUbEJaU0lEaWs1QUU0anJGS2pGclFlU1VmZm4weWZaTkdIQ0hvWEk5NVl3eGFyU0M1OWxKc1RERFRhUzNadw?oc=5",
+      "published": "Sun, 22 Nov 2026 05:30:11 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
   "candles": [
@@ -6428,7 +6428,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-22T05:22:19.774166+00:00",
+    "updated_utc": "2026-11-22T06:18:54.953915+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
