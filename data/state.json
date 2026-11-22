@@ -3420,13 +3420,6 @@
   ],
   "articles": [
     {
-      "id": "d6ba091f86e904b0",
-      "title": "investingLive Americas FX news wrap 19 Nov Inflation worries sink stocks - investingLive",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUWVnSXpJQkUxcVZqZTd4Zi1ZbTRyY2w5cWJKeEZ3N2JMU0lCNXNOSFk2MFNEUUR5OVZhMWVRWXVTRXM2VF9lOFVMOXpINGdkVEp0WEswS1ZLOC1fclZieDNPUUx0RjdRcHNqeVdKSWdnNl9iOUNJMS00VkJIUng1V2xqOUt0UlZmRVQ1Yk4yUHF0UlNDUkNCSjROZUdINE5TOGlGbDZYdw?oc=5",
-      "published": "Thu, 19 Nov 2026 21:50:11 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
       "id": "82777ad68e538c9c",
       "title": "Anthropic Closes Up 17% While Nasdaq Falls; Mohamed El-Erian Calls It \u2018Making Room\u2019 For AI - TradingView",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMlpaZWduVGNsTGhaRldSbDFkNEt3WlFyb0tWcHhnQnJ6blhsV1RENDZPS2lyR3JCT1p0N3JWMmFXeWxRUEllTzA2NnFWMGhPTTFmbGZteEl3a3NGTkltR05KeGUySTM0d0hnREdlMFBQcE02T2Z2QmVkNXI5bzZaVlo4cU5TTzdHWUNCSExrbVlhbmItWHFmbEF1aWpWS1Z0T0c4YXlueEh1ZXp0STlNNzhoaFA0OXJpQVNUMWlQRkFhU0hwTkJ3MHl6dk1USFRTR1JJQklPVGx2TnJSS1Jtbw?oc=5",
@@ -3521,7 +3514,7 @@
       "id": "c58f2ee0c8e2ac68",
       "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81OEFKQTktenlhclpBTlVtWEJqNVpKOVNWNlRaNlRDRnR0dHRielpfZXdtR0pXcUcyNDN1WTlzOWVrWXZTNVhTbEVIOUxEaklxVWc?oc=5",
-      "published": "Sat, 21 Nov 2026 17:41:58 GMT",
+      "published": "Sat, 21 Nov 2026 19:44:40 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     },
     {
@@ -4468,6 +4461,13 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdDlGT0RCTjZrNnJHZGpMV1BJUHY5TFVTR0RQWlBPUTV6ZUtrMy1Yd3ptRjVhcDM1WjJNMTg2T0lwS3FGM3FUN01BaWxYNUtrdDdFb1FQTXpqTWF4YXNJa1VlZUowN0lZVXc1TmkwamMwMDRJalIzZG5QS2VOVWNYVkJJOENBWjBHeGlIdlNyVzRONmo1MzdlamVZMGxqTVg3c3ZrdmNxNnd2all5OFJHbHViMjlxZllCNTA0WEZzbGNudnpoXy1wSDJSWFRFWXBmUzVPRFB4a0w?oc=5",
       "published": "Sat, 21 Nov 2026 20:25:28 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "1c9674a4cfc232be",
+      "title": "Charlie Bilello Flags the Nasdaq 100\u2019s First Bear Market Since April 2025 - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSDNZa2xoSTJGWFFKaTB4TktCeFNJOU1IU2hvLTVtREtPRGQ3QWt1T0RRaGNlbkZ6RGpSVTNCbjFYWmxlNW5Qck9SNFB4TVd1WmYtdjB6TUlZb3d4dWE4b2lwODRmSDJ1NmN1OWx2Wm5zTGFXX3dyUVJXTkJzdzJja3FpQ3N6VmxzWGNSelc0YTFXVi04Tmo4OG0xdjl5QQ?oc=5",
+      "published": "Sun, 22 Nov 2026 21:17:16 GMT",
+      "topic": "QQQ Nasdaq 100"
     }
   ],
   "candles": [
@@ -6428,7 +6428,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-22T21:09:48.428989+00:00",
+    "updated_utc": "2026-11-22T21:51:25.201718+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
