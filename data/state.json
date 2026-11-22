@@ -3420,13 +3420,6 @@
   ],
   "articles": [
     {
-      "id": "78dacf48ff16cf8f",
-      "title": "How Could a 91% Chance of a December Fed Hike Reshape Returns on iShares 7-10 Year Treasury Bond ETF (NASDAQ:IEF)? - kalkine.ca",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOT3J4Q0hiQXlmQ0dLR0M4UGhMZGhMa3dobTZTVzhFaG1jS2FiM0FhNlJ4R1Z1THlyekF0MkpRNHQ1SzJfdDFrb0cxRjBfUkd0Z1dsNFptQ1o4MUFValc0VThxNHZmLUtwX1JwcWJMNDVfMGFQV2ZZamhNdHhDS0xUcmFvRGtfM0hSbW5MYzVJLVdZN1A5d2EtLTNtVEF1cWRVVDZSTzZnSlY1LUNOVUlNc3JpYmZHbEpwYjdDMjBEdlZlaEFsWFFZWk9HZFhrU2cyUUI4TFZPZHlNeEFJVFM3UQ?oc=5",
-      "published": "Thu, 19 Nov 2026 12:38:00 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
       "id": "422dd3bde8f9b208",
       "title": "Should Investors Rethink iShares 20+ Year Treasury Bond ETF (NASDAQ:TLT) After Fed Minutes Leaned Toward Hikes? - kalkine.ca",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWkVaU2VPZXpyOXliejNOelo2eXYzSTA2dUk0UGhKMVlWbm5YNWhjaE5uX2oydWVXQzhmRFRmbDZ0dmxoZHJzZjJRRUFvNkpidDhJLVZLQmdDOEZYcUJGRXEwRDN6MHJjRkpUM2ZHQXBnUUJ3dTZOampIRDQ0R2M5VjZ0TE4zOE1PdHhzZW5OZHE3azVZcWVwZWo0Y25kME1yTVFFTk5rLVJ6aHRORk5lYTlMdkR3ZS1kbzZtMWZHNUhmLXJOZkVmM19LOWpUS3J6ckt4WHg5TS1NOEcx?oc=5",
@@ -4468,6 +4461,13 @@
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1RekFrNTdjZWx5T0FxTHdGWE9RWlJEakdYdWtNRkJNOGdka3FSdkdwWEgzYUgtanJUb0llSVdZdW5QTE9Mb3pPUGI0LV9jcXpvRVE?oc=5",
       "published": "Sun, 22 Nov 2026 08:03:15 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "c7fa758699800846",
+      "title": "The Stock Market Sounds an Alarm as Investors Get Bad News About President Donald Trump's Economy - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPMV9uMkVCRmtJTzNpTi0zdm04dE5JM1kwTW1KTXYzQjktbkVPZDV2aXdnM2tXUlgwTGNNMUZEODZERlMzNnBNWTVWUzJhQjhCSDFmbi1TbF9tMUxpbUp6amlyOENqbVJNeXNva3hfa2RBaG90d293NUtJNHd1TEJPUmJ3YWh6eGR1TTlnX3pGUFJyczVsd3ppODZjelBxR1RZMDZuUktYSGg1S2hkcnk4OVo4enBheENWVXBQLU9MMGI5RnlkMTFIUl9GcjVUb25vaDhGUUZnRHRJZ192clhzZXYyeUJFd3IzUE9OVEhTamZhcmVzVlZkX0FpeEduX3B6Ym1IS2Z0OVBPT0Zjdzlsc3hn?oc=5",
+      "published": "Sun, 22 Nov 2026 09:42:46 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
     }
   ],
   "candles": [
@@ -6428,7 +6428,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-22T09:19:21.677088+00:00",
+    "updated_utc": "2026-11-22T10:07:41.691888+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
