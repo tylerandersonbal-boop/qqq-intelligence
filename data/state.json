@@ -3420,13 +3420,6 @@
   ],
   "articles": [
     {
-      "id": "aade065a4f52d3a0",
-      "title": "Nvidia's $115.8 Billion Quarter Lifts Nasdaq, but a Hawkish Fed Pulls the Dow Down 561 Points - BigGo Finance",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1CajhzcnFDOUFrV1FFQkNJLXBoV2JGSHhZX2FYNElxQko0dXU5ZTNXS1FnclNZbUZDMmZQS3RrOFY1QjkzZGNpLV8xNE5iSVBnYnJYVjVsYWNzTzZadlEyTzFzWHNta2ZtMkxQZnZfZnlOVWtqT0E?oc=5",
-      "published": "Wed, 18 Nov 2026 18:25:00 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
       "id": "8efe9f77096a7442",
       "title": "News Flash: Inflation Is Reaccelerating, and There's More at Play Than Just Higher Gas and Diesel Prices - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNHFKdGFBZXdBazlYTHRDelhkQWxuWDZHT3E5ejlFUHRmeXVGMnJOczdjZFUxbW0yc1pzcEU2d2o2WUlxT3lwS1hyMmI3aWVsTkU3ajZTeFFIUXl1SUNzY2Jja2dNUHhRY2RvR21RX2NoY1dJcV95SHdsWnhiMUliUjdLTldFWW9qbmVibXJhQkZWaHZNRGpJNW5PemJuVnU5b3phUlZnVEUtNGJTSXluNDd0YlZTU3NOTTRsOUR3?oc=5",
@@ -3745,7 +3738,7 @@
       "id": "c58f2ee0c8e2ac68",
       "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81OEFKQTktenlhclpBTlVtWEJqNVpKOVNWNlRaNlRDRnR0dHRielpfZXdtR0pXcUcyNDN1WTlzOWVrWXZTNVhTbEVIOUxEaklxVWc?oc=5",
-      "published": "Sat, 21 Nov 2026 19:32:19 GMT",
+      "published": "Sat, 21 Nov 2026 01:11:09 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     },
     {
@@ -4424,7 +4417,7 @@
       "id": "818d14721fee4a71",
       "title": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51M3YyYUhDNzU1Y2Rjb1RZakJNc2s1NWlnbHBYS1RWTTJyNnpzNUFiUEVJQmRoSElldkd0Z3Bva0s1UURoUFpJcDVxZnRJZXdDcGc?oc=5",
-      "published": "Fri, 20 Nov 2026 21:48:59 GMT",
+      "published": "Sat, 21 Nov 2026 01:10:01 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     },
     {
@@ -4468,6 +4461,13 @@
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQS25iVW9uNHFsc3lYdkNPRTJyTUhYcWRVbjhOZlR4QUpLZGs4RkE0d1lSLTEtN2x6N0ZxZnlZdE9KaTQxeS1TbWRFaGFpd0hGc0ZKWmF5OEVRdnFDX1NNWFlBTl9rdVRUVFlxSVRIelpPNmluWVdUVElhQzh1NWtjemJaUnlhRnJ2N3Q2dDNVYlhVYWtXbkswbXhYLWdiOHE0V1dkQ2xjNjFsTlpEQ0hzRDBja0RqV0VFX0FZaXdKRVZ2RHdGVUUtS2VzanJrTkhiSVcxeGVCRXNlUUhSVWJ3?oc=5",
       "published": "Fri, 20 Nov 2026 19:43:37 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "2d0fdb1ba12e6c3d",
+      "title": "QQQ Has Fallen 20%: The Forward P/E Looks Cheap, But The Earnings Aren't Risk-Free - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOUJYRlBWTEI1UHk5THB6Yi1WelpzU2RJZXY0SHI5dFhvYXNrblUtdndkZ202Z0ZxZHYxVVlUSTFCUzJtUHNBRjMtdmUySEJrMDlxSkk1eVdrN19ZNmRDVHRHVUk4cW5aenB5LW0xT002NHI4M1lZMXJFR0puZGlXTU1YZFc0dmdoYTJRRDlGMjVtS3BRMmVubk9qYTlJN2hXR3dhTnlSZUp3YlpRN2xheWxqX2ZXRmJkVnc?oc=5",
+      "published": "Sun, 22 Nov 2026 01:28:29 GMT",
+      "topic": "QQQ Nasdaq 100"
     }
   ],
   "candles": [
@@ -6428,7 +6428,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-22T02:30:07.299655+00:00",
+    "updated_utc": "2026-11-22T03:22:29.500796+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
