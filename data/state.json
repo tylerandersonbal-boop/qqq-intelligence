@@ -3420,13 +3420,6 @@
   ],
   "articles": [
     {
-      "id": "4f99a90c056199f3",
-      "title": "Anthropic valued at over $2 trillion in Nasdaq debut - The Korea Times",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTnUyMWdOcTRrVFVSN3Nza28ydmR5LXFxUk0xb0lDd3g1b3A3WVU0Zk5OdFk0VmozZ0Y2SllDYVFEUkRqTmpZRzdIeGdmUXBheGlGWmMxdk45YjJTUERVZjkweUYweWE3SjdlVVpGRW5NVTFyWnZOTXpJMlhPX2FGS1pTSUVJX0F1UUtBa3k1Y2VoY1FpTzROZWJVMNIBoAFBVV95cUxPSkNCNUVBVDRqeW5Tdkt1cThsdnB6eC11OEo5RUdpV21ndFp4M0NYMjVhUU5nV1dyOXhNeWdmV196QmppZTdiTTNVZElGWldtc3pzZzdZU1NOUEpIT3ZGR21iQUFjYWxYRXBxVzh2eGtIMzdJQk9GUjBfd0JtSWhxb3ZQSG9rZmR2cWNHTG9DeW5JX1RHcWhQb0c1Vjc3WHN5?oc=5",
-      "published": "Thu, 19 Nov 2026 16:22:00 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
       "id": "6884675142f6df4d",
       "title": "SpaceX Offers a Clue to What Anthropic\u2019s IPO Could Mean for QQQ Holders - 24/7 Wall St.",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSXBtbVJxOEdLenZCVWlLT2hCc0FVWVRaUEk4R0JSR25sd2x0U1hTQTZ5V3JnX3VkRWtzRm8yZnpQNWJOQkMxclhaOS1TREtQb1hzQ0Ytd0hYZERzSkU3cFczTUppYk9wWHAtRmFKRnMzRHdfWkF1Rk50cm02TS1lT3FwclBXZTVZTUR4ZUpIU0ZsS0hQMEpycjRxSnhpT2ZDZk1FUG00QU9Ma2RqdW5UUzhkRHBuNGFjb0E?oc=5",
@@ -4467,6 +4460,13 @@
       "title": "SOXX and DRAM Are Down Between 35.6% and 51.9% From Their Highs. Here\u2019s an Even Better Growth Stock ETF to Buy During the Nasdaq Correction. - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNYTRtSjFKLWp0cWNvaVJiaHE1b29vTXBQNXdWYUpfbTFoVjR4TTlNNVowUXprRkV4MURDZXR2ZXFUWGYzV3gyUXlDckhNMDl0a0ZGQ2s4WHJ4Q2VIWEl6Q3VEMnM1NVVzdVhFT2pwQ1RtZDJGTS12UElacDRqdjNVZXlqdFhldkYwSHI5Nm0yUXc5aW9zeDVEdm5PTExuMndwR240bkJ4cF9kaFRDTEgxRWdvUnhFZDBIS1dLRWMycTNJeHludWZTNEtuZHpIUzFpQ2ZIeGllV1E2S3NqYnY3VFdUb3k4YUY1QXdaVWZ3b3RKa2F2SEU0Tk1uT2RMZHhYR0VNVlMzdU5hQUU?oc=5",
       "published": "Sun, 22 Nov 2026 13:15:02 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "a96c386c9cbb8872",
+      "title": "SOXX and DRAM Are Down Between 35.6% and 51.9% From Their Highs. Here\u2019s an Even Better Growth Stock ETF to Buy During the Nasdaq Correction. - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPUkt1MHFYUGN1WGdVN2VZMkxHVktFWVVfXzE3QjBFZHU2ekowd3h2TFVJWnFpa0dfWld1VWFiOXdaeHp4SVViQTVucWp4amUzT0NaUkYwYnk4eGV0YUp2NHQ0Zm5iUWxpMHladGQ5bTRHZGZsR3B3Z1c0RXdpdHFaTEtacmlfWXFFbXBHcFdzWDQ5WTVzN08xYUNFN29uYnI4UjVRb2drdDNGZ1BzZk1yR2YxVFpwc0h2TzlEcXBPWlZicE8wTUFZbHBKSnh0WWF5Z0FWN3ZRbTdlRVNoNDZSUUhwdndIRVNaYnREaG1XdmUtaVlyVy01Rm0zYVBXSGxCMHZUNlNpMFRGcW9vWkppQWg3SDI1cVR3VEx6Y2o3c0hLbHAxRkI2LWdwWnFUWG1MR01nQ1Y0b01fV3JYYjVqR2N3MW8?oc=5",
+      "published": "Sun, 22 Nov 2026 13:35:16 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
@@ -6428,7 +6428,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-22T13:21:40.420260+00:00",
+    "updated_utc": "2026-11-22T14:15:06.574874+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
