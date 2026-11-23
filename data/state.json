@@ -3420,20 +3420,6 @@
   ],
   "articles": [
     {
-      "id": "763c3dc082bcc67c",
-      "title": "Stock market faces sharp correction risk amid A... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQX1MwXzJoYlQwM1FuNEVDU3JwcXpzendsTWIzTlVpdWlMYmZBTV9UbVdtS3l0d1VQOGZJamZLMmtsTlN0RWRCamdxeGVxMXBKdlRYRFc2YTY3VEIweEpEZUpMQUVBampBX1FqMXFSVDNtUG5PcVJicDNfN3lyX2NIMUNzNVlnNHprVHlhOWFXUndMWDQ?oc=5",
-      "published": "Thu, 19 Nov 2026 13:15:44 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
-      "id": "cad0df9386e38c5b",
-      "title": "On shaky ground: These 11 Indian MFs are most exposed to US tech selloff - Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbGZhTHdMaXRQNTAxbWhpUmxmQTBsLTFkRnM2dUo4RXpsUG5BSEVvYmNJSXV1NFZZalRXWlhhTHRFcFlXZFYxdkRfVllJS0ZXcXF4V21ITG83TjJkdWljZXpqbzZGVi1XMHYybU1jVkkwdllpeFU4YTlQZmRqdG5RbUxoREVHdTB6WHF6Tmx4ay0tZWNkWXhfNU5pMURoNmtGYmdtVklJSWVWZ0trQXNpNUR4cU9ENUhxLVZRaEJOWVlEM1FXUXoyNWEySDFUWDdkWmRhOQ?oc=5",
-      "published": "Fri, 20 Nov 2026 02:31:20 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
       "id": "c58f2ee0c8e2ac68",
       "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81OEFKQTktenlhclpBTlVtWEJqNVpKOVNWNlRaNlRDRnR0dHRielpfZXdtR0pXcUcyNDN1WTlzOWVrWXZTNVhTbEVIOUxEaklxVWc?oc=5",
@@ -4468,6 +4454,20 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTDNYYlp6LWxWUGE3VTBpbk0yMjlMakJVMk4zeTRzMng2Ym5ONGIwYXV5TWZGN0YyeWthSGd5ZVFXYm1aU05LLUZJdE1PZ3JNQ0pxNXdzcVQ0QXZXLUhCSVMtMl9GQUhuQlhLbExEM0FKYzFOZWxyeks0WXNWNnZQcTZ3TVBhUXlreXdLak1LdTVVNmNURFU0bU1od2Q4Rll6SVdvdlYzcXQzbjJhUTNKYk9yblJ4TVUxY1BYcnFrbi1rZjNKenc?oc=5",
       "published": "Sun, 22 Nov 2026 23:19:27 GMT",
       "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "1d6509243230aa6f",
+      "title": "The Nasdaq-100 Is Doing Something It Did Only in 2000 and 2018. Here\u2019s What Happened Next Both Times - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zRUdQTUdBMDNDSndiZGZ0dWZmcU9zWHA3RU9aZUlsMUdOZmhLZ2tiZ0dCWWtObV9tSGNveGpkcEpFWERDVUw2cXB0Zmh5MXFhMGpRN0d6WDdDekZwZGE1eW1JWUc4MnhIOGxQTDZCcFhuaFJMamJfcllXQnZETkk?oc=5",
+      "published": "Sat, 21 Nov 2026 18:25:05 GMT",
+      "topic": "QQQ Nasdaq 100"
+    },
+    {
+      "id": "36ec01c634b3b979",
+      "title": "Nvidia stock extends $2.7 trillion rout as SEC probe reportedly investigates its accounting - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQS25iVW9uNHFsc3lYdkNPRTJyTUhYcWRVbjhOZlR4QUpLZGs4RkE0d1lSLTEtN2x6N0ZxZnlZdE9KaTQxeS1TbWRFaGFpd0hGc0ZKWmF5OEVRdnFDX1NNWFlBTl9rdVRUVFlxSVRIelpPNmluWVdUVElhQzh1NWtjemJaUnlhRnJ2N3Q2dDNVYlhVYWtXbkswbXhYLWdiOHE0V1dkQ2xjNjFsTlpEQ0hzRDBja0RqV0VFX0FZaXdKRVZ2RHdGVUUtS2VzanJrTkhiSVcxeGVCRXNlUUhSVWJ3?oc=5",
+      "published": "Sat, 21 Nov 2026 12:33:29 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
   "candles": [
@@ -6428,7 +6428,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-22T23:58:50.604983+00:00",
+    "updated_utc": "2026-11-23T00:59:46.710043+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
