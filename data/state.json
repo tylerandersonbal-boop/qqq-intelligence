@@ -4016,13 +4016,6 @@
   ],
   "articles": [
     {
-      "id": "5c8f2732df3e6466",
-      "title": "AI boom and Trump's tariffs fuel inflation, cha... - Pluang",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53cHdNOU9obnZUVjlBQncwQXFwWjJBMGpDZlplQjFxRUFKUFktcVRicXRVbmJSRTR1VE1fclV0emdOcEtpWC1RcjJsZUg0REQtdURhZ2ZyZm9SalFYemM5SVpfd1ljbW5FX3MwWHV5eWF6cnAzX0hmTVZZYXQ?oc=5",
-      "published": "Sat, 21 Nov 2026 10:05:17 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
       "id": "e136dbf4cd561d2a",
       "title": "Anthropic Closes Up 17% While Nasdaq Falls; Mohamed El-Erian Calls It \u2018Making Room\u2019 For AI - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQnQwVHV6d21uWnU4eDVhVDcwRUJjQUlwNnhHSTFDRVFnbFR5cTlrUC1DWGpxdXZPTkdfeV82SmhYeEJlRUVoN3JBamNuRTljcXBLdExiTkFDYnBVRFRWTTZyLVpaREg5RTQ3dmYyM241b0ZiV3l0TlN4dmRfNkkyMGttYTFmNWRxcWMxaVQ1dlZkUmcydmNrSFFZbVNhQQ?oc=5",
@@ -5063,6 +5056,13 @@
       "title": "NVIDIA Stock and 2 US Tech Giants Facing the AI Spending Question - Simply Wall St",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQm1RcndoMHZURmRycjZxbzlGODY5Y21yb25OUmhpTDlvUGRqUGZIVE1kbnpyaVVsZk1sRGtOOGlSZ3E3SDREeFVzWFNLRmppQ0JWaDZ1SUkwZUVTeDFIc1BDZ0Yza2s5YVNlaDhEV0hFZjNkMmFqRmRDcGg2aGNWZG5xU2ZjWlMwOFRvNTh3V29WVU83T3ItekpDY0doZXk0UnZOX1BHMDNYZzVKSVZ0aGt4RkdYUThFMDlWZHlneTRSWU8xa21wZjdsSmJ3ZHNH0gHQAUFVX3lxTE5CbVFyd2gwdlRGZHJyNnFvOUY4NjljbXJvbk5SaGlMOW9QZGpQZkhUTWRuenJpVWxmTWxEa044aVJncTdINER4VXNYU0tGamlDQlZoNnVJSTBlRVN4MUhzUENnRjNrazlhU2VoOERXSEVmM2QyYWpGZENwaDZoY1ZkbnFTZmNaUzA4VG81OHdXb1ZVTzdPci16SkNjR2hleTRSdk5fUEcwM1hnNUpJVnRoa3hGR1hROEUwOVZkeWd5NFJZTzFrbXBmN2xKYndkc0c?oc=5",
       "published": "Mon, 23 Nov 2026 17:15:08 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "ce3cf0aa67c807c8",
+      "title": "Why Apple (NASDAQ:AAPL) Held Up Better Than Most of Big Tech in a Heavy-Volume AI Rout - kalkine.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNzEyS3Rkekx0YmtWcXByR292eTNta01mZERjMWFtOTZQa1BwNmFjRnJXczBiZVhkWEtFQ18tOXdKMzl1c3B3emxCdjgtclhOYkxISWZRN2ZUZjV1c0JoNkZqRUVkV0dMaFlPZ1pOaVY3MG1zSHhVS19ONURFcm9obU1PMlBEMTg5bmFURXBYbVR0clRtM0pJZVREdjdSX2thM05KZF9yb0IzM1ljMHdoMW5FanVteW5USEQ4?oc=5",
+      "published": "Mon, 23 Nov 2026 10:00:00 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
@@ -7006,18 +7006,33 @@
       "time": "2026-11-23T20:45:00+00:00",
       "close": 652.68,
       "volume": 1237707
+    },
+    {
+      "time": "2026-11-23T20:50:00+00:00",
+      "close": 650.0,
+      "volume": 1895583
+    },
+    {
+      "time": "2026-11-23T20:55:00+00:00",
+      "close": 650.87,
+      "volume": 3198694
+    },
+    {
+      "time": "2026-11-23T21:00:00+00:00",
+      "close": 651.03,
+      "volume": 0
     }
   ],
   "status": {
-    "updated_utc": "2026-11-23T20:52:39.798287+00:00",
+    "updated_utc": "2026-11-23T21:38:35.449677+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
       "Research prototype. Not live execution, not financial advice.",
       "Public free feeds can be delayed, incomplete or unavailable."
     ],
-    "last_candle_utc": "2026-11-23T20:45:00+00:00",
-    "last_price_usd": 652.68
+    "last_candle_utc": "2026-11-23T21:00:00+00:00",
+    "last_price_usd": 651.03
   },
   "metrics": {
     "evaluated_directional": 21,
