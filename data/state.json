@@ -3420,13 +3420,6 @@
   ],
   "articles": [
     {
-      "id": "9d411986b8d5d057",
-      "title": "Invesco QQQ Institutional Flow Before the Bell, Friday: Nasdaq 100 Futures Down 1.0% - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOODl2VElXWWlLMUJmSEFiSnpZa0llYUU4YmVPZDVlZ2gzMlZNRUJkY2F5TnRCcjlUX25FLUdSLXIwOFAxR0pNUFVqLTFvLWZCZk0yZVVLTjFWdlBTV0lQX0swVDB0ekdNNXlUaHA2VXZpZFhhalFwWndsY2gtdE5HVnRic3BEZVFNSURHeXlfRjlZNG9QdWx5VWFpanZZUi1iZElMS0plekREQ21BSWF4SzZEQUo3VUEtZ0E?oc=5",
-      "published": "Fri, 20 Nov 2026 12:31:53 GMT",
-      "topic": "QQQ Nasdaq 100"
-    },
-    {
       "id": "43735a0e155ce6b9",
       "title": "Nasdaq futures slide as Anthropic retreat deepens AI jitters - Charlotte Observer",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9QbHY2LTBteW10eUx6X2RFcFRCcTI4WkZ2X3BOTDhuNS1ITlZkazBFTkgxY1ZETjBBS0hWSXFnZ1pxU09ldXc5ZnJVeC1HS3p6Sl9nY0VFM2JCLTNJY3BOWFNldUVGSnV3VExLNXY3MVJLUjdRYTk3bA?oc=5",
@@ -4468,6 +4461,13 @@
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQc1RaQThpMTV6eDVGdVZCMUlNZmpNYjF3ZlZpUk5ZS1NUUTF6N3FCWlNleDNuOEd0ZmdISVVUVjFmemVadHRVWElZdGYzYzhoMy1ONnFGbGxsVWE4U1BmcUh5S2FEZlN0eW1DU2hyOVFBSXBRX042TFRKWEp3TXlYWTFJRWNwdkJQcUhuYjVvdkNsbWp0RC1EYmtyT2QtMjJyOUJodzNZcTlyd2dPekY1RVU2aWp5RUtzbVVqTnB1MWxidDkweW9mWS1nYXFxMHI0RU5NRUZMcGhEdVRhUThXTG1zQ0FKS3NqVXJ6dVdJell6djB5YmoxTFExZw?oc=5",
       "published": "Mon, 23 Nov 2026 04:49:10 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "761607671cc49baa",
+      "title": "The Stock Market Sounds an Alarm as Investors Get Bad News About President Donald Trump's Economy - The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPbktXRUlVYktyQjMyMklwOXVmcjA4RGdqLUlFZlh3VE1ZNXpTemdZdUFQNUdzYnNrYnNlMEFiMEJVeGF6NXhJTzlVQk5uQ0VNRDRTQmMxQW5HbmtfNUZlelZMSm1YYXR6bGVoN3Y1bHFEaEVrWjJMNmlBMFFxTXF6b21aUWlSZXkwM2RJb3ltcFlEbWdPbVhrX1RvLVU0X3BkOHNLM0VSTTE2b3VsbE94OXI2eDV4MHNqbFI1MHFwaURPNzhJZ1A5Nk53ZjdRUEtOVzFPQnVZaGhXVHJ4TFNPUlYwS2VFaW9FNlVDckRPYzJtRVZEUlBDczc4R1o5NE93YmxjTDBNbw?oc=5",
+      "published": "Sun, 22 Nov 2026 10:32:59 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
     }
   ],
   "candles": [
@@ -6428,7 +6428,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-23T05:40:58.768273+00:00",
+    "updated_utc": "2026-11-23T06:49:28.432359+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
