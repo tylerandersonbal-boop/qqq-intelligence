@@ -4628,13 +4628,6 @@
   ],
   "articles": [
     {
-      "id": "ebcaad708b7de25a",
-      "title": "QQQ Dec 2026 647.000 call (QQQ261201C00647000) interactive stock chart \u2013 Yahoo Finance - Yahoo Finance Singapore",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpQnVoWmF5Ynh1Q1dtTm9vV1pLVVFkakgtVl9DVzJqQUNXbmdiSFB0RFpjMHlFVWZ1M2c4VmxJQURzejZ5MDVoWE5YWEJ5YnhBLVY1Q2F1Wk9jYWRkMWtoRHByZFRuYy1zLXVkRw?oc=5",
-      "published": "Mon, 23 Nov 2026 01:33:26 GMT",
-      "topic": "QQQ Nasdaq 100"
-    },
-    {
       "id": "c43b79e86c40b157",
       "title": "Dow Jones and US stock futures surge as Nasdaq 100 rebounds 3% after AI selloff - Beinsure",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMmE1UnJSa3dXcnJZVVFfNkVSVTB4bzFwOGtWOG1lNDh6dGZGX2I4cml4T1NBSldrMlljcjZNa1lqZ2RRNWFjVXJSakNSRldrU0RBZ1JKb2hFX0psVWlvOUV1RWx4aDFJUFlnUFZSNGhKT05UYTAtT1g0QXpVTUNtRElGOU1QNEhGcWRRNUpjaw?oc=5",
@@ -5261,7 +5254,7 @@
       "id": "a3c348e659bb4738",
       "title": "Microsoft Corporation (MSFT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uOUNhWEIyM0RRVERRZVRjUWx6dFJ2N2tGYXBpVWl2RVI3MjM2b3kzVmtabzNDRjdGMGw2Z2hJSTB0S2Q5YWRWT1dab25WVERnZlE?oc=5",
-      "published": "Tue, 24 Nov 2026 03:13:10 GMT",
+      "published": "Tue, 24 Nov 2026 06:06:57 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     },
     {
@@ -5676,6 +5669,13 @@
       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOa1JvM0RsUzFZeURHZ2hmWkhZY3pBc1NZTTY4ZTdiZnNhZjVQWGx6Q2w5d3V5VTJWMDJvLTBlTnZtVWJOeDBCbTlNRktkWVV1R2RjZTBid201UDBIdzdSUU5RUmVsOHdFMHMtenNwZWZIQjRKSkZHaV81UFRCdUIxajdZVFNQZ3hrT292T09leHdZbnNnenU0dERLUGxzdG0zWlhkQi1QUjZYcmxjOUlvYVZjMVZYbTh2VTBUQ2wwRTdYMVFaMmJ0TFhvYWZjcE5GUWgzRFUtMHVTY2JKMjl0TGZGVkczOEdMU1NHQWJhM1hGMjFVNVlqUmVaZzNOUGkycW9ScHQ2U01OeUx5?oc=5",
       "published": "Wed, 25 Nov 2026 03:20:00 GMT",
       "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "e596d62d852974b0",
+      "title": "Dow Reclaims 50,000, Closes Up 423 Points; Philadelphia Semiconductor Index Plunges Nearly 8%, Dragging Down Nasdaq - BigGo Finance",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1KZHFlbFg0OVVxbG1KUkpzclE5R21mU0ViZFY4YWFYMVlGWDFuYUlDVVBfRnZ3SVY2Q2dMWWJJRGlUMEJjeVAzS29BZDVIZW9sTEpkRk5jUEZkeWVsTVNFMklTalRHOEEyNklaUGR1ZllvUG55akE?oc=5",
+      "published": "Tue, 24 Nov 2026 22:25:00 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
   "candles": [
@@ -7636,7 +7636,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-25T05:40:27.120778+00:00",
+    "updated_utc": "2026-11-25T06:38:36.850525+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
