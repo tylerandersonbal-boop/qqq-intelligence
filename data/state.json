@@ -4628,13 +4628,6 @@
   ],
   "articles": [
     {
-      "id": "db26ba0553fd3ad8",
-      "title": "Chip P/E Falls to About 10 as $4T Vanishes in 6 Weeks - shattered.io",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeTdFVFBEbmVQWFdjd1NQUGlJWmpGcEVpZk8zckQzcDdpMEZRS09tWGNNQXlRcFoyVlIxUzJVR3FCZU1jRHhNUFRYanZ2anQzb1FfaUdlYTRldlYtVWlvV0ZBSEFGUWg3RmJxRkF1MkhVX240OEJGZDNsaDl4ZVRBVjlqVlI5UzRyZmRvb2RRZkFFRU5I?oc=5",
-      "published": "Mon, 23 Nov 2026 04:17:54 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
       "id": "29f9c594373fb1c5",
       "title": "Which Magnificent Seven Stock Looks Best for Next Week? GOOGL Leads NVDA and MSFT - TradingKey",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUXZhVEQ1X3N3R3U1a3NwbTFuRWcyMDJRRlNVMnAzMlYwUHVLcGR5NUxXNG5DQWlhZm9tdFhadk4xSnRZdnVkTmM2akNyX0kxczhBem9sd0JVWmFudkVLTGpOTnU0bEtadjVHUVF3QUhjWUctOTdSeHgzWWZEQTZObThLQm5nMTFEc3AtUXZ3ZURoSlV1SkNNbkZIbXl4b0lwam5FVktIaUFKZG41NnptalhfSG1BNTFNc3dMTlh4NXYwOVItWTNQQ3ZCRlRuWk96dmVQWkI0MFJqQ0dx?oc=5",
@@ -5352,7 +5345,7 @@
       "id": "a3c348e659bb4738",
       "title": "Microsoft Corporation (MSFT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uOUNhWEIyM0RRVERRZVRjUWx6dFJ2N2tGYXBpVWl2RVI3MjM2b3kzVmtabzNDRjdGMGw2Z2hJSTB0S2Q5YWRWT1dab25WVERnZlE?oc=5",
-      "published": "Mon, 23 Nov 2026 16:15:18 GMT",
+      "published": "Tue, 24 Nov 2026 13:33:16 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     },
     {
@@ -5676,6 +5669,13 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSTllZU9SM1B2MlZoYTV4UzQwMGpPaGdSRXlyLXNZUHNiajBZU0xabDZOVFowUjRjb3d5M2pNcURzZ1hXcVU4T1lOcm45Q0VjTzV1elV0cXplV2RfdXZ0OTRNSDB6WDRRc0wydmpjODlsRVpkbVp2R19WNTFmN2JCVlplVWpjNVNoSHhrek1BdjB3LWpiV1BhOHNVNUVwTnVsQjVTaFZvWGdQOVpRQTVoSEowbVRyempnT1E?oc=5",
       "published": "Tue, 24 Nov 2026 21:49:36 GMT",
       "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "7b766887344b6273",
+      "title": "The Bear Isn't Gone (NASDAQ:QQQ) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE41Mng0VVh3MHBQQnh0NHJ2b0sxZjNpNDdVRkN5M0pHcXBPTTZxem9YQy1QM1JBR0RPUVhWczA5eXhMMGVSSFRiZXhOZXhHelBHSnVIZmJKQTRoVzUxaUJZdXBnckNoVU5mRnZJ?oc=5",
+      "published": "Tue, 24 Nov 2026 22:03:24 GMT",
+      "topic": "QQQ Nasdaq 100"
     }
   ],
   "candles": [
@@ -7636,7 +7636,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-24T23:16:01.260115+00:00",
+    "updated_utc": "2026-11-25T00:02:12.445889+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
