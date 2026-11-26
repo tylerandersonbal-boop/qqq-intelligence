@@ -5342,13 +5342,6 @@
   ],
   "articles": [
     {
-      "id": "b040c6e16a95b072",
-      "title": "Nasdaq, S&P 500 ease as Nvidia-driven AI rally fizzles - StreetInsider",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTHg5TUUtbHVKci1zNVY4bDJJSWZkR21sMFNRSTdZUzdGWDFNdkp2QkNhNTROdWpaR2pLUTg5M0RRcXFOaXdlTGxBLUZONGZjNERNNW5la0JQT0V2aW1MSEhMVWFFWF9yOGowa1ZyVVJyY3NKT1k0enNUVkU0VERVWnVmTjF2LUxQMzlrZUtncnZWMTZIY052ODFqZnBYRkpIUTJFR1dSNWJvYkRUQmNBWmMxSHlodw?oc=5",
-      "published": "Tue, 24 Nov 2026 15:22:30 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
       "id": "7c3801d6ef469411",
       "title": "Stock Market Today: S&P 500 and Nasdaq Fall as Nvidia Drops 5.5% - Coinpaper",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOczRlU2MySEY5bkZvWG4xTDJBVXpsQnlhcGZ1MTZvTWZRV3dtNWM3X0dhYzN4ZGk0a2lVMzJZbk5GMk1DUzdnaG1xVmJ4TWl2RklOYklWZE5Uc01NakdkczNRam9sVVFYcVh5aU8xTWlOUm1sVVFyLTFuX01MLXVmZGtWcmd3bGxfaGlaU1IzN1VWdFphaEJoNmt3?oc=5",
@@ -6017,8 +6010,8 @@
       "id": "1182a530eb44a391",
       "title": "Nasdaq tumbles 4% as Nvidia leads AI sell-off, inflation and tariffs weigh on investors - New York Post",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0lob2Q5R1pRSm1LZmhUbFRCX2pNX0I2ZU9JWTJkVU1jMWd0TjVIOTBURVZrd1VGaEl1WW84MS0tVE4xaEUxZVVJMlExLU9XLThkLWtwSXY1RWdMaVNIcjVWdHlwQnVGSnRQSW80cGlKbU1XaXMwaFN2bFE3LWhFVzJldS1WMVhXRFIxYVJTd3BJbFZEbldCWTctLUhtRDk5VkZxYzF1RDlCV2I0cEJSZENXV0dub2EtekdFcjAwZ2hYczg?oc=5",
-      "published": "Wed, 25 Nov 2026 16:43:00 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+      "published": "Wed, 25 Nov 2026 22:10:58 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
     },
     {
       "id": "8bbdef9a6682b202",
@@ -6390,6 +6383,13 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcUZtR2dabmhGSHhheEpmSk5Ea044V09pUzl2cVo2YkhZVUJHdGl3Wlp5dXFWOXRNd2FYT19kZVlYTUxNalE1RFYwaTRfMkJNSXp1bUxBWEZ3NnljU0J5SFRQYXprVkFDbC11Y1d2TnRzcW10VjZPSTZVMjRWYVBDSmhUWQ?oc=5",
       "published": "Wed, 25 Nov 2026 20:43:55 GMT",
       "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "20faba82ea19a699",
+      "title": "Market Movers blog: Global markets fall as Trump plans new tariffs - Investment Week",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mZHNUUnlOeExDV2hSRjhxWEs0blpwaGhqUzIzQ054d1JaTnNIcGZWbkhtTDVwZFdwUXM5ekRkX2Z5UFJEWW5uMGtRSzVnd2NwZDFRUWZnYm9JWHFlTUptZzJGSHdKOS1oTEJxOUk0bFRWdw?oc=5",
+      "published": "Thu, 26 Nov 2026 09:08:35 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
   "candles": [
@@ -8350,7 +8350,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-26T09:12:29.716117+00:00",
+    "updated_utc": "2026-11-26T10:23:24.254549+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
