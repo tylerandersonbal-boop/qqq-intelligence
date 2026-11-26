@@ -5342,13 +5342,6 @@
   ],
   "articles": [
     {
-      "id": "b8127e505672f868",
-      "title": "Nasdaq, S&P 500 ease as Nvidia-driven AI rally fizzles - The Detroit News",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaVFudWVjenI0eDJlanFjc29SODRacGtLaThyVjZadFJiYzlGT0FqazJpV1U4U25QRzlLWHQ0UjNBUzl3Wkl0MTZsLUd1VFJ5c3JiTWZ0RV9VRDQtR2NZMFBDSVBTYklWbEx1UWpVTTc3U3BEZ2NhQ2tBcU0tYVJXU1k3Q2hRellBT1ByalJxdW13ZWJyZFRpUjVrdzcwOHBoZW1NTDlETER2cUlNaVFtSTdJamlmaHpNNUE0?oc=5",
-      "published": "Tue, 24 Nov 2026 16:07:00 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
       "id": "ff44f363d63cd1bb",
       "title": "US STOCKS-Nasdaq, S&P 500 fall as Nvidia-driven AI rally unwinds - Devdiscourse",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX3JxT0VMbVo1ZEhkSHFsUDJYTi1yOVVZV0ZVM0N1N0hVNFhsLWRMcEdxYkh2b3ptaS1iQ181MDFiWE5nQTJLTnU3OHpZZ21DTzlvZm9Gd2ZidXFKdGVTT04tVWZFbHZjQUh6WTNPQ3l1eDY4NHZBdG1LSXN3RFpFU0Z3M2Vod2tKby1ZdHRRQ1hnaGEtTG1rN2tJUXpSX0puLVFQaWpPNjA4RnU1LWU0Nmc4RFpqY1VLZlVmeWl30gHDAUFVX3lxTE81OWlaeEFzZWtjY0lDamh2Z2gxNmRabkpSRVd2Y0JkYkZjbGxaZnNNcnV6cmdldGlXMjk5VDhiOUdrOVcyVGVEY1hFYVEwRVJCNmdGblBISE5vejNIb3daQ1M4N3ZCbmtSdHdOSjdxY0lfUm05a29FSGEzU2JtR1BUN3pXLVRFUklsRVNiazRCYmFSUG5PQUFZWVc5MVc3UkN5c3V5NUF3eDc2eDhYWTVaUFZvX25jS2c4b1dNRFl3dWhoTQ?oc=5",
@@ -6388,7 +6381,14 @@
       "id": "cdf0f8044e805baa",
       "title": "Apple Stock vs. Nvidia Stock: Which Is More Exposed to an AI Bubble? - Coinpaper",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeTgteUk1bnZmVFllM3ZMTmFYbXlySXZrME0wRkk4UjBaUVQxQ2diMG9vQ05EejJ5QUxmTllwUWJvN21IU05TaXNWem03Y19zYk5MaWRkQk5mWWVaTXlpQWFySFJFLS1ad3VtWklNSENKZ3JKNjlxM1JWd1BXb0g4R3NFRVlnakNRZU9xZXYxcWp1U3pwQzRGXw?oc=5",
-      "published": "Thu, 26 Nov 2026 17:40:40 GMT",
+      "published": "Thu, 26 Nov 2026 17:40:20 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "a3c348e659bb4738",
+      "title": "Microsoft Corporation (MSFT) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uOUNhWEIyM0RRVERRZVRjUWx6dFJ2N2tGYXBpVWl2RVI3MjM2b3kzVmtabzNDRjdGMGw2Z2hJSTB0S2Q5YWRWT1dab25WVERnZlE?oc=5",
+      "published": "Wed, 25 Nov 2026 16:52:15 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
@@ -8350,7 +8350,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-26T17:41:56.642126+00:00",
+    "updated_utc": "2026-11-26T18:35:04.288085+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
