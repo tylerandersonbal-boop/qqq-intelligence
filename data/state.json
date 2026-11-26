@@ -5342,13 +5342,6 @@
   ],
   "articles": [
     {
-      "id": "63fe6e3af90589e2",
-      "title": "The S&P 500 Just Had Its Worst Week of 2026. Here's Why I'm Still Investing. - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOZW4tTk5uR2VTcHk1aXdTVnZZUFJTZWtyWVo5TWFoanNjSUMxMVllVUFpX0xSSUppV3NDcWM4N1BsR0FzZHVlVnRaSXJMUkxpZ2lhYTZpb3Vab2o2YXFuZzdmamlmRlBGcmt3SFJReHVWN2NNRjNKeG55WV9jS01DSjhJWWhFYkFmSmswY1BOVVdfdjZSRFdLeDB3YWNUUElSc1R5SW5VRnJINVdYc1UyRWhqcFNobGU3WHJQdHE3aU1WaXVMWFctQzRIZFUtRU44RTF4WGhPSGVBSFVkbDVBYTNObWE0bUtramp6VlptdzY?oc=5",
-      "published": "Tue, 24 Nov 2026 14:38:18 GMT",
-      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
-    },
-    {
       "id": "da25e7cd1507d2df",
       "title": "Why this investor loves Invesco QQQ Trust right now - Cantech Letter",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaWRidG9lRmNrbTgwbXdYUUJaUlk1Qjl1NVhNLTFiZ3JqeTdNdHVoaFgyRXFzNFBJaGduWGowUWdRUi1RTldOdi0zY3piQ0xFZm95WDI2eEhXVFJiYXhIRGpOb3g0UVVWbGFJNzZDMmE5SDdvaUJDS2NGMjVZR3V4eFBkSzg5bklrUWwxY1QtLWx2MnFP?oc=5",
@@ -6390,6 +6383,13 @@
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51M3YyYUhDNzU1Y2Rjb1RZakJNc2s1NWlnbHBYS1RWTTJyNnpzNUFiUEVJQmRoSElldkd0Z3Bva0s1UURoUFpJcDVxZnRJZXdDcGc?oc=5",
       "published": "Wed, 25 Nov 2026 19:07:27 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "0c4c900d433d8a47",
+      "title": "US Inflation Hits 3.8%: Will the Fed Raise Interest Rates Again in December? - CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPckJoTzRUZlhpcnZBcjBQUDdDWGEzMmdPOGJVVjZLOFFmaDZOY0pJN1I1MGo3VEgyb1l2eE9RRzFhOFM0ekNfV3VqdE01UHBxX0pQMGtqT1JJTWZLbEE5czVWYXpOSm93bGxCWVRuNU1QSmh4d0NBdUVGWTVuNFcxc0FMY0NCZHJXa1lBRGp4Ym42U3FJckFBQjFGZzlPMEwwYnphal9sa1UwQ05lNTlMRA?oc=5",
+      "published": "Thu, 26 Nov 2026 21:11:03 GMT",
+      "topic": "Federal Reserve inflation Nasdaq"
     }
   ],
   "candles": [
@@ -8350,7 +8350,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-26T20:33:49.066089+00:00",
+    "updated_utc": "2026-11-26T21:27:42.399239+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
