@@ -5342,13 +5342,6 @@
   ],
   "articles": [
     {
-      "id": "5473f4d4aab54d75",
-      "title": "QQQ Slides After Sharp Rebound, but Smart Money Bets on a Recovery | Smart Money Option - Moomoo",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWUdlMTJTYlk1N3ZPNnRYYklPb3M1TGNTTF82NW55cXkxUnF1VW91dXhKRkV1ei1yeTVBaHpPOWdveVRwUmlfbGJmZmZKMGdoaElqeTZwVkx0bEV1WmMxZmM3d193Mk9VQmFsWUFJdnZxd0ZFV3o3ZHg4cFk4ZFNfSlhYRXFZdjNoNjQzNEZLekFQcm9jMUtoSnpCOWVSVTZ2TS1aek9NLXFudXha?oc=5",
-      "published": "Tue, 24 Nov 2026 16:10:00 GMT",
-      "topic": "QQQ Nasdaq 100"
-    },
-    {
       "id": "2fc97be0ee3d2483",
       "title": "TradingKey Wall Street Weekly: Nvidia and Anthropic Deepen AI Selloff; Nasdaq Plunges 10.02% and Erases 2026 Gains - TradingKey",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeXQwYUw2Q0xlbFh5aVpSMV9uN1pIYmFBLW1ZZU9oZXJVWXBJOTFPUVlnMjYyZTFyVW5OZF96RjVQbWtzYWRSdEdiWHVuSUZvalloNVI0d2dUS2xWOGZ5TTlPTE5qSUUtWTFVWnJqN2V6RVJ3RFNYb2x1WDE1OXdTTkhNYWh3MkFfUTBUUjNYSUhjSktuWFRjdVdyVXY?oc=5",
@@ -6318,7 +6311,7 @@
       "id": "818d14721fee4a71",
       "title": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51M3YyYUhDNzU1Y2Rjb1RZakJNc2s1NWlnbHBYS1RWTTJyNnpzNUFiUEVJQmRoSElldkd0Z3Bva0s1UURoUFpJcDVxZnRJZXdDcGc?oc=5",
-      "published": "Thu, 26 Nov 2026 13:13:11 GMT",
+      "published": "Thu, 26 Nov 2026 14:48:47 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     },
     {
@@ -6390,6 +6383,13 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNekxNUWtOR1pxOTJPX2dfTUhyWW4teS1oQUY4V0ZsNHZwV2d4a2NWU280b0hYSWhyNFEydWxhTWdrbXpKendCTUx3RS1FT2V1NmJlRzdPOFIxcG9tdXQwMGN1QWhsanpHUWhCbHl3TFEwQUtmWVZtWGhSVFhjRXh1Vm5GYzVsQVdWSE4tOXNYaFZKQk82TzNB?oc=5",
       "published": "Wed, 25 Nov 2026 22:19:30 GMT",
       "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "fc139460d18dd6b3",
+      "title": "Apple On Track To Become November\u2019s Mag7 Winner \u2014 Nvidia Takes The Biggest Hit - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOVlLNUFFTlJWVHIxQlRsQ0k3Nm1hRmJ5VGdLMGp3ZmkyNmtBQlVGWEZjQkpySEFTeTBSYlZwb0tYZnB1aUxKdFBXNTRtb3V3bjFXbGd4dFhNRlNSOE5RZVg4YWhCVTAzUGRWaFY2a0tuN09YYjBPMTJsYTZmamd1UW05RGpoM0JWRE9yXzBibkp3WGt2SXpLTk1SR0lMSjMxUWI3cFlLRFktUlZ1ZlVGaGhwU3F3cEd4aUwtOVU4alhmUVBHT0cyaUNWUlBOdUE3emRz?oc=5",
+      "published": "Thu, 26 Nov 2026 07:32:00 GMT",
+      "topic": "Nvidia Microsoft Apple earnings Nasdaq"
     }
   ],
   "candles": [
@@ -8350,7 +8350,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-27T02:44:14.365596+00:00",
+    "updated_utc": "2026-11-27T03:42:47.029462+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
