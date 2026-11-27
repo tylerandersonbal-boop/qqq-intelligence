@@ -1,14 +1,14 @@
 {
   "status": "forward_observations_only",
-  "eligible_forecasts": 46,
+  "eligible_forecasts": 47,
   "excluded": {
     "legacy_not_forward_verified": 7,
     "unresolved": 1
   },
-  "directional_predictions": 28,
-  "directional_accuracy": 0.4286,
-  "always_up_accuracy_same_subset": 0.4643,
-  "brier_score": 0.2694,
-  "coverage": 0.6087,
+  "directional_predictions": 29,
+  "directional_accuracy": 0.4138,
+  "always_up_accuracy_same_subset": 0.4483,
+  "brier_score": 0.2717,
+  "coverage": 0.617,
   "warning": "Overlapping horizons are correlated. This is descriptive paper research, not an independent backtest or evidence of trading profitability."
 }
