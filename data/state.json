@@ -8350,9 +8350,9 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-27T06:47:01.275929+00:00",
+    "updated_utc": "2026-11-27T08:13:18.843459+00:00",
     "market": "ok",
-    "news": "ok",
+    "news": "unavailable",
     "warnings": [
       "Research prototype. Not live execution, not financial advice.",
       "Public free feeds can be delayed, incomplete or unavailable."
