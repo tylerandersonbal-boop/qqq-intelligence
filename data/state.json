@@ -5342,13 +5342,6 @@
   ],
   "articles": [
     {
-      "id": "2fc97be0ee3d2483",
-      "title": "TradingKey Wall Street Weekly: Nvidia and Anthropic Deepen AI Selloff; Nasdaq Plunges 10.02% and Erases 2026 Gains - TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeXQwYUw2Q0xlbFh5aVpSMV9uN1pIYmFBLW1ZZU9oZXJVWXBJOTFPUVlnMjYyZTFyVW5OZF96RjVQbWtzYWRSdEdiWHVuSUZvalloNVI0d2dUS2xWOGZ5TTlPTE5qSUUtWTFVWnJqN2V6RVJ3RFNYb2x1WDE1OXdTTkhNYWh3MkFfUTBUUjNYSUhjSktuWFRjdVdyVXY?oc=5",
-      "published": "Mon, 23 Nov 2026 01:21:42 GMT",
-      "topic": "Federal Reserve inflation Nasdaq"
-    },
-    {
       "id": "3edfef8b0b00e2c5",
       "title": "With the Nasdaq in a Correction, Vanguard's Tech ETF Is the Fund I'd Buy Now - The Motley Fool",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWmtaMGpWNXQ0OTgtSU9BLVNqYk5UNHJLM2I5cC1FdVNuRmRKS2w0aUcxWm5oZlUyVGdlLVFvendvZzBWQk8yLXl5bEo2Y2NJVXN0b2ZmSGpLNkNQREFaWTlzSkZmREVmYUE2MHRHbUZKOURFN1RIQjkycUdNcU9wckRYbFI0czFUam5KcDMzZHBIME82SG43RVF6ejdvbjBLUEdUVDhiX2Ezc3ZVaFNPTE5WbHE4d1R2VlE?oc=5",
@@ -6262,7 +6255,7 @@
       "id": "41e136dd9076e88d",
       "title": "ProShares Ultra QQQ (QLD) Stock Price, News, Quote & History - Yahoo! Finance Canada",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5iN1ZleWpPY21uZFg5a1BjeW1RMVAyN09HaF96OVluOVNZbjhqY2FsZktKM0luRVJtSkNXUm00T2FiUkZycmwxREtQTTA5Q3ZH?oc=5",
-      "published": "Thu, 26 Nov 2026 11:30:16 GMT",
+      "published": "Thu, 26 Nov 2026 12:04:30 GMT",
       "topic": "QQQ Nasdaq 100"
     },
     {
@@ -6390,6 +6383,13 @@
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOVlLNUFFTlJWVHIxQlRsQ0k3Nm1hRmJ5VGdLMGp3ZmkyNmtBQlVGWEZjQkpySEFTeTBSYlZwb0tYZnB1aUxKdFBXNTRtb3V3bjFXbGd4dFhNRlNSOE5RZVg4YWhCVTAzUGRWaFY2a0tuN09YYjBPMTJsYTZmamd1UW05RGpoM0JWRE9yXzBibkp3WGt2SXpLTk1SR0lMSjMxUWI3cFlLRFktUlZ1ZlVGaGhwU3F3cEd4aUwtOVU4alhmUVBHT0cyaUNWUlBOdUE3emRz?oc=5",
       "published": "Thu, 26 Nov 2026 07:32:00 GMT",
       "topic": "Nvidia Microsoft Apple earnings Nasdaq"
+    },
+    {
+      "id": "d00ef16602db72ae",
+      "title": "A Retiree Who Put $100,000 in SCHD at the End of 2025 Has $127,305 and Collected $2,828 in Dividends. The Same $100,000 in QQQ Is Worth $103,939 - 24/7 Wall St.",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPbm0wclluckl5aEptM2FJQTNkTWlKY0xQWUNob3lqc3FpU1pJX1U2eXdkMmFiOG42RDR2UGEydGFuMlRTS0VDTVJyTjBXZXNYVmN5SjFtWXNQMnZ4Sm82ZFNGblhCN0hqc1ExOWRtcUdleDN0b0pLaG0zbEhGbUZnSE8yNXc1WWt2VlI3Mi1lSE96N2NjUEw0OHdhdW82S01Pdnh3d0VETkYzbFVWRFdwYnExQXB6Mlhxa0FzcDhwY1h4SVpuOEw3alZjalRKeGd6LU1EQi1iMXdUT2Fvd0hEZ2hZSFhucm5wM0Q1QWcwMkRSVzBzRTdiZTdwT1djSTlvRUI2ZmV5clNMVW5LWEE?oc=5",
+      "published": "Fri, 27 Nov 2026 01:03:00 GMT",
+      "topic": "QQQ Nasdaq 100"
     }
   ],
   "candles": [
@@ -8350,7 +8350,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-27T03:42:47.029462+00:00",
+    "updated_utc": "2026-11-27T04:47:44.642337+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
