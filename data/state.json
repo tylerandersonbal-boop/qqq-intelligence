@@ -5750,13 +5750,6 @@
   ],
   "articles": [
     {
-      "id": "9d20a876633f768f",
-      "title": "1 Surprisingly Powerful ETF for Investors Who Only Have $200 to Start - The Globe and Mail",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOOGlhenplbUlwT1A4Yi1VY2RHckt5TGxOckZOeWNkRmtzdkdNWHQycDhYaTZFYkd5S2E5LTR4SkNHZC1lRUd3VVRiWmppZ2xTX3I5aWtlYlhEX2xTTzRWVU03MmluNnpraThKZTd4Wk1tei1aY3NfTXNRRG5KMFlENFNVWXVsX3Juc1dld3NVMGtWbE5ONzZuTEJXM0dqOHVaV05UanI2TXFVaUxZR19SSFVtakJQSVUwLUNNZmV6NUFnc3QzTjVnbHRmZFN0ZXQyX2lVdGNpNHN5QnVuRlB5TUZSZzNyVU0?oc=5",
-      "published": "Wed, 25 Nov 2026 17:35:32 GMT",
-      "topic": "QQQ Nasdaq 100"
-    },
-    {
       "id": "963b8d6581cf76f9",
       "title": "Nasdaq 100 Tumbles as Nvidia Euphoria Fades, New Tariffs Floated - Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcHhkVFpXSmc2SFJ3VEV3WHg5Vm4xYmRlM2l5R3Z2TEx6emJsdVRiQVBJTjJpaDJ3X2NsZFBURUR4anlRVDY4aTl0cHFvUzFTWUw5VUtXcE5pSEt1TzNPTWlXU0xHYV84QjVURk9LV1pFRGloYTQ1aU1iUmJ4TlN1NlVRYXN6QS1ub2Z6Mm1HMlNXS0hYV1YxNzF5SV9MSUNkNUtRTnRqb1phaUlESmRaMUxjcTM0dw?oc=5",
@@ -6798,6 +6791,13 @@
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdFFQXzFwQWdvemRPam8zZEszNzJMbUZDMkpnSVN3aGNMb1IzcVk0aWN4SXR1YkRBczdUT18ySEgybFhiMFZUM2dFdU0yakZBSS1oUVM4SGRGczhXSFVIcVlwSlpuY0dWdGxXVFFOWGl3Znk0UDNjT1pibXBLNHp3UGVldGxfT2RncTVwcTVUaEZwQQ?oc=5",
       "published": "Fri, 27 Nov 2026 04:00:47 GMT",
       "topic": "Federal Reserve inflation Nasdaq"
+    },
+    {
+      "id": "6c94cd1c5894cfb3",
+      "title": "Stocks Rally as a Rebound in the AI Trade Gathers Pace - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTGxqY0RoX1RERWhlWmdYQ2lqU19IazNQTHpHT2NsYXZzNnVfWWZzakVER3Zra2pvaVotMFlHb055VjZOZFJNUmhJTWpoY1JxN005cTNhQmlBdUdGZ2FBbkpOWHBEa01icHdFVkFKUWx2akpNZE9ncFRaMGQ5aDdxT0xDektrZ2pSTnhwdm9aOHRvaHNYN29fcFZDbnV0dXZncHFKQ1JYbXlvQjZkX05PZlZpSQ?oc=5",
+      "published": "Fri, 27 Nov 2026 16:08:45 GMT",
+      "topic": "QQQ Nasdaq 100"
     }
   ],
   "candles": [
@@ -8578,7 +8578,7 @@
     }
   ],
   "status": {
-    "updated_utc": "2026-11-28T07:50:35.630471+00:00",
+    "updated_utc": "2026-11-28T08:39:38.419285+00:00",
     "market": "ok",
     "news": "ok",
     "warnings": [
